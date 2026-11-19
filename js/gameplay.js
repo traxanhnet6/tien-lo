@@ -187,8 +187,12 @@ window.Gameplay = (function () {
       return;
     }
 
-    // Load boss and monster sheet images if not already cached
-    await Promise.all([
+    // Boss/monster sheets warm up in the background (22 MB — the two boss
+    // sheets alone are 13 + 9 MB). They used to be awaited here, which held
+    // the loading screen at ~95% and delayed the first frame by tens of
+    // seconds on a phone. drawActor already falls back to o.img while a
+    // sheet is still loading, so nothing waits for them.
+    Promise.all([
       loadImage("assets/boss/boss_bachho_sheet_v1.png").catch(() => null),
       loadImage("assets/boss/boss_xichviem_sheet_v1.png").then(im => { S.sprites.boss_xichviem_sheet_v1 = im; return im; }).catch(() => null),
       loadImage("assets/monsters/monster_linhlang_full_sheet_v1.png").catch(() => null),
