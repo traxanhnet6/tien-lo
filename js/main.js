@@ -55,6 +55,9 @@ const S = {
 };
 const P = { u: 0, v: 0, x: 0, y: 0, path: [], moving: false, running: false,
             dir: "front", dist: 0, idleT: 0, zone: "son_mon" };
+// Loading progress (see init): total files counted up front, done counts
+// each resolved load. Module scope so setLoad/tracked inside init close over it.
+let LOAD_TOTAL = 0, LOAD_DONE = 0;
 
 // ------------------------------------------------------------ loading
 function loadImage(src) {
@@ -68,19 +71,41 @@ function loadImage(src) {
 async function loadJSON(src) { return (await fetch(src)).json(); }
 
 async function init() {
-  const nav = await loadJSON(DATA + "Map_Navigation.json");
+  // Loading overlay: the game used to sit on a flat blank screen for the
+  // whole 55 MB asset load (up to ~1 min on a phone), so Bui read it as
+  // broken. Show progress from the first frame, and parallelise the
+  // sprite loads (they used to be sequential awaits, one file at a time).
+  const setLoad = (label) => {
+    const st = document.getElementById("loadStatus");
+    const fill = document.getElementById("loadFill");
+    if (st && label) st.textContent = label;
+    if (fill && LOAD_TOTAL > 0)
+      fill.style.width = Math.round(LOAD_DONE / LOAD_TOTAL * 100) + "%";
+  };
+  const tracked = (p) => p.then(v => { LOAD_DONE++; setLoad(); return v; });
+  setLoad("Đang tải bản đồ…");
+  const nav = await tracked(loadJSON(DATA + "Map_Navigation.json"));
+  const obj = await tracked(loadJSON(DATA + "Map_Objects.json"));
+  // Count every sprite file up front so the bar is exact from the start.
+  const names = new Set(obj.objects.filter(o => o.kind !== "split" && !o.actor).map(o => o.sprite));
+  let spriteTotal = names.size;
+  for (const o of obj.objects) {
+    if (o.kind === "split") spriteTotal += 3;
+    if (o.actor) spriteTotal += 1;
+  }
+  LOAD_TOTAL = 2 + 9 + spriteTotal;
+  setLoad("Đang tải đảo và nhân vật…");
   const [ground, workflowAtlas, workflowData, stride4WalkAtlas, stride4WalkData,
-         stride4RunAtlas, stride4RunData, col, obj, idx] = await Promise.all([
-    loadImage(nav.ground),
-    loadImage("assets/char_workflow/hanhan_stage_ab.png"),
-    loadJSON("assets/char_workflow/hanhan_stage_ab.json"),
-    loadImage("assets/char_workflow/hanhan_stride4_walk.png"),
-    loadJSON("assets/char_workflow/hanhan_stride4_walk.json"),
-    loadImage("assets/char_workflow/hanhan_stride4_run.png"),
-    loadJSON("assets/char_workflow/hanhan_stride4_run.json"),
-    loadJSON(DATA + "Map_Collision.json"),
-    loadJSON(DATA + "Map_Objects.json"),
-    loadJSON("assets/objects_index.json"),
+         stride4RunAtlas, stride4RunData, col, idx] = await Promise.all([
+    tracked(loadImage(nav.ground)),
+    tracked(loadImage("assets/char_workflow/hanhan_stage_ab.png")),
+    tracked(loadJSON("assets/char_workflow/hanhan_stage_ab.json")),
+    tracked(loadImage("assets/char_workflow/hanhan_stride4_walk.png")),
+    tracked(loadJSON("assets/char_workflow/hanhan_stride4_walk.json")),
+    tracked(loadImage("assets/char_workflow/hanhan_stride4_run.png")),
+    tracked(loadJSON("assets/char_workflow/hanhan_stride4_run.json")),
+    tracked(loadJSON(DATA + "Map_Collision.json")),
+    tracked(loadJSON("assets/objects_index.json")),
   ]);
   S.ground = ground; S.idx = idx; S.nav = nav;
   S.sprites.workflow = workflowAtlas;
@@ -102,19 +127,26 @@ async function init() {
   for (const frames of WORKFLOW_FRAMES.values())
     frames.sort((a, b) => a.name.localeCompare(b.name));
   for (const c of Object.values(col.cells)) S.cells.set(c.u + "," + c.v, c);
-  const names = new Set(obj.objects.filter(o => o.kind !== "split" && !o.actor).map(o => o.sprite));
-  for (const n of names) S.sprites[n] = await loadImage(`assets/objects/${n}.png`);
-  for (const o of obj.objects) {
+  // All object/actor images in parallel (was: one sequential await each —
+  // ~47 files × per-file latency on a phone). Actor order is preserved by
+  // pushing to S.actors in object order after all images resolve.
+  setLoad("Đang tải vật thể trên đảo…");
+  await Promise.all([...names].map(n =>
+    tracked(loadImage(`assets/objects/${n}.png`)).then(im => { S.sprites[n] = im; })));
+  await Promise.all(obj.objects.map(async (o) => {
     if (o.kind === "split") {
-      S.sprites[o.sprite + "_body"] = await loadImage(`assets/objects/${o.sprite}_body.png`);
-      S.sprites[o.sprite + "_roof"] = await loadImage(`assets/objects/${o.sprite}_roof.png`);
-      S.sprites[o.sprite + "_full"] = await loadImage(`assets/objects/${o.sprite}_full.png`);
+      const [body, roof, full] = await Promise.all([
+        tracked(loadImage(`assets/objects/${o.sprite}_body.png`)),
+        tracked(loadImage(`assets/objects/${o.sprite}_roof.png`)),
+        tracked(loadImage(`assets/objects/${o.sprite}_full.png`)),
+      ]);
+      S.sprites[o.sprite + "_body"] = body;
+      S.sprites[o.sprite + "_roof"] = roof;
+      S.sprites[o.sprite + "_full"] = full;
     }
-    if (o.actor) {
-      o.img = await loadImage(o.actor.img);
-      S.actors.push(o);
-    }
-  }
+    if (o.actor) o.img = await tracked(loadImage(o.actor.img));
+  }));
+  for (const o of obj.objects) if (o.actor) S.actors.push(o);
   S.objects = obj.objects;
   // map-hop arrival: a stored spawn point wins over the map default, and a
   // grace window + arm-on-exit discipline keep portals from bouncing the
@@ -155,6 +187,8 @@ async function init() {
   S.ready = true;
   resize();
   if (window.Gameplay) await Gameplay.init();
+  const loadingEl = document.getElementById("loading");
+  if (loadingEl) loadingEl.style.display = "none";
   if (!MANUAL) requestAnimationFrame(frame);
 }
 
@@ -740,4 +774,11 @@ window.TL2 = {
 };
 
 init().then(() => buildClouds(S.nav.paint.w, S.nav.paint.h))
-  .catch(err => { window.__err = String(err && err.stack || err); console.error(err); });
+  .catch(err => {
+    window.__err = String(err && err.stack || err);
+    console.error(err);
+    // Never leave a silent blank screen: the loading overlay stays up and
+    // shows the failure so the player (and the next diagnosis) can see it.
+    const st = document.getElementById("loadStatus");
+    if (st) st.textContent = "Tải game lỗi — thử tải lại trang. Chi tiết: " + window.__err.slice(0, 200);
+  });

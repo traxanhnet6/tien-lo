@@ -1549,7 +1549,9 @@ window.Gameplay = (function () {
   const PACK_BODYH_FALLBACK = { thaicuc: 293 };
   let thaicucFxImg = null;
   async function loadSkillPacks() {
-    for (const [pack, stem] of Object.entries(PACK_FILES)) {
+    // Packs load in parallel (was: one sequential await per pack — 10 packs
+    // × ~7 MB each, minutes on a slow link). Each pack still fails soft.
+    await Promise.all(Object.entries(PACK_FILES).map(async ([pack, stem]) => {
       try {
         const json = await (await fetch(`assets/skills/${stem}.json`)).json();
         const img = await loadImage(`assets/skills/${stem}.png`);
@@ -1568,7 +1570,7 @@ window.Gameplay = (function () {
       } catch (err) {
         console.warn("skill pack failed to load:", pack, err);
       }
-    }
+    }));
     thaicucFxImg = await loadImage("assets/skills/fx_thaicuc_ring.png").catch(() => null);
   }
 

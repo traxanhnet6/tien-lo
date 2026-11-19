@@ -3,6 +3,22 @@ html, body { height: 100%; overflow: hidden; background: #9db8c4; }
 body { font-family: "Segoe UI", system-ui, -apple-system, sans-serif; }
 #game { position: fixed; inset: 0; width: 100%; height: 100%; display: block; touch-action: none; }
 
+/* Loading overlay — the game used to sit on a flat blank screen while 55 MB
+   of assets loaded, so a phone user read it as broken. The overlay is in
+   the static HTML (visible from the first paint) and is hidden by main.js
+   only once the world is ready; on a load failure it stays up with the
+   error text instead of going silent. */
+#loading { position: fixed; inset: 0; z-index: 50; display: flex; align-items: center;
+  justify-content: center; background: linear-gradient(180deg, #1d3238 0%, #0e1b20 100%); }
+.load-box { text-align: center; color: #f3e9c8; padding: 0 24px; }
+.load-title { font-size: 34px; letter-spacing: 10px; color: #d4af37; font-weight: 700; }
+.load-sub { font-size: 15px; color: #e9e2c8; margin-top: 6px; }
+.load-bar { width: 260px; max-width: 70vw; height: 10px; margin: 26px auto 12px;
+  background: rgba(255,255,255,0.15); border-radius: 6px; overflow: hidden; }
+#loadFill { height: 100%; width: 0%; background: #d4af37; border-radius: 6px;
+  transition: width 0.25s ease; }
+.load-status { font-size: 13px; color: rgba(255,250,230,0.85); }
+
 .hud { position: fixed; z-index: 10; }
 .hud-top-left {
   top: 14px; left: 14px; padding: 10px 18px 12px;
