@@ -1,0 +1,132 @@
+{
+ "tree_pine": {
+  "w": 486,
+  "h": 832
+ },
+ "tree_blossom": {
+  "w": 688,
+  "h": 678
+ },
+ "tree_willow": {
+  "w": 531,
+  "h": 657
+ },
+ "tree_ancient": {
+  "w": 759,
+  "h": 767
+ },
+ "bamboo": {
+  "w": 693,
+  "h": 932
+ },
+ "tree_pine_wind": {
+  "w": 884,
+  "h": 797
+ },
+ "stall_a": {
+  "w": 746,
+  "h": 836
+ },
+ "stall_b": {
+  "w": 554,
+  "h": 658
+ },
+ "lantern": {
+  "w": 511,
+  "h": 837
+ },
+ "burner": {
+  "w": 529,
+  "h": 893
+ },
+ "stele": {
+  "w": 533,
+  "h": 830
+ },
+ "bush_flower": {
+  "w": 502,
+  "h": 431
+ },
+ "bush_green": {
+  "w": 459,
+  "h": 417
+ },
+ "rocks": {
+  "w": 650,
+  "h": 441
+ },
+ "rock_stand": {
+  "w": 247,
+  "h": 641
+ },
+ "grass_tuft": {
+  "w": 423,
+  "h": 633
+ },
+ "flower_patch": {
+  "w": 712,
+  "h": 338
+ },
+ "gate_full": {
+  "w": 1092,
+  "h": 1559
+ },
+ "gate_roof": {
+  "w": 1092,
+  "h": 740,
+  "cut_from_top": 0
+ },
+ "gate_body": {
+  "w": 1092,
+  "h": 827,
+  "cut_from_top": 732
+ },
+ "hall_full": {
+  "w": 1510,
+  "h": 1145
+ },
+ "hall_roof": {
+  "w": 1510,
+  "h": 695,
+  "cut_from_top": 0
+ },
+ "hall_body": {
+  "w": 1510,
+  "h": 458,
+  "cut_from_top": 687
+ },
+ "daidien_full": {
+  "w": 1747,
+  "h": 1148
+ },
+ "daidien_roof": {
+  "w": 1747,
+  "h": 673,
+  "cut_from_top": 0
+ },
+ "daidien_body": {
+  "w": 1747,
+  "h": 483,
+  "cut_from_top": 665
+ },
+ "cave_full": {
+  "w": 1105,
+  "h": 1742
+ },
+ "dummy": {
+  "w": 717,
+  "h": 796
+ },
+ "rack": {
+  "w": 625,
+  "h": 805
+ },
+ "weights": {
+  "w": 564,
+  "h": 572
+ },
+ "dais": {
+  "w": 1756,
+  "h": 1030
+ }
+}

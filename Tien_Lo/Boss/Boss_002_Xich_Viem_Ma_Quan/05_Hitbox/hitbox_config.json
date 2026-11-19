@@ -1,0 +1,36 @@
+{
+  "boss_id": "boss_xichviem_002",
+  "name": "X\u00edch Vi\u00eam Ma Qu\u00e2n",
+  "pivot": {
+    "x": 304,
+    "y": 388
+  },
+  "hurtbox": {
+    "type": "circle",
+    "radius": 95,
+    "offset_y": -40
+  },
+  "phase1_claw": {
+    "telegraph_duration_sec": 0.75,
+    "hitbox": {
+      "type": "circle",
+      "radius": 130,
+      "angle_arc": 140
+    },
+    "damage_frame": 11,
+    "recovery_sec": 1.2
+  },
+  "phase2_earthquake": {
+    "telegraph_duration_sec": 1.15,
+    "ground_warning_radius": 240,
+    "damage_frame": 16,
+    "recovery_sec": 1.4
+  },
+  "phase3_dash": {
+    "telegraph_duration_sec": 0.95,
+    "dash_length": 420,
+    "dash_width": 140,
+    "damage_frame": 21,
+    "recovery_sec": 1.5
+  }
+}

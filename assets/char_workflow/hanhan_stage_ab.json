@@ -1,0 +1,4249 @@
+{
+  "status": "CHUA NGHIEM THU (repairs + stage E/F awaiting Bui verdict; A-D base art approved 2026-11-09)",
+  "atlas": "hanhan_stage_ab.png",
+  "size": {
+    "w": 4096,
+    "h": 4096
+  },
+  "scale_from_master": 1.0,
+  "master": {
+    "cell": {
+      "w": 384,
+      "h": 384
+    },
+    "char_height_px": 352,
+    "ground_y_in_cell": 360,
+    "pivot_norm": {
+      "x": 0.5,
+      "y": 0.9375
+    },
+    "display_height_px": 112
+  },
+  "weapon_socket_note": "guard/grip measured per frame by tools/measure_grips.py (see 03_Rig_Pivots_Sockets/SWORD_GRIPS_MEASURED.json); coordinates are in trimmed-rect space like pivot",
+  "frames": [
+    {
+      "name": "player_hanhan__idle__S__001.png",
+      "animation": "idle",
+      "direction": "S",
+      "rect": {
+        "x": 2,
+        "y": 2,
+        "w": 217,
+        "h": 355
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 126.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.5806,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__S__002.png",
+      "animation": "idle",
+      "direction": "S",
+      "rect": {
+        "x": 221,
+        "y": 2,
+        "w": 218,
+        "h": 355
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 130.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.5963,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__S__003.png",
+      "animation": "idle",
+      "direction": "S",
+      "rect": {
+        "x": 441,
+        "y": 2,
+        "w": 217,
+        "h": 354
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 128.0,
+        "y": 352.0
+      },
+      "pivot_norm": {
+        "x": 0.5899,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__S__004.png",
+      "animation": "idle",
+      "direction": "S",
+      "rect": {
+        "x": 660,
+        "y": 2,
+        "w": 211,
+        "h": 356
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 122.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.5782,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__S__005.png",
+      "animation": "idle",
+      "direction": "S",
+      "rect": {
+        "x": 873,
+        "y": 2,
+        "w": 225,
+        "h": 359
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 129.0,
+        "y": 357.0
+      },
+      "pivot_norm": {
+        "x": 0.5733,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__S__006.png",
+      "animation": "idle",
+      "direction": "S",
+      "rect": {
+        "x": 1100,
+        "y": 2,
+        "w": 227,
+        "h": 362
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 126.0,
+        "y": 360.0
+      },
+      "pivot_norm": {
+        "x": 0.5551,
+        "y": 0.9945
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__S__007.png",
+      "animation": "idle",
+      "direction": "S",
+      "rect": {
+        "x": 1329,
+        "y": 2,
+        "w": 217,
+        "h": 358
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 121.0,
+        "y": 356.0
+      },
+      "pivot_norm": {
+        "x": 0.5576,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__S__008.png",
+      "animation": "idle",
+      "direction": "S",
+      "rect": {
+        "x": 1548,
+        "y": 2,
+        "w": 215,
+        "h": 356
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 124.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.5767,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__SE__001.png",
+      "animation": "idle",
+      "direction": "SE",
+      "rect": {
+        "x": 1765,
+        "y": 2,
+        "w": 209,
+        "h": 356
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 114.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.5455,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__SE__002.png",
+      "animation": "idle",
+      "direction": "SE",
+      "rect": {
+        "x": 1976,
+        "y": 2,
+        "w": 209,
+        "h": 349
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 113.0,
+        "y": 347.0
+      },
+      "pivot_norm": {
+        "x": 0.5407,
+        "y": 0.9943
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__SE__003.png",
+      "animation": "idle",
+      "direction": "SE",
+      "rect": {
+        "x": 2187,
+        "y": 2,
+        "w": 210,
+        "h": 353
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 114.0,
+        "y": 351.0
+      },
+      "pivot_norm": {
+        "x": 0.5429,
+        "y": 0.9943
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__SE__004.png",
+      "animation": "idle",
+      "direction": "SE",
+      "rect": {
+        "x": 2399,
+        "y": 2,
+        "w": 211,
+        "h": 357
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 114.0,
+        "y": 355.0
+      },
+      "pivot_norm": {
+        "x": 0.5403,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__SE__005.png",
+      "animation": "idle",
+      "direction": "SE",
+      "rect": {
+        "x": 2612,
+        "y": 2,
+        "w": 207,
+        "h": 355
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 110.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.5314,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__SE__006.png",
+      "animation": "idle",
+      "direction": "SE",
+      "rect": {
+        "x": 2821,
+        "y": 2,
+        "w": 206,
+        "h": 357
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 110.0,
+        "y": 355.0
+      },
+      "pivot_norm": {
+        "x": 0.534,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__SE__007.png",
+      "animation": "idle",
+      "direction": "SE",
+      "rect": {
+        "x": 3029,
+        "y": 2,
+        "w": 209,
+        "h": 356
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 115.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.5502,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__SE__008.png",
+      "animation": "idle",
+      "direction": "SE",
+      "rect": {
+        "x": 3240,
+        "y": 2,
+        "w": 212,
+        "h": 357
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 116.0,
+        "y": 355.0
+      },
+      "pivot_norm": {
+        "x": 0.5472,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__E__001.png",
+      "animation": "idle",
+      "direction": "E",
+      "rect": {
+        "x": 3454,
+        "y": 2,
+        "w": 123,
+        "h": 356
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 59.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.4797,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__E__002.png",
+      "animation": "idle",
+      "direction": "E",
+      "rect": {
+        "x": 3579,
+        "y": 2,
+        "w": 117,
+        "h": 356
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 55.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.4701,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__E__003.png",
+      "animation": "idle",
+      "direction": "E",
+      "rect": {
+        "x": 3698,
+        "y": 2,
+        "w": 114,
+        "h": 356
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 54.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.4737,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__E__004.png",
+      "animation": "idle",
+      "direction": "E",
+      "rect": {
+        "x": 3814,
+        "y": 2,
+        "w": 114,
+        "h": 356
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 53.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.4649,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__E__005.png",
+      "animation": "idle",
+      "direction": "E",
+      "rect": {
+        "x": 3930,
+        "y": 2,
+        "w": 116,
+        "h": 356
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 54.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.4655,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__E__006.png",
+      "animation": "idle",
+      "direction": "E",
+      "rect": {
+        "x": 2,
+        "y": 366,
+        "w": 116,
+        "h": 356
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 54.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.4655,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__E__007.png",
+      "animation": "idle",
+      "direction": "E",
+      "rect": {
+        "x": 120,
+        "y": 366,
+        "w": 117,
+        "h": 356
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 55.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.4701,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__E__008.png",
+      "animation": "idle",
+      "direction": "E",
+      "rect": {
+        "x": 239,
+        "y": 366,
+        "w": 135,
+        "h": 356
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 57.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.4222,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__NE__001.png",
+      "animation": "idle",
+      "direction": "NE",
+      "rect": {
+        "x": 376,
+        "y": 366,
+        "w": 186,
+        "h": 347
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 82.0,
+        "y": 345.0
+      },
+      "pivot_norm": {
+        "x": 0.4409,
+        "y": 0.9942
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__NE__002.png",
+      "animation": "idle",
+      "direction": "NE",
+      "rect": {
+        "x": 564,
+        "y": 366,
+        "w": 192,
+        "h": 362
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 86.0,
+        "y": 360.0
+      },
+      "pivot_norm": {
+        "x": 0.4479,
+        "y": 0.9945
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__NE__003.png",
+      "animation": "idle",
+      "direction": "NE",
+      "rect": {
+        "x": 758,
+        "y": 366,
+        "w": 183,
+        "h": 362
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 84.0,
+        "y": 360.0
+      },
+      "pivot_norm": {
+        "x": 0.459,
+        "y": 0.9945
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__NE__004.png",
+      "animation": "idle",
+      "direction": "NE",
+      "rect": {
+        "x": 943,
+        "y": 366,
+        "w": 190,
+        "h": 362
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 88.0,
+        "y": 360.0
+      },
+      "pivot_norm": {
+        "x": 0.4632,
+        "y": 0.9945
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__NE__005.png",
+      "animation": "idle",
+      "direction": "NE",
+      "rect": {
+        "x": 1135,
+        "y": 366,
+        "w": 176,
+        "h": 355
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 84.0,
+        "y": 352.0
+      },
+      "pivot_norm": {
+        "x": 0.4773,
+        "y": 0.9915
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__NE__006.png",
+      "animation": "idle",
+      "direction": "NE",
+      "rect": {
+        "x": 1313,
+        "y": 366,
+        "w": 171,
+        "h": 354
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 84.0,
+        "y": 352.0
+      },
+      "pivot_norm": {
+        "x": 0.4912,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__NE__007.png",
+      "animation": "idle",
+      "direction": "NE",
+      "rect": {
+        "x": 1486,
+        "y": 366,
+        "w": 172,
+        "h": 357
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 85.0,
+        "y": 355.0
+      },
+      "pivot_norm": {
+        "x": 0.4942,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__NE__008.png",
+      "animation": "idle",
+      "direction": "NE",
+      "rect": {
+        "x": 1660,
+        "y": 366,
+        "w": 187,
+        "h": 349
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 83.0,
+        "y": 347.0
+      },
+      "pivot_norm": {
+        "x": 0.4439,
+        "y": 0.9943
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__N__001.png",
+      "animation": "idle",
+      "direction": "N",
+      "rect": {
+        "x": 1849,
+        "y": 366,
+        "w": 186,
+        "h": 357
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 93.0,
+        "y": 355.0
+      },
+      "pivot_norm": {
+        "x": 0.5,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__N__002.png",
+      "animation": "idle",
+      "direction": "N",
+      "rect": {
+        "x": 2037,
+        "y": 366,
+        "w": 179,
+        "h": 355
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 91.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.5084,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__N__003.png",
+      "animation": "idle",
+      "direction": "N",
+      "rect": {
+        "x": 2218,
+        "y": 366,
+        "w": 181,
+        "h": 343
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 92.0,
+        "y": 341.0
+      },
+      "pivot_norm": {
+        "x": 0.5083,
+        "y": 0.9942
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__N__004.png",
+      "animation": "idle",
+      "direction": "N",
+      "rect": {
+        "x": 2401,
+        "y": 366,
+        "w": 179,
+        "h": 362
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 90.0,
+        "y": 360.0
+      },
+      "pivot_norm": {
+        "x": 0.5028,
+        "y": 0.9945
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__N__005.png",
+      "animation": "idle",
+      "direction": "N",
+      "rect": {
+        "x": 2582,
+        "y": 366,
+        "w": 188,
+        "h": 363
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 96.0,
+        "y": 360.0
+      },
+      "pivot_norm": {
+        "x": 0.5106,
+        "y": 0.9917
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__N__006.png",
+      "animation": "idle",
+      "direction": "N",
+      "rect": {
+        "x": 2772,
+        "y": 366,
+        "w": 180,
+        "h": 355
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 91.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.5056,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__N__007.png",
+      "animation": "idle",
+      "direction": "N",
+      "rect": {
+        "x": 2954,
+        "y": 366,
+        "w": 188,
+        "h": 353
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 94.0,
+        "y": 351.0
+      },
+      "pivot_norm": {
+        "x": 0.5,
+        "y": 0.9943
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__N__008.png",
+      "animation": "idle",
+      "direction": "N",
+      "rect": {
+        "x": 3144,
+        "y": 366,
+        "w": 188,
+        "h": 357
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 94.0,
+        "y": 355.0
+      },
+      "pivot_norm": {
+        "x": 0.5,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__NW__001.png",
+      "animation": "idle",
+      "direction": "NW",
+      "rect": {
+        "x": 3334,
+        "y": 366,
+        "w": 192,
+        "h": 361
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 105.0,
+        "y": 359.0
+      },
+      "pivot_norm": {
+        "x": 0.5469,
+        "y": 0.9945
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__NW__002.png",
+      "animation": "idle",
+      "direction": "NW",
+      "rect": {
+        "x": 3528,
+        "y": 366,
+        "w": 180,
+        "h": 330
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 97.0,
+        "y": 328.0
+      },
+      "pivot_norm": {
+        "x": 0.5389,
+        "y": 0.9939
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__NW__003.png",
+      "animation": "idle",
+      "direction": "NW",
+      "rect": {
+        "x": 3710,
+        "y": 366,
+        "w": 192,
+        "h": 353
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 105.0,
+        "y": 351.0
+      },
+      "pivot_norm": {
+        "x": 0.5469,
+        "y": 0.9943
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__NW__004.png",
+      "animation": "idle",
+      "direction": "NW",
+      "rect": {
+        "x": 3904,
+        "y": 366,
+        "w": 187,
+        "h": 342
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 101.0,
+        "y": 340.0
+      },
+      "pivot_norm": {
+        "x": 0.5401,
+        "y": 0.9942
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__NW__005.png",
+      "animation": "idle",
+      "direction": "NW",
+      "rect": {
+        "x": 2,
+        "y": 731,
+        "w": 187,
+        "h": 349
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 102.0,
+        "y": 347.0
+      },
+      "pivot_norm": {
+        "x": 0.5455,
+        "y": 0.9943
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__NW__006.png",
+      "animation": "idle",
+      "direction": "NW",
+      "rect": {
+        "x": 191,
+        "y": 731,
+        "w": 186,
+        "h": 358
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 100.0,
+        "y": 356.0
+      },
+      "pivot_norm": {
+        "x": 0.5376,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__NW__007.png",
+      "animation": "idle",
+      "direction": "NW",
+      "rect": {
+        "x": 379,
+        "y": 731,
+        "w": 192,
+        "h": 361
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 104.0,
+        "y": 359.0
+      },
+      "pivot_norm": {
+        "x": 0.5417,
+        "y": 0.9945
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__NW__008.png",
+      "animation": "idle",
+      "direction": "NW",
+      "rect": {
+        "x": 573,
+        "y": 731,
+        "w": 197,
+        "h": 362
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 107.0,
+        "y": 360.0
+      },
+      "pivot_norm": {
+        "x": 0.5431,
+        "y": 0.9945
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__W__001.png",
+      "animation": "idle",
+      "direction": "W",
+      "rect": {
+        "x": 772,
+        "y": 731,
+        "w": 196,
+        "h": 356
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 82.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.4184,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__W__002.png",
+      "animation": "idle",
+      "direction": "W",
+      "rect": {
+        "x": 970,
+        "y": 731,
+        "w": 197,
+        "h": 356
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 83.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.4213,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__W__003.png",
+      "animation": "idle",
+      "direction": "W",
+      "rect": {
+        "x": 1169,
+        "y": 731,
+        "w": 196,
+        "h": 356
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 82.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.4184,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__W__004.png",
+      "animation": "idle",
+      "direction": "W",
+      "rect": {
+        "x": 1367,
+        "y": 731,
+        "w": 194,
+        "h": 356
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 81.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.4175,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__W__005.png",
+      "animation": "idle",
+      "direction": "W",
+      "rect": {
+        "x": 1563,
+        "y": 731,
+        "w": 196,
+        "h": 356
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 82.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.4184,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__W__006.png",
+      "animation": "idle",
+      "direction": "W",
+      "rect": {
+        "x": 1761,
+        "y": 731,
+        "w": 193,
+        "h": 356
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 81.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.4197,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__W__007.png",
+      "animation": "idle",
+      "direction": "W",
+      "rect": {
+        "x": 1956,
+        "y": 731,
+        "w": 196,
+        "h": 356
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 83.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.4235,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__W__008.png",
+      "animation": "idle",
+      "direction": "W",
+      "rect": {
+        "x": 2154,
+        "y": 731,
+        "w": 199,
+        "h": 356
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 84.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.4221,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__SW__001.png",
+      "animation": "idle",
+      "direction": "SW",
+      "rect": {
+        "x": 2355,
+        "y": 731,
+        "w": 224,
+        "h": 355
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 134.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.5982,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__SW__002.png",
+      "animation": "idle",
+      "direction": "SW",
+      "rect": {
+        "x": 2581,
+        "y": 731,
+        "w": 225,
+        "h": 355
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 135.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.6,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__SW__003.png",
+      "animation": "idle",
+      "direction": "SW",
+      "rect": {
+        "x": 2808,
+        "y": 731,
+        "w": 224,
+        "h": 355
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 134.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.5982,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__SW__004.png",
+      "animation": "idle",
+      "direction": "SW",
+      "rect": {
+        "x": 3034,
+        "y": 731,
+        "w": 223,
+        "h": 356
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 133.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.5964,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__SW__005.png",
+      "animation": "idle",
+      "direction": "SW",
+      "rect": {
+        "x": 3259,
+        "y": 731,
+        "w": 228,
+        "h": 356
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 133.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.5833,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__SW__006.png",
+      "animation": "idle",
+      "direction": "SW",
+      "rect": {
+        "x": 3489,
+        "y": 731,
+        "w": 225,
+        "h": 357
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 129.0,
+        "y": 355.0
+      },
+      "pivot_norm": {
+        "x": 0.5733,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__SW__007.png",
+      "animation": "idle",
+      "direction": "SW",
+      "rect": {
+        "x": 3716,
+        "y": 731,
+        "w": 219,
+        "h": 357
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 129.0,
+        "y": 355.0
+      },
+      "pivot_norm": {
+        "x": 0.589,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__idle__SW__008.png",
+      "animation": "idle",
+      "direction": "SW",
+      "rect": {
+        "x": 2,
+        "y": 1095,
+        "w": 227,
+        "h": 357
+      },
+      "duration_ms": 125,
+      "pivot": {
+        "x": 136.0,
+        "y": 355.0
+      },
+      "pivot_norm": {
+        "x": 0.5991,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__S__001.png",
+      "animation": "walk",
+      "direction": "S",
+      "rect": {
+        "x": 231,
+        "y": 1095,
+        "w": 256,
+        "h": 355
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 157.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.6133,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__S__002.png",
+      "animation": "walk",
+      "direction": "S",
+      "rect": {
+        "x": 489,
+        "y": 1095,
+        "w": 242,
+        "h": 357
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 144.0,
+        "y": 355.0
+      },
+      "pivot_norm": {
+        "x": 0.595,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__S__003.png",
+      "animation": "walk",
+      "direction": "S",
+      "rect": {
+        "x": 733,
+        "y": 1095,
+        "w": 260,
+        "h": 355
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 151.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.5808,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__S__004.png",
+      "animation": "walk",
+      "direction": "S",
+      "rect": {
+        "x": 995,
+        "y": 1095,
+        "w": 230,
+        "h": 355
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 125.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.5435,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__S__005.png",
+      "animation": "walk",
+      "direction": "S",
+      "rect": {
+        "x": 1227,
+        "y": 1095,
+        "w": 251,
+        "h": 356
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 150.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.5976,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__S__006.png",
+      "animation": "walk",
+      "direction": "S",
+      "rect": {
+        "x": 1480,
+        "y": 1095,
+        "w": 246,
+        "h": 357
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 143.0,
+        "y": 355.0
+      },
+      "pivot_norm": {
+        "x": 0.5813,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__S__007.png",
+      "animation": "walk",
+      "direction": "S",
+      "rect": {
+        "x": 1728,
+        "y": 1095,
+        "w": 239,
+        "h": 355
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 126.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.5272,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__S__008.png",
+      "animation": "walk",
+      "direction": "S",
+      "rect": {
+        "x": 1969,
+        "y": 1095,
+        "w": 243,
+        "h": 354
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 125.0,
+        "y": 352.0
+      },
+      "pivot_norm": {
+        "x": 0.5144,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__SE__001.png",
+      "animation": "walk",
+      "direction": "SE",
+      "rect": {
+        "x": 2214,
+        "y": 1095,
+        "w": 241,
+        "h": 353
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 145.0,
+        "y": 351.0
+      },
+      "pivot_norm": {
+        "x": 0.6017,
+        "y": 0.9943
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__SE__002.png",
+      "animation": "walk",
+      "direction": "SE",
+      "rect": {
+        "x": 2457,
+        "y": 1095,
+        "w": 198,
+        "h": 354
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 110.0,
+        "y": 352.0
+      },
+      "pivot_norm": {
+        "x": 0.5556,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__SE__003.png",
+      "animation": "walk",
+      "direction": "SE",
+      "rect": {
+        "x": 2657,
+        "y": 1095,
+        "w": 241,
+        "h": 354
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 147.0,
+        "y": 352.0
+      },
+      "pivot_norm": {
+        "x": 0.61,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__SE__004.png",
+      "animation": "walk",
+      "direction": "SE",
+      "rect": {
+        "x": 2900,
+        "y": 1095,
+        "w": 244,
+        "h": 356
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 150.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.6148,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__SE__005.png",
+      "animation": "walk",
+      "direction": "SE",
+      "rect": {
+        "x": 3146,
+        "y": 1095,
+        "w": 251,
+        "h": 355
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 158.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.6295,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__SE__006.png",
+      "animation": "walk",
+      "direction": "SE",
+      "rect": {
+        "x": 3399,
+        "y": 1095,
+        "w": 248,
+        "h": 357
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 154.0,
+        "y": 355.0
+      },
+      "pivot_norm": {
+        "x": 0.621,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__SE__007.png",
+      "animation": "walk",
+      "direction": "SE",
+      "rect": {
+        "x": 3649,
+        "y": 1095,
+        "w": 208,
+        "h": 358
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 114.0,
+        "y": 356.0
+      },
+      "pivot_norm": {
+        "x": 0.5481,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__SE__008.png",
+      "animation": "walk",
+      "direction": "SE",
+      "rect": {
+        "x": 2,
+        "y": 1455,
+        "w": 265,
+        "h": 355
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 158.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.5962,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__E__001.png",
+      "animation": "walk",
+      "direction": "E",
+      "rect": {
+        "x": 269,
+        "y": 1455,
+        "w": 232,
+        "h": 355
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 140.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.6034,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__E__002.png",
+      "animation": "walk",
+      "direction": "E",
+      "rect": {
+        "x": 503,
+        "y": 1455,
+        "w": 219,
+        "h": 349
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 128.0,
+        "y": 347.0
+      },
+      "pivot_norm": {
+        "x": 0.5845,
+        "y": 0.9943
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__E__003.png",
+      "animation": "walk",
+      "direction": "E",
+      "rect": {
+        "x": 724,
+        "y": 1455,
+        "w": 225,
+        "h": 354
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 133.0,
+        "y": 352.0
+      },
+      "pivot_norm": {
+        "x": 0.5911,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__E__004.png",
+      "animation": "walk",
+      "direction": "E",
+      "rect": {
+        "x": 951,
+        "y": 1455,
+        "w": 223,
+        "h": 362
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 127.0,
+        "y": 360.0
+      },
+      "pivot_norm": {
+        "x": 0.5695,
+        "y": 0.9945
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__E__005.png",
+      "animation": "walk",
+      "direction": "E",
+      "rect": {
+        "x": 1176,
+        "y": 1455,
+        "w": 226,
+        "h": 360
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 129.0,
+        "y": 358.0
+      },
+      "pivot_norm": {
+        "x": 0.5708,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__E__006.png",
+      "animation": "walk",
+      "direction": "E",
+      "rect": {
+        "x": 1404,
+        "y": 1455,
+        "w": 216,
+        "h": 352
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 121.0,
+        "y": 350.0
+      },
+      "pivot_norm": {
+        "x": 0.5602,
+        "y": 0.9943
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__E__007.png",
+      "animation": "walk",
+      "direction": "E",
+      "rect": {
+        "x": 1622,
+        "y": 1455,
+        "w": 222,
+        "h": 356
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 126.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.5676,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__E__008.png",
+      "animation": "walk",
+      "direction": "E",
+      "rect": {
+        "x": 1846,
+        "y": 1455,
+        "w": 228,
+        "h": 356
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 134.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.5877,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__NE__001.png",
+      "animation": "walk",
+      "direction": "NE",
+      "rect": {
+        "x": 2076,
+        "y": 1455,
+        "w": 244,
+        "h": 354
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 155.0,
+        "y": 352.0
+      },
+      "pivot_norm": {
+        "x": 0.6352,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__NE__002.png",
+      "animation": "walk",
+      "direction": "NE",
+      "rect": {
+        "x": 2322,
+        "y": 1455,
+        "w": 202,
+        "h": 355
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 121.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.599,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__NE__003.png",
+      "animation": "walk",
+      "direction": "NE",
+      "rect": {
+        "x": 2526,
+        "y": 1455,
+        "w": 199,
+        "h": 357
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 116.0,
+        "y": 355.0
+      },
+      "pivot_norm": {
+        "x": 0.5829,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__NE__004.png",
+      "animation": "walk",
+      "direction": "NE",
+      "rect": {
+        "x": 2727,
+        "y": 1455,
+        "w": 212,
+        "h": 353
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 133.0,
+        "y": 351.0
+      },
+      "pivot_norm": {
+        "x": 0.6274,
+        "y": 0.9943
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__NE__005.png",
+      "animation": "walk",
+      "direction": "NE",
+      "rect": {
+        "x": 2941,
+        "y": 1455,
+        "w": 226,
+        "h": 355
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 144.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.6372,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__NE__006.png",
+      "animation": "walk",
+      "direction": "NE",
+      "rect": {
+        "x": 3169,
+        "y": 1455,
+        "w": 218,
+        "h": 357
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 138.0,
+        "y": 355.0
+      },
+      "pivot_norm": {
+        "x": 0.633,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__NE__007.png",
+      "animation": "walk",
+      "direction": "NE",
+      "rect": {
+        "x": 3389,
+        "y": 1455,
+        "w": 240,
+        "h": 355
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 148.0,
+        "y": 352.0
+      },
+      "pivot_norm": {
+        "x": 0.6167,
+        "y": 0.9915
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__NE__008.png",
+      "animation": "walk",
+      "direction": "NE",
+      "rect": {
+        "x": 3631,
+        "y": 1455,
+        "w": 223,
+        "h": 356
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 141.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.6323,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__N__001.png",
+      "animation": "walk",
+      "direction": "N",
+      "rect": {
+        "x": 3856,
+        "y": 1455,
+        "w": 187,
+        "h": 355
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 90.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.4813,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__N__002.png",
+      "animation": "walk",
+      "direction": "N",
+      "rect": {
+        "x": 2,
+        "y": 1819,
+        "w": 180,
+        "h": 355
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 91.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.5056,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__N__003.png",
+      "animation": "walk",
+      "direction": "N",
+      "rect": {
+        "x": 184,
+        "y": 1819,
+        "w": 195,
+        "h": 356
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 88.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.4513,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__N__004.png",
+      "animation": "walk",
+      "direction": "N",
+      "rect": {
+        "x": 381,
+        "y": 1819,
+        "w": 179,
+        "h": 355
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 90.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.5028,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__N__005.png",
+      "animation": "walk",
+      "direction": "N",
+      "rect": {
+        "x": 562,
+        "y": 1819,
+        "w": 181,
+        "h": 357
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 88.0,
+        "y": 355.0
+      },
+      "pivot_norm": {
+        "x": 0.4862,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__N__006.png",
+      "animation": "walk",
+      "direction": "N",
+      "rect": {
+        "x": 745,
+        "y": 1819,
+        "w": 187,
+        "h": 354
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 98.0,
+        "y": 352.0
+      },
+      "pivot_norm": {
+        "x": 0.5241,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__N__007.png",
+      "animation": "walk",
+      "direction": "N",
+      "rect": {
+        "x": 934,
+        "y": 1819,
+        "w": 185,
+        "h": 354
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 88.0,
+        "y": 352.0
+      },
+      "pivot_norm": {
+        "x": 0.4757,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__N__008.png",
+      "animation": "walk",
+      "direction": "N",
+      "rect": {
+        "x": 1121,
+        "y": 1819,
+        "w": 195,
+        "h": 355
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 88.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.4513,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__NW__001.png",
+      "animation": "walk",
+      "direction": "NW",
+      "rect": {
+        "x": 1318,
+        "y": 1819,
+        "w": 207,
+        "h": 356
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 88.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.4251,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__NW__002.png",
+      "animation": "walk",
+      "direction": "NW",
+      "rect": {
+        "x": 1527,
+        "y": 1819,
+        "w": 205,
+        "h": 355
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 86.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.4195,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__NW__003.png",
+      "animation": "walk",
+      "direction": "NW",
+      "rect": {
+        "x": 1734,
+        "y": 1819,
+        "w": 205,
+        "h": 356
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 87.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.4244,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__NW__004.png",
+      "animation": "walk",
+      "direction": "NW",
+      "rect": {
+        "x": 1941,
+        "y": 1819,
+        "w": 205,
+        "h": 355
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 87.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.4244,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__NW__005.png",
+      "animation": "walk",
+      "direction": "NW",
+      "rect": {
+        "x": 2148,
+        "y": 1819,
+        "w": 202,
+        "h": 355
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 87.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.4307,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__NW__006.png",
+      "animation": "walk",
+      "direction": "NW",
+      "rect": {
+        "x": 2352,
+        "y": 1819,
+        "w": 189,
+        "h": 355
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 103.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.545,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__NW__007.png",
+      "animation": "walk",
+      "direction": "NW",
+      "rect": {
+        "x": 2543,
+        "y": 1819,
+        "w": 206,
+        "h": 355
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 88.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.4272,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__NW__008.png",
+      "animation": "walk",
+      "direction": "NW",
+      "rect": {
+        "x": 2751,
+        "y": 1819,
+        "w": 172,
+        "h": 356
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 86.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.5,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__W__001.png",
+      "animation": "walk",
+      "direction": "W",
+      "rect": {
+        "x": 2925,
+        "y": 1819,
+        "w": 237,
+        "h": 356
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 94.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.3966,
+        "y": 0.9916
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__W__002.png",
+      "animation": "walk",
+      "direction": "W",
+      "rect": {
+        "x": 3164,
+        "y": 1819,
+        "w": 243,
+        "h": 353
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 96.0,
+        "y": 351.0
+      },
+      "pivot_norm": {
+        "x": 0.3951,
+        "y": 0.9943
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__W__003.png",
+      "animation": "walk",
+      "direction": "W",
+      "rect": {
+        "x": 3409,
+        "y": 1819,
+        "w": 233,
+        "h": 357
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 87.0,
+        "y": 355.0
+      },
+      "pivot_norm": {
+        "x": 0.3734,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__W__004.png",
+      "animation": "walk",
+      "direction": "W",
+      "rect": {
+        "x": 3644,
+        "y": 1819,
+        "w": 233,
+        "h": 357
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 89.0,
+        "y": 355.0
+      },
+      "pivot_norm": {
+        "x": 0.382,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__W__005.png",
+      "animation": "walk",
+      "direction": "W",
+      "rect": {
+        "x": 2,
+        "y": 2178,
+        "w": 234,
+        "h": 351
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 90.0,
+        "y": 349.0
+      },
+      "pivot_norm": {
+        "x": 0.3846,
+        "y": 0.9943
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__W__006.png",
+      "animation": "walk",
+      "direction": "W",
+      "rect": {
+        "x": 238,
+        "y": 2178,
+        "w": 231,
+        "h": 350
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 91.0,
+        "y": 348.0
+      },
+      "pivot_norm": {
+        "x": 0.3939,
+        "y": 0.9943
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__W__007.png",
+      "animation": "walk",
+      "direction": "W",
+      "rect": {
+        "x": 471,
+        "y": 2178,
+        "w": 244,
+        "h": 355
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 97.0,
+        "y": 352.0
+      },
+      "pivot_norm": {
+        "x": 0.3975,
+        "y": 0.9915
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__W__008.png",
+      "animation": "walk",
+      "direction": "W",
+      "rect": {
+        "x": 717,
+        "y": 2178,
+        "w": 242,
+        "h": 354
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 93.0,
+        "y": 352.0
+      },
+      "pivot_norm": {
+        "x": 0.3843,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__SW__001.png",
+      "animation": "walk",
+      "direction": "SW",
+      "rect": {
+        "x": 961,
+        "y": 2178,
+        "w": 254,
+        "h": 353
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 107.0,
+        "y": 351.0
+      },
+      "pivot_norm": {
+        "x": 0.4213,
+        "y": 0.9943
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__SW__002.png",
+      "animation": "walk",
+      "direction": "SW",
+      "rect": {
+        "x": 1217,
+        "y": 2178,
+        "w": 253,
+        "h": 355
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 106.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.419,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__SW__003.png",
+      "animation": "walk",
+      "direction": "SW",
+      "rect": {
+        "x": 1472,
+        "y": 2178,
+        "w": 237,
+        "h": 357
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 92.0,
+        "y": 355.0
+      },
+      "pivot_norm": {
+        "x": 0.3882,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__SW__004.png",
+      "animation": "walk",
+      "direction": "SW",
+      "rect": {
+        "x": 1711,
+        "y": 2178,
+        "w": 231,
+        "h": 358
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 92.0,
+        "y": 356.0
+      },
+      "pivot_norm": {
+        "x": 0.3983,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__SW__005.png",
+      "animation": "walk",
+      "direction": "SW",
+      "rect": {
+        "x": 1944,
+        "y": 2178,
+        "w": 242,
+        "h": 354
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 96.0,
+        "y": 352.0
+      },
+      "pivot_norm": {
+        "x": 0.3967,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__SW__006.png",
+      "animation": "walk",
+      "direction": "SW",
+      "rect": {
+        "x": 2188,
+        "y": 2178,
+        "w": 233,
+        "h": 362
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 95.0,
+        "y": 360.0
+      },
+      "pivot_norm": {
+        "x": 0.4077,
+        "y": 0.9945
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__SW__007.png",
+      "animation": "walk",
+      "direction": "SW",
+      "rect": {
+        "x": 2423,
+        "y": 2178,
+        "w": 240,
+        "h": 348
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 98.0,
+        "y": 346.0
+      },
+      "pivot_norm": {
+        "x": 0.4083,
+        "y": 0.9943
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__walk__SW__008.png",
+      "animation": "walk",
+      "direction": "SW",
+      "rect": {
+        "x": 2665,
+        "y": 2178,
+        "w": 299,
+        "h": 354
+      },
+      "duration_ms": 100,
+      "pivot": {
+        "x": 110.0,
+        "y": 352.0
+      },
+      "pivot_norm": {
+        "x": 0.3679,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__S__001.png",
+      "animation": "run",
+      "direction": "S",
+      "rect": {
+        "x": 2966,
+        "y": 2178,
+        "w": 278,
+        "h": 363
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 122.0,
+        "y": 360.0
+      },
+      "pivot_norm": {
+        "x": 0.4388,
+        "y": 0.9917
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__S__002.png",
+      "animation": "run",
+      "direction": "S",
+      "rect": {
+        "x": 3246,
+        "y": 2178,
+        "w": 258,
+        "h": 355
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 116.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.4496,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__S__003.png",
+      "animation": "run",
+      "direction": "S",
+      "rect": {
+        "x": 3506,
+        "y": 2178,
+        "w": 236,
+        "h": 362
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 116.0,
+        "y": 360.0
+      },
+      "pivot_norm": {
+        "x": 0.4915,
+        "y": 0.9945
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__S__004.png",
+      "animation": "run",
+      "direction": "S",
+      "rect": {
+        "x": 3744,
+        "y": 2178,
+        "w": 255,
+        "h": 352
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 136.0,
+        "y": 350.0
+      },
+      "pivot_norm": {
+        "x": 0.5333,
+        "y": 0.9943
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__S__005.png",
+      "animation": "run",
+      "direction": "S",
+      "rect": {
+        "x": 2,
+        "y": 2543,
+        "w": 261,
+        "h": 351
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 148.0,
+        "y": 349.0
+      },
+      "pivot_norm": {
+        "x": 0.567,
+        "y": 0.9943
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__S__006.png",
+      "animation": "run",
+      "direction": "S",
+      "rect": {
+        "x": 265,
+        "y": 2543,
+        "w": 255,
+        "h": 362
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 149.0,
+        "y": 360.0
+      },
+      "pivot_norm": {
+        "x": 0.5843,
+        "y": 0.9945
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__S__007.png",
+      "animation": "run",
+      "direction": "S",
+      "rect": {
+        "x": 522,
+        "y": 2543,
+        "w": 275,
+        "h": 354
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 158.0,
+        "y": 352.0
+      },
+      "pivot_norm": {
+        "x": 0.5745,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__S__008.png",
+      "animation": "run",
+      "direction": "S",
+      "rect": {
+        "x": 799,
+        "y": 2543,
+        "w": 309,
+        "h": 349
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 152.0,
+        "y": 347.0
+      },
+      "pivot_norm": {
+        "x": 0.4919,
+        "y": 0.9943
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__SE__001.png",
+      "animation": "run",
+      "direction": "SE",
+      "rect": {
+        "x": 1110,
+        "y": 2543,
+        "w": 327,
+        "h": 359
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 189.0,
+        "y": 357.0
+      },
+      "pivot_norm": {
+        "x": 0.578,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__SE__002.png",
+      "animation": "run",
+      "direction": "SE",
+      "rect": {
+        "x": 1439,
+        "y": 2543,
+        "w": 266,
+        "h": 353
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 141.0,
+        "y": 351.0
+      },
+      "pivot_norm": {
+        "x": 0.5301,
+        "y": 0.9943
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__SE__003.png",
+      "animation": "run",
+      "direction": "SE",
+      "rect": {
+        "x": 1707,
+        "y": 2543,
+        "w": 226,
+        "h": 313
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 117.0,
+        "y": 311.0
+      },
+      "pivot_norm": {
+        "x": 0.5177,
+        "y": 0.9936
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__SE__004.png",
+      "animation": "run",
+      "direction": "SE",
+      "rect": {
+        "x": 1935,
+        "y": 2543,
+        "w": 255,
+        "h": 351
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 132.0,
+        "y": 349.0
+      },
+      "pivot_norm": {
+        "x": 0.5176,
+        "y": 0.9943
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__SE__005.png",
+      "animation": "run",
+      "direction": "SE",
+      "rect": {
+        "x": 2192,
+        "y": 2543,
+        "w": 246,
+        "h": 356
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 133.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.5407,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__SE__006.png",
+      "animation": "run",
+      "direction": "SE",
+      "rect": {
+        "x": 2440,
+        "y": 2543,
+        "w": 239,
+        "h": 336
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 123.0,
+        "y": 334.0
+      },
+      "pivot_norm": {
+        "x": 0.5146,
+        "y": 0.994
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__SE__007.png",
+      "animation": "run",
+      "direction": "SE",
+      "rect": {
+        "x": 2681,
+        "y": 2543,
+        "w": 236,
+        "h": 358
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 129.0,
+        "y": 356.0
+      },
+      "pivot_norm": {
+        "x": 0.5466,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__SE__008.png",
+      "animation": "run",
+      "direction": "SE",
+      "rect": {
+        "x": 2919,
+        "y": 2543,
+        "w": 286,
+        "h": 359
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 173.0,
+        "y": 357.0
+      },
+      "pivot_norm": {
+        "x": 0.6049,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__E__001.png",
+      "animation": "run",
+      "direction": "E",
+      "rect": {
+        "x": 3207,
+        "y": 2543,
+        "w": 302,
+        "h": 354
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 178.0,
+        "y": 352.0
+      },
+      "pivot_norm": {
+        "x": 0.5894,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__E__002.png",
+      "animation": "run",
+      "direction": "E",
+      "rect": {
+        "x": 3511,
+        "y": 2543,
+        "w": 240,
+        "h": 355
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 123.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.5125,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__E__003.png",
+      "animation": "run",
+      "direction": "E",
+      "rect": {
+        "x": 3753,
+        "y": 2543,
+        "w": 210,
+        "h": 347
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 119.0,
+        "y": 345.0
+      },
+      "pivot_norm": {
+        "x": 0.5667,
+        "y": 0.9942
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__E__004.png",
+      "animation": "run",
+      "direction": "E",
+      "rect": {
+        "x": 2,
+        "y": 2907,
+        "w": 214,
+        "h": 352
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 123.0,
+        "y": 350.0
+      },
+      "pivot_norm": {
+        "x": 0.5748,
+        "y": 0.9943
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__E__005.png",
+      "animation": "run",
+      "direction": "E",
+      "rect": {
+        "x": 218,
+        "y": 2907,
+        "w": 227,
+        "h": 361
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 140.0,
+        "y": 359.0
+      },
+      "pivot_norm": {
+        "x": 0.6167,
+        "y": 0.9945
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__E__006.png",
+      "animation": "run",
+      "direction": "E",
+      "rect": {
+        "x": 447,
+        "y": 2907,
+        "w": 249,
+        "h": 356
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 161.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.6466,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__E__007.png",
+      "animation": "run",
+      "direction": "E",
+      "rect": {
+        "x": 698,
+        "y": 2907,
+        "w": 252,
+        "h": 362
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 157.0,
+        "y": 360.0
+      },
+      "pivot_norm": {
+        "x": 0.623,
+        "y": 0.9945
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__E__008.png",
+      "animation": "run",
+      "direction": "E",
+      "rect": {
+        "x": 952,
+        "y": 2907,
+        "w": 305,
+        "h": 339
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 188.0,
+        "y": 337.0
+      },
+      "pivot_norm": {
+        "x": 0.6164,
+        "y": 0.9941
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__NE__001.png",
+      "animation": "run",
+      "direction": "NE",
+      "rect": {
+        "x": 1259,
+        "y": 2907,
+        "w": 268,
+        "h": 354
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 179.0,
+        "y": 352.0
+      },
+      "pivot_norm": {
+        "x": 0.6679,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__NE__002.png",
+      "animation": "run",
+      "direction": "NE",
+      "rect": {
+        "x": 1529,
+        "y": 2907,
+        "w": 218,
+        "h": 355
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 132.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.6055,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__NE__003.png",
+      "animation": "run",
+      "direction": "NE",
+      "rect": {
+        "x": 1749,
+        "y": 2907,
+        "w": 229,
+        "h": 355
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 142.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.6201,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__NE__004.png",
+      "animation": "run",
+      "direction": "NE",
+      "rect": {
+        "x": 1980,
+        "y": 2907,
+        "w": 226,
+        "h": 356
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 140.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.6195,
+        "y": 0.9916
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__NE__005.png",
+      "animation": "run",
+      "direction": "NE",
+      "rect": {
+        "x": 2208,
+        "y": 2907,
+        "w": 232,
+        "h": 355
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 145.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.625,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__NE__006.png",
+      "animation": "run",
+      "direction": "NE",
+      "rect": {
+        "x": 2442,
+        "y": 2907,
+        "w": 226,
+        "h": 355
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 140.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.6195,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__NE__007.png",
+      "animation": "run",
+      "direction": "NE",
+      "rect": {
+        "x": 2670,
+        "y": 2907,
+        "w": 222,
+        "h": 351
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 134.0,
+        "y": 349.0
+      },
+      "pivot_norm": {
+        "x": 0.6036,
+        "y": 0.9943
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__NE__008.png",
+      "animation": "run",
+      "direction": "NE",
+      "rect": {
+        "x": 2894,
+        "y": 2907,
+        "w": 245,
+        "h": 357
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 155.0,
+        "y": 355.0
+      },
+      "pivot_norm": {
+        "x": 0.6327,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__N__001.png",
+      "animation": "run",
+      "direction": "N",
+      "rect": {
+        "x": 3141,
+        "y": 2907,
+        "w": 301,
+        "h": 362
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 109.0,
+        "y": 360.0
+      },
+      "pivot_norm": {
+        "x": 0.3621,
+        "y": 0.9945
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__N__002.png",
+      "animation": "run",
+      "direction": "N",
+      "rect": {
+        "x": 3444,
+        "y": 2907,
+        "w": 314,
+        "h": 348
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 122.0,
+        "y": 346.0
+      },
+      "pivot_norm": {
+        "x": 0.3885,
+        "y": 0.9943
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__N__003.png",
+      "animation": "run",
+      "direction": "N",
+      "rect": {
+        "x": 3760,
+        "y": 2907,
+        "w": 307,
+        "h": 362
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 115.0,
+        "y": 360.0
+      },
+      "pivot_norm": {
+        "x": 0.3746,
+        "y": 0.9945
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__N__004.png",
+      "animation": "run",
+      "direction": "N",
+      "rect": {
+        "x": 2,
+        "y": 3271,
+        "w": 320,
+        "h": 356
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 128.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.4,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__N__005.png",
+      "animation": "run",
+      "direction": "N",
+      "rect": {
+        "x": 324,
+        "y": 3271,
+        "w": 306,
+        "h": 354
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 114.0,
+        "y": 352.0
+      },
+      "pivot_norm": {
+        "x": 0.3725,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__N__006.png",
+      "animation": "run",
+      "direction": "N",
+      "rect": {
+        "x": 632,
+        "y": 3271,
+        "w": 309,
+        "h": 359
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 117.0,
+        "y": 357.0
+      },
+      "pivot_norm": {
+        "x": 0.3786,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__N__007.png",
+      "animation": "run",
+      "direction": "N",
+      "rect": {
+        "x": 943,
+        "y": 3271,
+        "w": 319,
+        "h": 344
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 127.0,
+        "y": 341.0
+      },
+      "pivot_norm": {
+        "x": 0.3981,
+        "y": 0.9913
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__N__008.png",
+      "animation": "run",
+      "direction": "N",
+      "rect": {
+        "x": 1264,
+        "y": 3271,
+        "w": 325,
+        "h": 354
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 133.0,
+        "y": 352.0
+      },
+      "pivot_norm": {
+        "x": 0.4092,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__NW__001.png",
+      "animation": "run",
+      "direction": "NW",
+      "rect": {
+        "x": 1591,
+        "y": 3271,
+        "w": 232,
+        "h": 314
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 114.0,
+        "y": 312.0
+      },
+      "pivot_norm": {
+        "x": 0.4914,
+        "y": 0.9936
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__NW__002.png",
+      "animation": "run",
+      "direction": "NW",
+      "rect": {
+        "x": 1825,
+        "y": 3271,
+        "w": 215,
+        "h": 355
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 125.0,
+        "y": 353.0
+      },
+      "pivot_norm": {
+        "x": 0.5814,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__NW__003.png",
+      "animation": "run",
+      "direction": "NW",
+      "rect": {
+        "x": 2042,
+        "y": 3271,
+        "w": 238,
+        "h": 345
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 149.0,
+        "y": 342.0
+      },
+      "pivot_norm": {
+        "x": 0.6261,
+        "y": 0.9913
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__NW__004.png",
+      "animation": "run",
+      "direction": "NW",
+      "rect": {
+        "x": 2282,
+        "y": 3271,
+        "w": 169,
+        "h": 362
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 85.0,
+        "y": 360.0
+      },
+      "pivot_norm": {
+        "x": 0.503,
+        "y": 0.9945
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__NW__005.png",
+      "animation": "run",
+      "direction": "NW",
+      "rect": {
+        "x": 2453,
+        "y": 3271,
+        "w": 193,
+        "h": 361
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 109.0,
+        "y": 359.0
+      },
+      "pivot_norm": {
+        "x": 0.5648,
+        "y": 0.9945
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__NW__006.png",
+      "animation": "run",
+      "direction": "NW",
+      "rect": {
+        "x": 2648,
+        "y": 3271,
+        "w": 172,
+        "h": 362
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 86.0,
+        "y": 360.0
+      },
+      "pivot_norm": {
+        "x": 0.5,
+        "y": 0.9945
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__NW__007.png",
+      "animation": "run",
+      "direction": "NW",
+      "rect": {
+        "x": 2822,
+        "y": 3271,
+        "w": 203,
+        "h": 356
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 94.0,
+        "y": 354.0
+      },
+      "pivot_norm": {
+        "x": 0.4631,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__NW__008.png",
+      "animation": "run",
+      "direction": "NW",
+      "rect": {
+        "x": 3027,
+        "y": 3271,
+        "w": 228,
+        "h": 351
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 139.0,
+        "y": 349.0
+      },
+      "pivot_norm": {
+        "x": 0.6096,
+        "y": 0.9943
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__W__001.png",
+      "animation": "run",
+      "direction": "W",
+      "rect": {
+        "x": 3257,
+        "y": 3271,
+        "w": 259,
+        "h": 347
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 104.0,
+        "y": 345.0
+      },
+      "pivot_norm": {
+        "x": 0.4015,
+        "y": 0.9942
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__W__002.png",
+      "animation": "run",
+      "direction": "W",
+      "rect": {
+        "x": 3518,
+        "y": 3271,
+        "w": 235,
+        "h": 350
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 100.0,
+        "y": 348.0
+      },
+      "pivot_norm": {
+        "x": 0.4255,
+        "y": 0.9943
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__W__003.png",
+      "animation": "run",
+      "direction": "W",
+      "rect": {
+        "x": 3755,
+        "y": 3271,
+        "w": 241,
+        "h": 361
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 94.0,
+        "y": 359.0
+      },
+      "pivot_norm": {
+        "x": 0.39,
+        "y": 0.9945
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__W__004.png",
+      "animation": "run",
+      "direction": "W",
+      "rect": {
+        "x": 2,
+        "y": 3635,
+        "w": 285,
+        "h": 342
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 96.0,
+        "y": 340.0
+      },
+      "pivot_norm": {
+        "x": 0.3368,
+        "y": 0.9942
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__W__005.png",
+      "animation": "run",
+      "direction": "W",
+      "rect": {
+        "x": 289,
+        "y": 3635,
+        "w": 258,
+        "h": 362
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 98.0,
+        "y": 360.0
+      },
+      "pivot_norm": {
+        "x": 0.3798,
+        "y": 0.9945
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__W__006.png",
+      "animation": "run",
+      "direction": "W",
+      "rect": {
+        "x": 549,
+        "y": 3635,
+        "w": 219,
+        "h": 362
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 91.0,
+        "y": 360.0
+      },
+      "pivot_norm": {
+        "x": 0.4155,
+        "y": 0.9945
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__W__007.png",
+      "animation": "run",
+      "direction": "W",
+      "rect": {
+        "x": 770,
+        "y": 3635,
+        "w": 272,
+        "h": 362
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 118.0,
+        "y": 360.0
+      },
+      "pivot_norm": {
+        "x": 0.4338,
+        "y": 0.9945
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__W__008.png",
+      "animation": "run",
+      "direction": "W",
+      "rect": {
+        "x": 1044,
+        "y": 3635,
+        "w": 284,
+        "h": 345
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 92.0,
+        "y": 343.0
+      },
+      "pivot_norm": {
+        "x": 0.3239,
+        "y": 0.9942
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__SW__001.png",
+      "animation": "run",
+      "direction": "SW",
+      "rect": {
+        "x": 1330,
+        "y": 3635,
+        "w": 286,
+        "h": 362
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 123.0,
+        "y": 360.0
+      },
+      "pivot_norm": {
+        "x": 0.4301,
+        "y": 0.9945
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__SW__002.png",
+      "animation": "run",
+      "direction": "SW",
+      "rect": {
+        "x": 1618,
+        "y": 3635,
+        "w": 284,
+        "h": 349
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 134.0,
+        "y": 347.0
+      },
+      "pivot_norm": {
+        "x": 0.4718,
+        "y": 0.9943
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__SW__003.png",
+      "animation": "run",
+      "direction": "SW",
+      "rect": {
+        "x": 1904,
+        "y": 3635,
+        "w": 277,
+        "h": 353
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 127.0,
+        "y": 351.0
+      },
+      "pivot_norm": {
+        "x": 0.4585,
+        "y": 0.9943
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__SW__004.png",
+      "animation": "run",
+      "direction": "SW",
+      "rect": {
+        "x": 2183,
+        "y": 3635,
+        "w": 286,
+        "h": 338
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 140.0,
+        "y": 336.0
+      },
+      "pivot_norm": {
+        "x": 0.4895,
+        "y": 0.9941
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__SW__005.png",
+      "animation": "run",
+      "direction": "SW",
+      "rect": {
+        "x": 2471,
+        "y": 3635,
+        "w": 263,
+        "h": 357
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 130.0,
+        "y": 355.0
+      },
+      "pivot_norm": {
+        "x": 0.4943,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__SW__006.png",
+      "animation": "run",
+      "direction": "SW",
+      "rect": {
+        "x": 2736,
+        "y": 3635,
+        "w": 280,
+        "h": 360
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 147.0,
+        "y": 358.0
+      },
+      "pivot_norm": {
+        "x": 0.525,
+        "y": 0.9944
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__SW__007.png",
+      "animation": "run",
+      "direction": "SW",
+      "rect": {
+        "x": 3018,
+        "y": 3635,
+        "w": 285,
+        "h": 362
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 128.0,
+        "y": 360.0
+      },
+      "pivot_norm": {
+        "x": 0.4491,
+        "y": 0.9945
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    },
+    {
+      "name": "player_hanhan__run__SW__008.png",
+      "animation": "run",
+      "direction": "SW",
+      "rect": {
+        "x": 3305,
+        "y": 3635,
+        "w": 322,
+        "h": 336
+      },
+      "duration_ms": 71,
+      "pivot": {
+        "x": 132.0,
+        "y": 334.0
+      },
+      "pivot_norm": {
+        "x": 0.4099,
+        "y": 0.994
+      },
+      "weapon_socket": null,
+      "event_markers": []
+    }
+  ]
+}

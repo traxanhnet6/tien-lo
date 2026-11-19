@@ -1,0 +1,426 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { height: 100%; overflow: hidden; background: #9db8c4; }
+body { font-family: "Segoe UI", system-ui, -apple-system, sans-serif; }
+#game { position: fixed; inset: 0; width: 100%; height: 100%; display: block; touch-action: none; }
+
+.hud { position: fixed; z-index: 10; }
+.hud-top-left {
+  top: 14px; left: 14px; padding: 10px 18px 12px;
+  background: rgba(16, 34, 38, 0.82); border: 1px solid rgba(212, 175, 55, 0.55);
+  border-radius: 12px; color: #f3e9c8; pointer-events: none;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.35);
+}
+.game-name { font-size: 11px; letter-spacing: 4px; color: #d4af37; font-weight: 600; }
+.zone-name { font-size: 22px; font-weight: 700; color: #fff7dd; margin-top: 2px; }
+
+.chip {
+  background: rgba(16, 34, 38, 0.82); color: #e9e2c8; border: 1px solid rgba(212, 175, 55, 0.45);
+  border-radius: 10px; padding: 9px 16px; font-size: 15px; cursor: pointer;
+  font-family: inherit; box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+}
+.chip:active { transform: translateY(1px); }
+.hud-top-right { top: 14px; right: 14px; }
+#followBtn.off { opacity: 0.55; }
+
+.hud-bottom-left { left: 14px; bottom: 52px; display: flex; gap: 8px; flex-wrap: wrap; max-width: 620px; }
+.zone-chip.active { background: rgba(122, 90, 20, 0.9); color: #ffe9a8; border-color: #d4af37; }
+
+.hud-bottom-right {
+  /* HUD wave: the zoom box moved to the left side, above the zone chips —
+     the bottom-right corner now belongs to the combat cluster (spec §2F). */
+  left: 14px; right: auto; bottom: 150px; z-index: 13;
+  display: flex; align-items: center; gap: 10px;
+  background: rgba(16, 34, 38, 0.82); border: 1px solid rgba(212, 175, 55, 0.45);
+  border-radius: 12px; padding: 8px 12px; color: #f3e9c8;
+}
+/* The chips CONTAINER must not swallow touches meant for the joystick /
+   canvas beneath it — only the chips themselves are tappable. */
+#zoneChips { z-index: 13; pointer-events: none; }
+#zoneChips .zone-chip { pointer-events: auto; }
+.zoom-btn { padding: 6px 13px; font-size: 18px; line-height: 1; }
+#zoomRange { width: 110px; accent-color: #d4af37; }
+#zoomPct { font-size: 14px; min-width: 44px; text-align: right; }
+
+.hud-hint {
+  left: 14px; bottom: 14px; color: rgba(255, 250, 230, 0.85); font-size: 13px;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.6); pointer-events: none;
+}
+@media (max-width: 520px) {
+  .hud-hint { display: none; }
+  .zone-name { font-size: 19px; }
+  #zoomRange { width: 76px; }
+  /* Keep the zone-chip rows clear of the round attack button (right side):
+     the chip flow is capped so wrapped rows never run underneath it. */
+  .hud-bottom-left { bottom: 108px; max-width: calc(100vw - 128px); gap: 6px; }
+  .zone-chip { font-size: 12.5px; padding: 7px 10px; }
+}
+
+/* --------------------------------------------------------------------------
+   Tiên Lộ Gameplay UI (§3.1 - §3.4)
+   Cổ phong ngọc/đồng cổ/gỗ, tối đa 2 họ font
+   -------------------------------------------------------------------------- */
+
+/* Quest Tracker HUD — spec §2 zone C: top-right, under the system chips
+   (the phone layout stacks it under the character plate instead). */
+.quest-tracker-hud {
+  position: fixed; top: 64px; right: 14px; left: auto; z-index: 10;
+  max-width: 290px; padding: 12px 16px;
+  background: rgba(16, 34, 38, 0.88); border: 1px solid rgba(212, 175, 55, 0.65);
+  border-radius: 12px; color: #f3e9c8; cursor: pointer;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+  transition: transform 0.15s, border-color 0.2s;
+}
+.quest-tracker-hud:hover {
+  transform: translateY(-1px);
+  border-color: rgba(255, 215, 90, 0.9);
+}
+.qt-badge {
+  font-size: 10px; font-weight: 700; letter-spacing: 2px;
+  color: #ffd75a; text-transform: uppercase; margin-bottom: 3px;
+}
+.qt-title {
+  font-size: 16px; font-weight: 700; color: #fff8e1; margin-bottom: 4px;
+}
+.qt-desc {
+  font-size: 13.5px; color: #e0f2f1; line-height: 1.35;
+}
+.qt-hint {
+  font-size: 11px; color: #80cbc4; margin-top: 5px; font-style: italic;
+}
+
+/* Player Status Bar */
+.player-status-hud {
+  position: fixed; top: 14px; left: 240px; z-index: 10;
+  background: rgba(16, 34, 38, 0.85); border: 1px solid rgba(212, 175, 55, 0.55);
+  border-radius: 12px; padding: 8px 16px; min-width: 220px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.35); color: #f3e9c8;
+}
+.ps-header {
+  display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;
+}
+.ps-name { font-size: 13px; font-weight: 700; color: #ffd75a; letter-spacing: 1px; }
+.ps-level { font-size: 11px; color: #b2dfdb; }
+.ps-bar-bg {
+  position: relative; width: 100%; height: 14px;
+  background: #1c2b2d; border-radius: 7px; overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.15);
+}
+.ps-bar-fill {
+  height: 100%; background: linear-gradient(90deg, #d32f2f, #f44336);
+  border-radius: 6px; transition: width 0.2s ease;
+}
+.ps-bar-text {
+  position: absolute; inset: 0; font-size: 10px; font-weight: 700;
+  display: flex; align-items: center; justify-content: center;
+  color: #ffffff; text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+}
+.ps-herb-count {
+  font-size: 11px; color: #a7ffeb; margin-top: 4px; text-align: right;
+}
+/* MP bar (HUD wave): blue family, same shell as HP. */
+.ps-bar-bg.mp { margin-top: 4px; }
+.ps-bar-fill.mp { background: linear-gradient(90deg, #1565c0, #42a5f5); }
+/* BLOCKED–MANA feedback on the plate itself (spec §3.2). */
+.player-status-hud.mp-flash {
+  animation: mpFlash 0.32s ease-in-out 2;
+  border-color: #42a5f5;
+}
+@keyframes mpFlash {
+  0%, 100% { box-shadow: 0 4px 16px rgba(0,0,0,0.35); }
+  50% { box-shadow: 0 0 0 3px rgba(66, 165, 245, 0.85), 0 4px 16px rgba(0,0,0,0.35); }
+}
+
+/* Boss Health Bar HUD */
+.boss-status-hud {
+  position: fixed; top: 18px; left: 50%; transform: translateX(-50%);
+  z-index: 10; min-width: 360px; max-width: 520px; width: 44vw;
+  background: rgba(30, 10, 10, 0.90); border: 2px solid rgba(255, 80, 50, 0.75);
+  border-radius: 14px; padding: 10px 20px; text-align: center;
+  box-shadow: 0 8px 28px rgba(200, 20, 10, 0.45);
+}
+.boss-title {
+  font-size: 17px; font-weight: 800; color: #ffeb3b; letter-spacing: 2px; text-transform: uppercase;
+}
+.boss-phase {
+  font-size: 12px; font-weight: 600; color: #ff8a80; margin: 2px 0 6px;
+}
+.boss-bar-bg {
+  position: relative; width: 100%; height: 18px;
+  background: #2b1111; border-radius: 9px; overflow: hidden;
+  border: 1px solid rgba(255, 140, 120, 0.4);
+}
+.boss-bar-fill {
+  height: 100%; background: linear-gradient(90deg, #b71c1c, #ff1744);
+  border-radius: 8px; transition: width 0.2s ease;
+}
+.boss-bar-text {
+  position: absolute; inset: 0; font-size: 11px; font-weight: 700;
+  display: flex; align-items: center; justify-content: center;
+  color: #ffffff; text-shadow: 0 1px 3px rgba(0,0,0,0.9);
+}
+
+/* The old standalone fixed attack button is superseded by the combat
+   cluster below (the button keeps its id="mobileAtkBtn" inside it). */
+
+/* Dialogue Modal */
+.dialogue-modal {
+  position: fixed; inset: 0; z-index: 30;
+  display: flex; align-items: flex-end; justify-content: center;
+  padding-bottom: 48px; background: rgba(0, 0, 0, 0.45);
+  pointer-events: auto;
+}
+.dialogue-card {
+  width: 90%; max-width: 640px;
+  background: rgba(14, 28, 32, 0.96); border: 2px solid rgba(212, 175, 55, 0.85);
+  border-radius: 16px; padding: 22px 26px 20px; color: #fbf5e2;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.7);
+}
+.dialogue-header {
+  border-bottom: 1px solid rgba(212, 175, 55, 0.35);
+  padding-bottom: 8px; margin-bottom: 12px;
+}
+.dialogue-badge {
+  font-size: 10px; font-weight: 700; letter-spacing: 2px;
+  color: #d4af37; text-transform: uppercase;
+}
+.dialogue-speaker {
+  font-size: 20px; font-weight: 800; color: #fff8e1; margin-top: 2px;
+}
+.dialogue-role {
+  font-size: 12px; color: #80cbc4;
+}
+.dialogue-body {
+  font-size: 16px; line-height: 1.6; color: #e0f2f1; min-height: 52px;
+  margin-bottom: 18px;
+}
+.dialogue-footer {
+  display: flex; justify-content: flex-end;
+}
+.dialogue-btn {
+  background: linear-gradient(180deg, #7a5a14 0%, #4a3406 100%);
+  color: #fff8e1; border: 1px solid #d4af37;
+  border-radius: 10px; padding: 10px 24px; font-size: 15px; font-weight: 700;
+  cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+.dialogue-btn:hover { background: #8f6918; }
+.dialogue-btn:active { transform: translateY(1px); }
+
+/* Center Banner */
+.game-banner-hud {
+  position: fixed; top: 22%; left: 50%; transform: translateX(-50%);
+  z-index: 20; padding: 16px 36px; text-align: center;
+  background: rgba(16, 34, 38, 0.92); border: 2px solid #ffd75a;
+  border-radius: 16px; color: #fff8e1; pointer-events: none;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.6);
+  opacity: 0; transition: opacity 0.4s ease;
+}
+.banner-title {
+  font-size: 24px; font-weight: 800; color: #ffd75a; letter-spacing: 2px;
+}
+.banner-sub {
+  font-size: 14px; color: #e0f2f1; margin-top: 4px;
+}
+
+/* Reset Button */
+.reset-btn {
+  position: fixed; top: 14px; right: 110px; z-index: 10;
+  color: #ffab91; border-color: rgba(255, 87, 34, 0.5);
+}
+
+@media (max-width: 720px) {
+  .player-status-hud { left: 14px; top: 88px; min-width: 170px; width: 196px; padding: 6px 12px; }
+  /* Phone stack: plate (now with an MP bar, ~104px tall) then the tracker
+     under it on the left; the zoom box yields its corner to the cluster. */
+  .quest-tracker-hud { top: 200px; left: 14px; right: auto; max-width: 62vw; }
+  .hud-bottom-right { display: none; }
+  /* Boss bar sits BELOW the zone title chip instead of covering it, and the
+     player status / quest tracker stack further down while it is visible
+     (body.boss-active is toggled by the gameplay HUD sync). */
+  .boss-status-hud { top: 86px; width: 92vw; min-width: 0; padding: 8px 14px; }
+  body.boss-active .player-status-hud { top: 190px; }
+  body.boss-active .quest-tracker-hud { top: 302px; }
+  /* "Chơi lại" stacks under the "Theo" chip instead of overlapping it. */
+  .reset-btn { top: 62px; right: 14px; font-size: 12px; padding: 7px 10px; }
+}
+
+/* ==========================================================================
+   Combat HUD (spec §2/§5/§7) — cluster, buttons, joystick
+   ========================================================================== */
+.combat-cluster {
+  position: fixed; right: 2px; bottom: 2px; z-index: 14;
+  width: 284px; height: 284px; pointer-events: none;
+}
+body.dialogue-open .combat-cluster, body.dialogue-open .joy-pad { display: none; }
+
+.hud-btn {
+  position: absolute; pointer-events: auto;
+  display: flex; align-items: center; justify-content: center;
+  background: radial-gradient(circle at 50% 38%, rgba(38, 54, 58, 0.92) 0%, rgba(14, 24, 27, 0.94) 78%);
+  border: 2px solid rgba(212, 175, 55, 0.85);
+  border-radius: 24%; color: #fff3cf; cursor: pointer;
+  box-shadow: 0 5px 16px rgba(0,0,0,0.5), inset 0 1px 4px rgba(255,255,255,0.18);
+  font-family: inherit; user-select: none; -webkit-user-select: none;
+  touch-action: none; padding: 0; overflow: visible;
+}
+.hud-btn:active { transform: scale(0.93); }
+.hud-btn .hb-icon {
+  width: 74%; height: 74%; object-fit: contain; pointer-events: none;
+  filter: drop-shadow(0 2px 3px rgba(0,0,0,0.55));
+}
+.hud-btn .hb-label {
+  position: absolute; left: 0; right: 0; bottom: -15px; text-align: center;
+  font-size: 10px; font-weight: 700; color: #ffeeb8;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.9); pointer-events: none; white-space: nowrap;
+}
+.hud-btn .hb-key {
+  position: absolute; top: -6px; left: -6px; min-width: 17px; height: 17px;
+  padding: 0 3px; border-radius: 5px; pointer-events: none;
+  background: rgba(10, 16, 18, 0.92); border: 1px solid rgba(212, 175, 55, 0.7);
+  color: #ffd75a; font-size: 10px; font-weight: 800; line-height: 16px; text-align: center;
+}
+.hud-btn .hb-ring {
+  position: absolute; inset: -6px; border-radius: 26%; pointer-events: none;
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor; mask-composite: exclude;
+  padding: 3px; opacity: 0; transition: opacity 0.2s;
+}
+.hud-btn .hb-cd {
+  position: absolute; inset: 0; border-radius: 24%; display: none;
+  align-items: center; justify-content: center; pointer-events: none;
+}
+.hud-btn .hb-cd-text {
+  font-size: 19px; font-weight: 800; color: #ffffff;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.95);
+}
+/* Cluster layout (spec §2F): attack at the corner, skills arc above it,
+   ULT upper-left, dodge/defend on the left column, interact above attack. */
+.hud-btn.atk    { right: 6px;   bottom: 8px;   width: 80px; height: 80px; border-radius: 50%; border-width: 3px; }
+.hud-btn.sk1    { right: 96px;  bottom: 12px;  width: 58px; height: 58px; }
+.hud-btn.sk2    { right: 106px; bottom: 80px;  width: 58px; height: 58px; }
+.hud-btn.sk3    { right: 90px;  bottom: 148px; width: 58px; height: 58px; }
+.hud-btn.sk4    { right: 50px;  bottom: 204px; width: 58px; height: 58px; }
+.hud-btn.ult    { right: 172px; bottom: 176px; width: 68px; height: 68px; border-width: 3px; }
+.hud-btn.dodge  { right: 188px; bottom: 100px; width: 54px; height: 54px;
+                  border-color: rgba(110, 190, 255, 0.9);
+                  background: radial-gradient(circle at 50% 38%, rgba(24, 52, 84, 0.94) 0%, rgba(10, 24, 44, 0.96) 78%); }
+.hud-btn.defend { right: 192px; bottom: 30px;  width: 54px; height: 54px; }
+.hud-btn.interact { right: 14px; bottom: 100px; width: 56px; height: 56px; border-radius: 50%; }
+
+/* Button states (spec §3.2/§7): distinguishable by brightness + shape +
+   number, never by colour alone. */
+.hud-btn.cant-afford .hb-icon { filter: grayscale(0.65) brightness(0.62); }
+.hud-btn.casting { border-color: #ffe082; box-shadow: 0 0 0 3px rgba(255, 224, 130, 0.55), 0 5px 16px rgba(0,0,0,0.5); }
+.hud-btn.aiming { border-color: #ffffff; box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.55), 0 0 18px rgba(255, 215, 90, 0.65); }
+.hud-btn.no-mana { animation: noMana 0.32s ease-in-out 2; }
+@keyframes noMana {
+  0%, 100% { box-shadow: 0 5px 16px rgba(0,0,0,0.5); }
+  50% { box-shadow: 0 0 0 4px rgba(66, 165, 245, 0.95), 0 5px 16px rgba(0,0,0,0.5); }
+}
+.hud-btn.no-energy { animation: noEnergy 0.32s ease-in-out 2; }
+@keyframes noEnergy {
+  0%, 100% { box-shadow: 0 5px 16px rgba(0,0,0,0.5); }
+  50% { box-shadow: 0 0 0 4px rgba(255, 150, 60, 0.95), 0 5px 16px rgba(0,0,0,0.5); }
+}
+.hud-btn.on-cd { animation: cdShake 0.22s ease-in-out 1; }
+@keyframes cdShake {
+  0%, 100% { transform: translateX(0); }
+  30% { transform: translateX(-2.5px); }
+  70% { transform: translateX(2.5px); }
+}
+.hud-btn.ult .hb-ring { opacity: 1; }
+.hud-btn.ult.ult-ready {
+  border-color: #ffd75a;
+  animation: ultGlow 1.05s ease-in-out infinite;
+}
+@keyframes ultGlow {
+  0%, 100% { box-shadow: 0 0 10px 2px rgba(255, 190, 60, 0.55), 0 5px 16px rgba(0,0,0,0.5); }
+  50% { box-shadow: 0 0 24px 7px rgba(255, 200, 70, 0.95), 0 5px 16px rgba(0,0,0,0.5); }
+}
+.hud-btn.defend.active {
+  border-color: #ffe082;
+  background: radial-gradient(circle at 50% 38%, rgba(96, 78, 30, 0.95) 0%, rgba(46, 36, 12, 0.97) 78%);
+  box-shadow: 0 0 0 3px rgba(255, 224, 130, 0.5), 0 5px 16px rgba(0,0,0,0.5);
+}
+.hud-btn.dodge.dodging { border-color: #ffffff; }
+.hud-btn.atk.swinging { transform: scale(0.92); }
+
+/* Joystick (spec §2E): invisible floating-origin pad, transparent ring
+   appears at the touch point only while dragging. */
+.joy-pad {
+  position: fixed; left: 0; bottom: 0; z-index: 11;
+  width: 44%; height: 37%; touch-action: none; background: transparent;
+}
+.joy-base {
+  position: fixed; z-index: 12; width: 120px; height: 120px; margin: 0;
+  border-radius: 50%; pointer-events: none;
+  border: 2px solid rgba(255, 244, 200, 0.55);
+  background: radial-gradient(circle, rgba(20, 32, 36, 0.18) 0%, rgba(20, 32, 36, 0.30) 70%, rgba(20, 32, 36, 0.05) 100%);
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,0.25);
+}
+.joy-knob {
+  position: absolute; left: 50%; top: 50%; width: 52px; height: 52px;
+  margin: -26px 0 0 -26px; border-radius: 50%;
+  background: radial-gradient(circle at 42% 36%, rgba(255, 246, 205, 0.95), rgba(196, 158, 62, 0.92));
+  border: 2px solid rgba(120, 92, 26, 0.9);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.45);
+}
+@media (max-width: 720px) {
+  .combat-cluster { transform: scale(0.94); transform-origin: bottom right; }
+}
+
+/* ==========================================================================
+   Skill panel (HUD2 wave, spec §6.3) — nút mở + bảng 10 chiêu
+   ========================================================================== */
+.skill-panel-btn {
+  position: fixed; top: 14px; right: 236px; z-index: 10;
+  color: #ffe9a8; border-color: rgba(212, 175, 55, 0.6);
+}
+.skill-panel-overlay {
+  position: fixed; inset: 0; z-index: 40;
+  background: rgba(6, 12, 14, 0.62);
+  display: flex; align-items: center; justify-content: center;
+  padding: 18px;
+}
+.skill-panel-card {
+  width: min(560px, 94vw); max-height: 88vh; overflow-y: auto;
+  background: rgba(14, 30, 34, 0.97);
+  border: 1px solid rgba(212, 175, 55, 0.65); border-radius: 14px;
+  color: #f3e9c8; padding: 16px 16px 12px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.55);
+}
+.skill-panel-head { display: flex; align-items: center; justify-content: space-between; position: sticky; top: -16px; z-index: 2; background: rgba(14, 30, 34, 0.98); margin: -16px -16px 0; padding: 16px 16px 8px; }
+.skill-panel-title { font-size: 20px; font-weight: 700; color: #ffe9a8; letter-spacing: 1px; }
+.skill-panel-close { padding: 6px 12px; font-size: 13px; }
+.skill-panel-note { font-size: 13px; line-height: 1.45; color: rgba(243, 233, 200, 0.78); margin: 8px 0 12px; }
+.skill-panel-list { display: flex; flex-direction: column; gap: 8px; }
+.skill-row {
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(212, 175, 55, 0.25); border-radius: 10px;
+  padding: 8px 10px;
+}
+.skill-row.slotted { border-color: rgba(212, 175, 55, 0.75); background: rgba(122, 90, 20, 0.22); }
+.skill-row-icon { width: 46px; height: 46px; border-radius: 8px; object-fit: cover; flex: none; }
+.skill-row-main { flex: 1 1 170px; min-width: 150px; }
+.skill-row-name { font-size: 15px; font-weight: 600; color: #fff7dd; }
+.skill-row-meta { font-size: 12px; color: rgba(243, 233, 200, 0.72); margin-top: 2px; line-height: 1.35; }
+.skill-row-actions { display: flex; align-items: center; gap: 5px; flex: none; flex-wrap: wrap; justify-content: flex-end; }
+.skill-row-actions.assign { flex: 1 1 100%; justify-content: flex-start; margin-top: 2px; }
+.skill-slot-badge {
+  font-size: 12px; font-weight: 700; color: #12262b;
+  background: linear-gradient(180deg, #ffe9a8, #d4af37);
+  border-radius: 8px; padding: 5px 9px; white-space: nowrap;
+}
+.skill-slot-badge.ult { background: linear-gradient(180deg, #ffb74d, #e07b2a); color: #2a1400; }
+.skill-assign-label { font-size: 12px; color: rgba(243, 233, 200, 0.7); }
+.skill-assign-btn {
+  font-family: inherit; font-size: 12px; font-weight: 600; cursor: pointer;
+  color: #ffe9a8; background: rgba(16, 34, 38, 0.9);
+  border: 1px solid rgba(212, 175, 55, 0.55); border-radius: 8px; padding: 5px 8px;
+}
+.skill-assign-btn:active { transform: translateY(1px); }
+@media (max-width: 720px) {
+  .skill-panel-btn { top: 104px; right: 14px; font-size: 12px; padding: 7px 10px; }
+  .skill-row-icon { width: 40px; height: 40px; }
+  .skill-row-name { font-size: 14px; }
+}

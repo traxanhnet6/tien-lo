@@ -1,0 +1,732 @@
+{
+ "E APPROVED idle": {
+  "rows": [
+   {
+    "H": 352,
+    "W": 119,
+    "head_h": 122,
+    "legvis": 49,
+    "sep": null,
+    "f": 1
+   },
+   {
+    "H": 352,
+    "W": 113,
+    "head_h": 122,
+    "legvis": 49,
+    "sep": null,
+    "f": 2
+   },
+   {
+    "H": 352,
+    "W": 110,
+    "head_h": 122,
+    "legvis": 49,
+    "sep": null,
+    "f": 3
+   },
+   {
+    "H": 352,
+    "W": 110,
+    "head_h": 122,
+    "legvis": 49,
+    "sep": null,
+    "f": 4
+   },
+   {
+    "H": 352,
+    "W": 112,
+    "head_h": 122,
+    "legvis": 49,
+    "sep": null,
+    "f": 5
+   },
+   {
+    "H": 352,
+    "W": 112,
+    "head_h": 122,
+    "legvis": 49,
+    "sep": null,
+    "f": 6
+   },
+   {
+    "H": 352,
+    "W": 113,
+    "head_h": 122,
+    "legvis": 49,
+    "sep": null,
+    "f": 7
+   },
+   {
+    "H": 352,
+    "W": 131,
+    "head_h": 122,
+    "legvis": 49,
+    "sep": null,
+    "f": 8
+   }
+  ],
+  "H": 352.0,
+  "head_h": 122.0,
+  "legvis": 49.0,
+  "sep1": null,
+  "sep5": null
+ },
+ "E APPROVED walk": {
+  "rows": [
+   {
+    "H": 351,
+    "W": 228,
+    "head_h": 138,
+    "legvis": 59,
+    "sep": 92.5,
+    "f": 1
+   },
+   {
+    "H": 345,
+    "W": 215,
+    "head_h": 137,
+    "legvis": 48,
+    "sep": 103.5,
+    "f": 2
+   },
+   {
+    "H": 349,
+    "W": 221,
+    "head_h": 137,
+    "legvis": 54,
+    "sep": 103.5,
+    "f": 3
+   },
+   {
+    "H": 359,
+    "W": 219,
+    "head_h": 137,
+    "legvis": 60,
+    "sep": null,
+    "f": 4
+   },
+   {
+    "H": 356,
+    "W": 222,
+    "head_h": 138,
+    "legvis": 56,
+    "sep": null,
+    "f": 5
+   },
+   {
+    "H": 348,
+    "W": 212,
+    "head_h": 138,
+    "legvis": 54,
+    "sep": 110.5,
+    "f": 6
+   },
+   {
+    "H": 352,
+    "W": 218,
+    "head_h": 138,
+    "legvis": 56,
+    "sep": 106.0,
+    "f": 7
+   },
+   {
+    "H": 352,
+    "W": 224,
+    "head_h": 138,
+    "legvis": 59,
+    "sep": 92.5,
+    "f": 8
+   }
+  ],
+  "H": 351.5,
+  "head_h": 138.0,
+  "legvis": 56.0,
+  "sep1": 92.5,
+  "sep5": null
+ },
+ "E APPROVED run": {
+  "rows": [
+   {
+    "H": 350,
+    "W": 298,
+    "head_h": 142,
+    "legvis": 51,
+    "sep": null,
+    "f": 1
+   },
+   {
+    "H": 351,
+    "W": 236,
+    "head_h": 139,
+    "legvis": 72,
+    "sep": null,
+    "f": 2
+   },
+   {
+    "H": 343,
+    "W": 206,
+    "head_h": 141,
+    "legvis": 69,
+    "sep": null,
+    "f": 3
+   },
+   {
+    "H": 348,
+    "W": 210,
+    "head_h": 142,
+    "legvis": 77,
+    "sep": null,
+    "f": 4
+   },
+   {
+    "H": 357,
+    "W": 223,
+    "head_h": 142,
+    "legvis": 50,
+    "sep": null,
+    "f": 5
+   },
+   {
+    "H": 352,
+    "W": 245,
+    "head_h": 142,
+    "legvis": 48,
+    "sep": null,
+    "f": 6
+   },
+   {
+    "H": 360,
+    "W": 248,
+    "head_h": 144,
+    "legvis": 75,
+    "sep": null,
+    "f": 7
+   },
+   {
+    "H": 335,
+    "W": 301,
+    "head_h": 144,
+    "legvis": 43,
+    "sep": null,
+    "f": 8
+   }
+  ],
+  "H": 350.5,
+  "head_h": 142.0,
+  "legvis": 60.0,
+  "sep1": null,
+  "sep5": null
+ },
+ "E stride4 walk": {
+  "rows": [
+   {
+    "H": 330,
+    "W": 288,
+    "head_h": 124,
+    "legvis": 21,
+    "sep": 202.0,
+    "f": 1
+   },
+   {
+    "H": 352,
+    "W": 260,
+    "head_h": 123,
+    "legvis": 53,
+    "sep": null,
+    "f": 2
+   },
+   {
+    "H": 352,
+    "W": 277,
+    "head_h": 122,
+    "legvis": 50,
+    "sep": null,
+    "f": 3
+   },
+   {
+    "H": 352,
+    "W": 271,
+    "head_h": 123,
+    "legvis": 45,
+    "sep": 141.0,
+    "f": 4
+   },
+   {
+    "H": 330,
+    "W": 288,
+    "head_h": 124,
+    "legvis": 21,
+    "sep": 201.5,
+    "f": 5
+   },
+   {
+    "H": 355,
+    "W": 273,
+    "head_h": 124,
+    "legvis": 50,
+    "sep": null,
+    "f": 6
+   },
+   {
+    "H": 353,
+    "W": 275,
+    "head_h": 123,
+    "legvis": 50,
+    "sep": null,
+    "f": 7
+   },
+   {
+    "H": 346,
+    "W": 276,
+    "head_h": 123,
+    "legvis": 52,
+    "sep": null,
+    "f": 8
+   }
+  ],
+  "H": 352.0,
+  "head_h": 123.0,
+  "legvis": 50.0,
+  "sep1": 202.0,
+  "sep5": 201.5
+ },
+ "E stride4 run": {
+  "rows": [
+   {
+    "H": 353,
+    "W": 310,
+    "head_h": 143,
+    "legvis": 52,
+    "sep": null,
+    "f": 1
+   },
+   {
+    "H": 357,
+    "W": 277,
+    "head_h": 146,
+    "legvis": 118,
+    "sep": null,
+    "f": 2
+   },
+   {
+    "H": 360,
+    "W": 292,
+    "head_h": 147,
+    "legvis": 137,
+    "sep": null,
+    "f": 3
+   },
+   {
+    "H": 326,
+    "W": 311,
+    "head_h": 143,
+    "legvis": 32,
+    "sep": 220.0,
+    "f": 4
+   },
+   {
+    "H": 354,
+    "W": 292,
+    "head_h": 143,
+    "legvis": 85,
+    "sep": null,
+    "f": 5
+   },
+   {
+    "H": 351,
+    "W": 290,
+    "head_h": 142,
+    "legvis": 55,
+    "sep": null,
+    "f": 6
+   },
+   {
+    "H": 352,
+    "W": 313,
+    "head_h": 142,
+    "legvis": 39,
+    "sep": null,
+    "f": 7
+   },
+   {
+    "H": 327,
+    "W": 318,
+    "head_h": 135,
+    "legvis": 37,
+    "sep": null,
+    "f": 8
+   }
+  ],
+  "H": 352.5,
+  "head_h": 143.0,
+  "legvis": 53.5,
+  "sep1": null,
+  "sep5": null
+ },
+ "W APPROVED idle": {
+  "rows": [
+   {
+    "H": 352,
+    "W": 191,
+    "head_h": 136,
+    "legvis": 49,
+    "sep": null,
+    "f": 1
+   },
+   {
+    "H": 352,
+    "W": 193,
+    "head_h": 135,
+    "legvis": 49,
+    "sep": null,
+    "f": 2
+   },
+   {
+    "H": 351,
+    "W": 192,
+    "head_h": 135,
+    "legvis": 49,
+    "sep": null,
+    "f": 3
+   },
+   {
+    "H": 352,
+    "W": 190,
+    "head_h": 136,
+    "legvis": 49,
+    "sep": null,
+    "f": 4
+   },
+   {
+    "H": 352,
+    "W": 190,
+    "head_h": 136,
+    "legvis": 49,
+    "sep": null,
+    "f": 5
+   },
+   {
+    "H": 352,
+    "W": 188,
+    "head_h": 135,
+    "legvis": 49,
+    "sep": null,
+    "f": 6
+   },
+   {
+    "H": 352,
+    "W": 191,
+    "head_h": 136,
+    "legvis": 49,
+    "sep": null,
+    "f": 7
+   },
+   {
+    "H": 352,
+    "W": 194,
+    "head_h": 135,
+    "legvis": 49,
+    "sep": null,
+    "f": 8
+   }
+  ],
+  "H": 352.0,
+  "head_h": 135.5,
+  "legvis": 49.0,
+  "sep1": null,
+  "sep5": null
+ },
+ "W APPROVED walk": {
+  "rows": [
+   {
+    "H": 350,
+    "W": 233,
+    "head_h": 137,
+    "legvis": 59,
+    "sep": 122.5,
+    "f": 1
+   },
+   {
+    "H": 349,
+    "W": 239,
+    "head_h": 137,
+    "legvis": 58,
+    "sep": 128.5,
+    "f": 2
+   },
+   {
+    "H": 353,
+    "W": 229,
+    "head_h": 137,
+    "legvis": 62,
+    "sep": 107.5,
+    "f": 3
+   },
+   {
+    "H": 353,
+    "W": 229,
+    "head_h": 137,
+    "legvis": 61,
+    "sep": 109.5,
+    "f": 4
+   },
+   {
+    "H": 346,
+    "W": 229,
+    "head_h": 137,
+    "legvis": 33,
+    "sep": 125.5,
+    "f": 5
+   },
+   {
+    "H": 346,
+    "W": 226,
+    "head_h": 137,
+    "legvis": 51,
+    "sep": 126.0,
+    "f": 6
+   },
+   {
+    "H": 350,
+    "W": 239,
+    "head_h": 137,
+    "legvis": 59,
+    "sep": 126.5,
+    "f": 7
+   },
+   {
+    "H": 350,
+    "W": 238,
+    "head_h": 137,
+    "legvis": 59,
+    "sep": 122.5,
+    "f": 8
+   }
+  ],
+  "H": 350.0,
+  "head_h": 137.0,
+  "legvis": 59.0,
+  "sep1": 122.5,
+  "sep5": 125.5
+ },
+ "W APPROVED run": {
+  "rows": [
+   {
+    "H": 342,
+    "W": 255,
+    "head_h": 145,
+    "legvis": 28,
+    "sep": null,
+    "f": 1
+   },
+   {
+    "H": 345,
+    "W": 231,
+    "head_h": 142,
+    "legvis": 131,
+    "sep": null,
+    "f": 2
+   },
+   {
+    "H": 357,
+    "W": 237,
+    "head_h": 145,
+    "legvis": 40,
+    "sep": null,
+    "f": 3
+   },
+   {
+    "H": 338,
+    "W": 281,
+    "head_h": 145,
+    "legvis": 36,
+    "sep": null,
+    "f": 4
+   },
+   {
+    "H": 360,
+    "W": 254,
+    "head_h": 142,
+    "legvis": 44,
+    "sep": null,
+    "f": 5
+   },
+   {
+    "H": 359,
+    "W": 215,
+    "head_h": 137,
+    "legvis": 140,
+    "sep": null,
+    "f": 6
+   },
+   {
+    "H": 357,
+    "W": 268,
+    "head_h": 145,
+    "legvis": 41,
+    "sep": 174.5,
+    "f": 7
+   },
+   {
+    "H": 341,
+    "W": 282,
+    "head_h": 145,
+    "legvis": 28,
+    "sep": null,
+    "f": 8
+   }
+  ],
+  "H": 351.0,
+  "head_h": 145.0,
+  "legvis": 40.5,
+  "sep1": null,
+  "sep5": null
+ },
+ "W stride4 walk": {
+  "rows": [
+   {
+    "H": 356,
+    "W": 210,
+    "head_h": 137,
+    "legvis": 50,
+    "sep": null,
+    "f": 1
+   },
+   {
+    "H": 359,
+    "W": 263,
+    "head_h": 139,
+    "legvis": 62,
+    "sep": 136.5,
+    "f": 2
+   },
+   {
+    "H": 358,
+    "W": 255,
+    "head_h": 140,
+    "legvis": 47,
+    "sep": null,
+    "f": 3
+   },
+   {
+    "H": 359,
+    "W": 258,
+    "head_h": 141,
+    "legvis": 49,
+    "sep": null,
+    "f": 4
+   },
+   {
+    "H": 336,
+    "W": 264,
+    "head_h": 137,
+    "legvis": 32,
+    "sep": 151.0,
+    "f": 5
+   },
+   {
+    "H": 346,
+    "W": 257,
+    "head_h": 137,
+    "legvis": 49,
+    "sep": null,
+    "f": 6
+   },
+   {
+    "H": 346,
+    "W": 256,
+    "head_h": 138,
+    "legvis": 42,
+    "sep": null,
+    "f": 7
+   },
+   {
+    "H": 339,
+    "W": 273,
+    "head_h": 139,
+    "legvis": 37,
+    "sep": 154.5,
+    "f": 8
+   }
+  ],
+  "H": 351.0,
+  "head_h": 138.5,
+  "legvis": 48.0,
+  "sep1": null,
+  "sep5": 151.0
+ },
+ "W stride4 run": {
+  "rows": [
+   {
+    "H": 335,
+    "W": 292,
+    "head_h": 157,
+    "legvis": 27,
+    "sep": 110.0,
+    "f": 1
+   },
+   {
+    "H": 360,
+    "W": 285,
+    "head_h": 157,
+    "legvis": 55,
+    "sep": null,
+    "f": 2
+   },
+   {
+    "H": 353,
+    "W": 291,
+    "head_h": 156,
+    "legvis": 39,
+    "sep": null,
+    "f": 3
+   },
+   {
+    "H": 328,
+    "W": 304,
+    "head_h": 154,
+    "legvis": 26,
+    "sep": 111.5,
+    "f": 4
+   },
+   {
+    "H": 352,
+    "W": 295,
+    "head_h": 155,
+    "legvis": 37,
+    "sep": null,
+    "f": 5
+   },
+   {
+    "H": 360,
+    "W": 295,
+    "head_h": 153,
+    "legvis": 55,
+    "sep": null,
+    "f": 6
+   },
+   {
+    "H": 351,
+    "W": 292,
+    "head_h": 153,
+    "legvis": 32,
+    "sep": null,
+    "f": 7
+   },
+   {
+    "H": 320,
+    "W": 313,
+    "head_h": 139,
+    "legvis": 21,
+    "sep": null,
+    "f": 8
+   }
+  ],
+  "H": 351.5,
+  "head_h": 154.5,
+  "legvis": 34.5,
+  "sep1": 110.0,
+  "sep5": null
+ }
+}

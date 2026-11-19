@@ -1,0 +1,110 @@
+{
+  "name": "boss_bachho_sheet_v1",
+  "cellW": 608,
+  "cellH": 426,
+  "cols": 6,
+  "rows": 6,
+  "total_frames": 33,
+  "animations": {
+    "idle": {
+      "frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fps": 5,
+      "pingpong": true
+    },
+    "move": {
+      "frames": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "fps": 6,
+      "loop": true
+    },
+    "telegraph_swipe": {
+      "frames": [
+        8,
+        9
+      ],
+      "fps": 3,
+      "loop": false
+    },
+    "attack_swipe": {
+      "frames": [
+        10,
+        11,
+        12
+      ],
+      "fps": 7,
+      "loop": false
+    },
+    "telegraph_roar": {
+      "frames": [
+        13,
+        14
+      ],
+      "fps": 3,
+      "loop": false
+    },
+    "attack_roar": {
+      "frames": [
+        15,
+        16,
+        17
+      ],
+      "fps": 6,
+      "loop": false
+    },
+    "telegraph_dash": {
+      "frames": [
+        18,
+        19
+      ],
+      "fps": 3,
+      "loop": false
+    },
+    "attack_dash": {
+      "frames": [
+        20,
+        21,
+        22
+      ],
+      "fps": 8,
+      "loop": false
+    },
+    "hit": {
+      "frames": [
+        23,
+        24
+      ],
+      "fps": 6,
+      "loop": false
+    },
+    "phase_transition": {
+      "frames": [
+        25,
+        26,
+        27,
+        28
+      ],
+      "fps": 5,
+      "loop": false
+    },
+    "death": {
+      "frames": [
+        29,
+        30,
+        31,
+        32
+      ],
+      "fps": 4,
+      "loop": false,
+      "hold_last": true
+    }
+  }
+}

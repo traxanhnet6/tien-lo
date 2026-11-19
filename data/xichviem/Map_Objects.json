@@ -1,0 +1,378 @@
+{
+ "objects": [
+  {
+   "id": "dais_portal_xv",
+   "sprite": "dais",
+   "anchor": [
+    1120,
+    1015
+   ],
+   "w": 300,
+   "decor": true
+  },
+  {
+   "id": "npc_xichviem_tientri",
+   "anchor": [
+    1020,
+    840
+   ],
+   "actor": {
+    "type": "npc",
+    "img": "assets/npc/npc_chapsu_thanhvan_v1.png",
+    "h": 118,
+    "label": "Th\u1ee7 H\u1ed9 Gi\u1ea3 X\u00edch Vi\u00eam",
+    "shadowW": 60
+   },
+   "foot": [
+    [
+     1020,
+     840,
+     30
+    ]
+   ]
+  },
+  {
+   "id": "burner_xv_l",
+   "sprite": "burner",
+   "anchor": [
+    900,
+    780
+   ],
+   "w": 110,
+   "foot": [
+    [
+     900,
+     780,
+     33
+    ]
+   ]
+  },
+  {
+   "id": "burner_xv_r",
+   "sprite": "burner",
+   "anchor": [
+    1340,
+    780
+   ],
+   "w": 110,
+   "foot": [
+    [
+     1340,
+     780,
+     33
+    ]
+   ]
+  },
+  {
+   "id": "stele_xv",
+   "sprite": "stele",
+   "anchor": [
+    800,
+    880
+   ],
+   "w": 95,
+   "foot": [
+    [
+     800,
+     880,
+     25
+    ]
+   ]
+  },
+  {
+   "id": "rocks_xv_l",
+   "sprite": "rocks",
+   "anchor": [
+    500,
+    620
+   ],
+   "w": 130,
+   "foot": [
+    [
+     500,
+     620,
+     40
+    ]
+   ]
+  },
+  {
+   "id": "rocks_xv_r",
+   "sprite": "rocks",
+   "anchor": [
+    1720,
+    620
+   ],
+   "w": 130,
+   "foot": [
+    [
+     1720,
+     620,
+     40
+    ]
+   ]
+  },
+  {
+   "id": "node_viemtinh_1",
+   "sprite": "flower_patch",
+   "anchor": [
+    720,
+    680
+   ],
+   "w": 110,
+   "decor": true
+  },
+  {
+   "id": "node_viemtinh_2",
+   "sprite": "flower_patch",
+   "anchor": [
+    920,
+    600
+   ],
+   "w": 110,
+   "decor": true
+  },
+  {
+   "id": "node_viemtinh_3",
+   "sprite": "flower_patch",
+   "anchor": [
+    1320,
+    600
+   ],
+   "w": 110,
+   "decor": true
+  },
+  {
+   "id": "node_viemtinh_4",
+   "sprite": "flower_patch",
+   "anchor": [
+    1520,
+    680
+   ],
+   "w": 110,
+   "decor": true
+  },
+  {
+   "id": "node_viemtinh_5",
+   "sprite": "flower_patch",
+   "anchor": [
+    1120,
+    700
+   ],
+   "w": 110,
+   "decor": true
+  },
+  {
+   "id": "mon_hoatinh_1",
+   "anchor": [
+    800,
+    640
+   ],
+   "actor": {
+    "type": "monster",
+    "img": "assets/monsters/monster_hoatinh_sheet_v1.png",
+    "h": 95,
+    "label": "H\u1ecfa Tinh Th\u1eed",
+    "shadowW": 56
+   },
+   "foot": [
+    [
+     800,
+     640,
+     28
+    ]
+   ]
+  },
+  {
+   "id": "mon_hoatinh_2",
+   "anchor": [
+    980,
+    660
+   ],
+   "actor": {
+    "type": "monster",
+    "img": "assets/monsters/monster_hoatinh_sheet_v1.png",
+    "h": 95,
+    "label": "H\u1ecfa Tinh Th\u1eed",
+    "shadowW": 56
+   },
+   "foot": [
+    [
+     980,
+     660,
+     28
+    ]
+   ]
+  },
+  {
+   "id": "mon_hoatinh_3",
+   "anchor": [
+    1260,
+    660
+   ],
+   "actor": {
+    "type": "monster",
+    "img": "assets/monsters/monster_hoatinh_sheet_v1.png",
+    "h": 95,
+    "label": "H\u1ecfa Tinh Th\u1eed",
+    "shadowW": 56
+   },
+   "foot": [
+    [
+     1260,
+     660,
+     28
+    ]
+   ]
+  },
+  {
+   "id": "mon_hoatinh_4",
+   "anchor": [
+    1440,
+    640
+   ],
+   "actor": {
+    "type": "monster",
+    "img": "assets/monsters/monster_hoatinh_sheet_v1.png",
+    "h": 95,
+    "label": "H\u1ecfa Tinh Th\u1eed",
+    "shadowW": 56
+   },
+   "foot": [
+    [
+     1440,
+     640,
+     28
+    ]
+   ]
+  },
+  {
+   "id": "mon_hoatinh_5",
+   "anchor": [
+    1120,
+    600
+   ],
+   "actor": {
+    "type": "monster",
+    "img": "assets/monsters/monster_hoatinh_sheet_v1.png",
+    "h": 95,
+    "label": "H\u1ecfa Tinh Th\u1eed",
+    "shadowW": 56
+   },
+   "foot": [
+    [
+     1120,
+     600,
+     28
+    ]
+   ]
+  },
+  {
+   "id": "mon_hoanhamlang_1",
+   "anchor": [
+    650,
+    560
+   ],
+   "actor": {
+    "type": "monster",
+    "img": "assets/monsters/monster_hoanhamlang_sheet_v1.png",
+    "h": 110,
+    "label": "H\u1ecfa Nham Lang",
+    "shadowW": 64
+   },
+   "foot": [
+    [
+     650,
+     560,
+     32
+    ]
+   ]
+  },
+  {
+   "id": "mon_hoanhamlang_2",
+   "anchor": [
+    1590,
+    560
+   ],
+   "actor": {
+    "type": "monster",
+    "img": "assets/monsters/monster_hoanhamlang_sheet_v1.png",
+    "h": 110,
+    "label": "H\u1ecfa Nham Lang",
+    "shadowW": 64
+   },
+   "foot": [
+    [
+     1590,
+     560,
+     32
+    ]
+   ]
+  },
+  {
+   "id": "mon_viemnham_1",
+   "anchor": [
+    860,
+    480
+   ],
+   "actor": {
+    "type": "monster",
+    "img": "assets/monsters/monster_viemnham_sheet_v1.png",
+    "h": 145,
+    "label": "Vi\u00eam Nham Kh\u00f4i L\u1ed7i",
+    "shadowW": 72
+   },
+   "foot": [
+    [
+     860,
+     480,
+     36
+    ]
+   ]
+  },
+  {
+   "id": "mon_xichviem_elite",
+   "anchor": [
+    1380,
+    440
+   ],
+   "actor": {
+    "type": "monster",
+    "img": "assets/monsters/monster_xichviem_elite_sheet_v1.png",
+    "h": 185,
+    "label": "X\u00edch Vi\u00eam Tinh Anh",
+    "shadowW": 92
+   },
+   "foot": [
+    [
+     1380,
+     440,
+     46
+    ]
+   ]
+  },
+  {
+   "id": "boss_xichviem",
+   "anchor": [
+    1120,
+    420
+   ],
+   "actor": {
+    "type": "boss",
+    "img": "assets/boss/boss_xichviem_v1.png",
+    "h": 330,
+    "label": "X\u00edch Vi\u00eam Ma Qu\u00e2n",
+    "shadowW": 190,
+    "bob": 2.2,
+    "bobSpeed": 0.7,
+    "labelLift": 26
+   },
+   "foot": [
+    [
+     1120,
+     420,
+     95
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "monster_linhlang_full_sheet_v1",
+  "cellW": 96,
+  "cellH": 96,
+  "cols": 8,
+  "rows": 1,
+  "animations": {
+    "idle": {
+      "frames": [
+        0
+      ],
+      "fps": 1
+    },
+    "move": {
+      "frames": [
+        1,
+        2,
+        3
+      ],
+      "fps": 8,
+      "loop": true
+    },
+    "telegraph": {
+      "frames": [
+        4
+      ],
+      "fps": 2
+    },
+    "attack": {
+      "frames": [
+        4
+      ],
+      "fps": 4
+    },
+    "hit": {
+      "frames": [
+        5
+      ],
+      "fps": 4
+    },
+    "death": {
+      "frames": [
+        6,
+        7
+      ],
+      "fps": 3,
+      "hold_last": true
+    }
+  }
+}

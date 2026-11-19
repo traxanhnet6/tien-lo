@@ -1,0 +1,1676 @@
+{
+ "objects": [
+  {
+   "id": "gate_sm",
+   "sprite": "gate",
+   "anchor": [
+    2200,
+    2362
+   ],
+   "w": 430,
+   "foot": [
+    [
+     "rect",
+     2011,
+     2336,
+     2103,
+     2368
+    ],
+    [
+     "rect",
+     2297,
+     2336,
+     2389,
+     2368
+    ]
+   ],
+   "kind": "split",
+   "roof_front_dy": -318,
+   "passThrough": true
+  },
+  {
+   "id": "lantern_sm_l",
+   "sprite": "lantern",
+   "anchor": [
+    1965,
+    2405
+   ],
+   "w": 54,
+   "foot": [
+    [
+     1965,
+     2405,
+     30
+    ]
+   ]
+  },
+  {
+   "id": "lantern_sm_r",
+   "sprite": "lantern",
+   "anchor": [
+    2435,
+    2405
+   ],
+   "w": 54,
+   "foot": [
+    [
+     2435,
+     2405,
+     30
+    ]
+   ]
+  },
+  {
+   "id": "stele_sm_l",
+   "sprite": "stele",
+   "anchor": [
+    1740,
+    2330
+   ],
+   "w": 95,
+   "foot": [
+    [
+     1740,
+     2330,
+     22
+    ]
+   ]
+  },
+  {
+   "id": "stele_sm_r",
+   "sprite": "stele",
+   "anchor": [
+    2660,
+    2330
+   ],
+   "w": 95,
+   "foot": [
+    [
+     2660,
+     2330,
+     22
+    ]
+   ]
+  },
+  {
+   "id": "tree_sm_wind",
+   "sprite": "tree_pine_wind",
+   "anchor": [
+    1620,
+    2260
+   ],
+   "w": 200,
+   "foot": [
+    [
+     1620,
+     2260,
+     30
+    ]
+   ]
+  },
+  {
+   "id": "tree_sm_blossom",
+   "sprite": "tree_blossom",
+   "anchor": [
+    3050,
+    2240
+   ],
+   "w": 210,
+   "foot": [
+    [
+     3050,
+     2240,
+     31
+    ]
+   ]
+  },
+  {
+   "id": "rocks_sm",
+   "sprite": "rocks",
+   "anchor": [
+    3560,
+    2380
+   ],
+   "w": 130,
+   "foot": [
+    [
+     3560,
+     2380,
+     40
+    ]
+   ]
+  },
+  {
+   "id": "bush_sm_1",
+   "sprite": "bush_flower",
+   "anchor": [
+    1850,
+    2540
+   ],
+   "w": 95,
+   "decor": true
+  },
+  {
+   "id": "bush_sm_2",
+   "sprite": "bush_flower",
+   "anchor": [
+    2680,
+    2520
+   ],
+   "w": 95,
+   "decor": true
+  },
+  {
+   "id": "tuft_sm",
+   "sprite": "grass_tuft",
+   "anchor": [
+    3300,
+    2180
+   ],
+   "w": 90,
+   "decor": true
+  },
+  {
+   "id": "npc_tiendong",
+   "anchor": [
+    2405,
+    2425
+   ],
+   "actor": {
+    "type": "npc",
+    "img": "assets/npc/npc_tiendong_v1.png",
+    "h": 110,
+    "label": "Ti\u00ean \u0110\u1ed3ng",
+    "shadowW": 60
+   },
+   "foot": [
+    [
+     2405,
+     2425,
+     30
+    ]
+   ]
+  },
+  {
+   "id": "dais_qt",
+   "sprite": "dais",
+   "anchor": [
+    2820,
+    1572
+   ],
+   "w": 330,
+   "decor": true
+  },
+  {
+   "id": "npc_chapsu",
+   "anchor": [
+    2665,
+    1615
+   ],
+   "actor": {
+    "type": "npc",
+    "img": "assets/npc/npc_chapsu_thanhvan_v1.png",
+    "h": 118,
+    "label": "Ch\u1ea5p S\u1ef1",
+    "shadowW": 60
+   },
+   "foot": [
+    [
+     2665,
+     1615,
+     30
+    ]
+   ]
+  },
+  {
+   "id": "stall_dansu",
+   "sprite": "stall_a",
+   "anchor": [
+    1560,
+    1700
+   ],
+   "w": 240,
+   "foot": [
+    [
+     "rect",
+     1452,
+     1668,
+     1668,
+     1712
+    ]
+   ]
+  },
+  {
+   "id": "npc_dansu",
+   "anchor": [
+    1560,
+    1795
+   ],
+   "actor": {
+    "type": "npc",
+    "img": "assets/npc/npc_dansu_v1.png",
+    "h": 118,
+    "label": "\u0110an D\u01b0\u1ee3c S\u01b0",
+    "shadowW": 60
+   },
+   "foot": [
+    [
+     1560,
+     1795,
+     30
+    ]
+   ]
+  },
+  {
+   "id": "stall_herb",
+   "sprite": "stall_b",
+   "anchor": [
+    1560,
+    2010
+   ],
+   "w": 230,
+   "foot": [
+    [
+     "rect",
+     1457,
+     1978,
+     1663,
+     2022
+    ]
+   ]
+  },
+  {
+   "id": "stall_forge",
+   "sprite": "stall_b",
+   "anchor": [
+    3920,
+    1720
+   ],
+   "w": 250,
+   "foot": [
+    [
+     "rect",
+     3808,
+     1688,
+     4032,
+     1732
+    ]
+   ]
+  },
+  {
+   "id": "npc_thoren",
+   "anchor": [
+    3920,
+    1820
+   ],
+   "actor": {
+    "type": "npc",
+    "img": "assets/npc/npc_thoren_v1.png",
+    "h": 118,
+    "label": "Th\u1ee3 R\u00e8n",
+    "shadowW": 60
+   },
+   "foot": [
+    [
+     3920,
+     1820,
+     30
+    ]
+   ]
+  },
+  {
+   "id": "rack_forge",
+   "sprite": "rack",
+   "anchor": [
+    4080,
+    1675
+   ],
+   "w": 115,
+   "foot": [
+    [
+     "rect",
+     4028,
+     1648,
+     4132,
+     1682
+    ]
+   ]
+  },
+  {
+   "id": "weights_forge",
+   "sprite": "weights",
+   "anchor": [
+    3785,
+    1855
+   ],
+   "w": 105,
+   "foot": [
+    [
+     3785,
+     1855,
+     36
+    ]
+   ]
+  },
+  {
+   "id": "stall_thuongnhan",
+   "sprite": "stall_a",
+   "anchor": [
+    3520,
+    2005
+   ],
+   "w": 240,
+   "foot": [
+    [
+     "rect",
+     3412,
+     1973,
+     3628,
+     2017
+    ]
+   ]
+  },
+  {
+   "id": "npc_thuongnhan",
+   "anchor": [
+    3520,
+    2095
+   ],
+   "actor": {
+    "type": "npc",
+    "img": "assets/npc/npc_thuongnhan_v1.png",
+    "h": 118,
+    "label": "Th\u01b0\u01a1ng Nh\u00e2n",
+    "shadowW": 60
+   },
+   "foot": [
+    [
+     3520,
+     2095,
+     30
+    ]
+   ]
+  },
+  {
+   "id": "lantern_qt_l",
+   "sprite": "lantern",
+   "anchor": [
+    2615,
+    1745
+   ],
+   "w": 54,
+   "foot": [
+    [
+     2615,
+     1745,
+     30
+    ]
+   ]
+  },
+  {
+   "id": "lantern_qt_r",
+   "sprite": "lantern",
+   "anchor": [
+    3025,
+    1745
+   ],
+   "w": 54,
+   "foot": [
+    [
+     3025,
+     1745,
+     30
+    ]
+   ]
+  },
+  {
+   "id": "tree_qt_ancient",
+   "sprite": "tree_ancient",
+   "anchor": [
+    1750,
+    1655
+   ],
+   "w": 240,
+   "foot": [
+    [
+     1750,
+     1655,
+     36
+    ]
+   ]
+  },
+  {
+   "id": "tree_qt_pine",
+   "sprite": "tree_pine",
+   "anchor": [
+    4150,
+    1950
+   ],
+   "w": 200,
+   "foot": [
+    [
+     4150,
+     1950,
+     30
+    ]
+   ]
+  },
+  {
+   "id": "tree_qt_blossom",
+   "sprite": "tree_blossom",
+   "anchor": [
+    3620,
+    1600
+   ],
+   "w": 190,
+   "foot": [
+    [
+     3620,
+     1600,
+     29
+    ]
+   ]
+  },
+  {
+   "id": "rocks_qt",
+   "sprite": "rocks",
+   "anchor": [
+    2050,
+    2055
+   ],
+   "w": 120,
+   "foot": [
+    [
+     2050,
+     2055,
+     37
+    ]
+   ]
+  },
+  {
+   "id": "flowers_qt_1",
+   "sprite": "flower_patch",
+   "anchor": [
+    2400,
+    1900
+   ],
+   "w": 120,
+   "decor": true
+  },
+  {
+   "id": "flowers_qt_2",
+   "sprite": "flower_patch",
+   "anchor": [
+    3150,
+    1950
+   ],
+   "w": 120,
+   "decor": true
+  },
+  {
+   "id": "bush_qt",
+   "sprite": "bush_green",
+   "anchor": [
+    1900,
+    1900
+   ],
+   "w": 100,
+   "decor": true
+  },
+  {
+   "id": "daidien_hall",
+   "sprite": "daidien",
+   "anchor": [
+    2200,
+    1015
+   ],
+   "w": 900,
+   "foot": [
+    [
+     "rect",
+     1804,
+     895,
+     2596,
+     1020
+    ]
+   ],
+   "kind": "split",
+   "roof_front_dy": -241
+  },
+  {
+   "id": "npc_chuongmon",
+   "anchor": [
+    2200,
+    1215
+   ],
+   "actor": {
+    "type": "npc",
+    "img": "assets/npc/npc_chuongmon_v1.png",
+    "h": 122,
+    "label": "Ch\u01b0\u1edfng M\u00f4n",
+    "shadowW": 60
+   },
+   "foot": [
+    [
+     2200,
+     1215,
+     30
+    ]
+   ]
+  },
+  {
+   "id": "burner_dd_l",
+   "sprite": "burner",
+   "anchor": [
+    1905,
+    1250
+   ],
+   "w": 120,
+   "foot": [
+    [
+     1905,
+     1250,
+     36
+    ]
+   ]
+  },
+  {
+   "id": "burner_dd_r",
+   "sprite": "burner",
+   "anchor": [
+    2495,
+    1250
+   ],
+   "w": 120,
+   "foot": [
+    [
+     2495,
+     1250,
+     36
+    ]
+   ]
+  },
+  {
+   "id": "lantern_dd_l",
+   "sprite": "lantern",
+   "anchor": [
+    2050,
+    1085
+   ],
+   "w": 54,
+   "foot": [
+    [
+     2050,
+     1085,
+     30
+    ]
+   ]
+  },
+  {
+   "id": "lantern_dd_r",
+   "sprite": "lantern",
+   "anchor": [
+    2350,
+    1085
+   ],
+   "w": 54,
+   "foot": [
+    [
+     2350,
+     1085,
+     30
+    ]
+   ]
+  },
+  {
+   "id": "tree_dd_wind",
+   "sprite": "tree_pine_wind",
+   "anchor": [
+    1560,
+    1000
+   ],
+   "w": 210,
+   "foot": [
+    [
+     1560,
+     1000,
+     32
+    ]
+   ]
+  },
+  {
+   "id": "tree_dd_ancient",
+   "sprite": "tree_ancient",
+   "anchor": [
+    2880,
+    985
+   ],
+   "w": 230,
+   "foot": [
+    [
+     2880,
+     985,
+     35
+    ]
+   ]
+  },
+  {
+   "id": "stele_dd",
+   "sprite": "stele",
+   "anchor": [
+    1700,
+    1335
+   ],
+   "w": 95,
+   "foot": [
+    [
+     1700,
+     1335,
+     22
+    ]
+   ]
+  },
+  {
+   "id": "bush_dd",
+   "sprite": "bush_flower",
+   "anchor": [
+    2650,
+    1380
+   ],
+   "w": 95,
+   "decor": true
+  },
+  {
+   "id": "dais_portal_hs",
+   "sprite": "dais",
+   "anchor": [
+    1560,
+    746
+   ],
+   "w": 300,
+   "decor": true
+  },
+  {
+   "id": "lantern_portal_l",
+   "sprite": "lantern",
+   "anchor": [
+    1450,
+    828
+   ],
+   "w": 54,
+   "foot": [
+    [
+     1450,
+     828,
+     30
+    ]
+   ]
+  },
+  {
+   "id": "lantern_portal_r",
+   "sprite": "lantern",
+   "anchor": [
+    1670,
+    828
+   ],
+   "w": 54,
+   "foot": [
+    [
+     1670,
+     828,
+     30
+    ]
+   ]
+  },
+  {
+   "id": "stele_portal",
+   "sprite": "stele",
+   "anchor": [
+    1760,
+    835
+   ],
+   "w": 95,
+   "foot": [
+    [
+     1760,
+     835,
+     22
+    ]
+   ]
+  },
+  {
+   "id": "npc_truonglao",
+   "anchor": [
+    3380,
+    985
+   ],
+   "actor": {
+    "type": "npc",
+    "img": "assets/npc/npc_truonglao_vo_v1.png",
+    "h": 120,
+    "label": "Tr\u01b0\u1edfng L\u00e3o V\u00f5",
+    "shadowW": 60
+   },
+   "foot": [
+    [
+     3380,
+     985,
+     30
+    ]
+   ]
+  },
+  {
+   "id": "dummy_lv1",
+   "sprite": "dummy",
+   "anchor": [
+    3980,
+    995
+   ],
+   "w": 100,
+   "foot": [
+    [
+     3980,
+     995,
+     20
+    ]
+   ]
+  },
+  {
+   "id": "dummy_lv2",
+   "sprite": "dummy",
+   "anchor": [
+    4120,
+    1075
+   ],
+   "w": 100,
+   "foot": [
+    [
+     4120,
+     1075,
+     20
+    ]
+   ]
+  },
+  {
+   "id": "dummy_lv3",
+   "sprite": "dummy",
+   "anchor": [
+    4050,
+    1245
+   ],
+   "w": 100,
+   "foot": [
+    [
+     4050,
+     1245,
+     20
+    ]
+   ]
+  },
+  {
+   "id": "rack_lv1",
+   "sprite": "rack",
+   "anchor": [
+    3450,
+    905
+   ],
+   "w": 120,
+   "foot": [
+    [
+     "rect",
+     3395,
+     878,
+     3505,
+     912
+    ]
+   ]
+  },
+  {
+   "id": "rack_lv2",
+   "sprite": "rack",
+   "anchor": [
+    4180,
+    905
+   ],
+   "w": 120,
+   "foot": [
+    [
+     "rect",
+     4125,
+     878,
+     4235,
+     912
+    ]
+   ]
+  },
+  {
+   "id": "weights_lv",
+   "sprite": "weights",
+   "anchor": [
+    3620,
+    920
+   ],
+   "w": 105,
+   "foot": [
+    [
+     3620,
+     920,
+     36
+    ]
+   ]
+  },
+  {
+   "id": "npc_kiemsi",
+   "anchor": [
+    3760,
+    1255
+   ],
+   "actor": {
+    "type": "npc",
+    "img": "assets/npc/npc_kiemsi_v1.png",
+    "h": 118,
+    "label": "\u0110\u1ec7 T\u1eed Luy\u1ec7n V\u00f5",
+    "shadowW": 60
+   },
+   "foot": [
+    [
+     3760,
+     1255,
+     30
+    ]
+   ]
+  },
+  {
+   "id": "rocks_lv",
+   "sprite": "rocks",
+   "anchor": [
+    3180,
+    1330
+   ],
+   "w": 120,
+   "foot": [
+    [
+     3180,
+     1330,
+     37
+    ]
+   ]
+  },
+  {
+   "id": "lantern_lv",
+   "sprite": "lantern",
+   "anchor": [
+    3220,
+    1010
+   ],
+   "w": 54,
+   "foot": [
+    [
+     3220,
+     1010,
+     30
+    ]
+   ]
+  },
+  {
+   "id": "bush_lv",
+   "sprite": "bush_green",
+   "anchor": [
+    4250,
+    1300
+   ],
+   "w": 100,
+   "decor": true
+  },
+  {
+   "id": "rockstand_lt",
+   "sprite": "rock_stand",
+   "anchor": [
+    3480,
+    480
+   ],
+   "w": 100,
+   "foot": [
+    [
+     3480,
+     480,
+     30
+    ]
+   ]
+  },
+  {
+   "id": "lantern_lt",
+   "sprite": "lantern",
+   "anchor": [
+    3260,
+    868
+   ],
+   "w": 54,
+   "foot": [
+    [
+     3260,
+     868,
+     30
+    ]
+   ]
+  },
+  {
+   "id": "flowers_lt_1",
+   "sprite": "flower_patch",
+   "anchor": [
+    3250,
+    700
+   ],
+   "w": 110,
+   "decor": true
+  },
+  {
+   "id": "flowers_lt_2",
+   "sprite": "flower_patch",
+   "anchor": [
+    3950,
+    645
+   ],
+   "w": 110,
+   "decor": true
+  },
+  {
+   "id": "bush_lt",
+   "sprite": "bush_flower",
+   "anchor": [
+    3650,
+    762
+   ],
+   "w": 95,
+   "decor": true
+  },
+  {
+   "id": "mon_trucyeu_1",
+   "anchor": [
+    520,
+    1560
+   ],
+   "actor": {
+    "type": "monster",
+    "img": "assets/monsters/monster_trucyeu_sheet_v1.png",
+    "h": 190,
+    "label": "Tr\u00fac Y\u00eau",
+    "shadowW": 80,
+    "sheet": {
+     "cellW": 200,
+     "cellH": 220,
+     "cols": 4,
+     "frames": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "fps": 3
+    }
+   },
+   "foot": [
+    [
+     520,
+     1560,
+     40
+    ]
+   ]
+  },
+  {
+   "id": "mon_trucyeu_2",
+   "anchor": [
+    820,
+    1980
+   ],
+   "actor": {
+    "type": "monster",
+    "img": "assets/monsters/monster_trucyeu_sheet_v1.png",
+    "h": 190,
+    "label": "Tr\u00fac Y\u00eau",
+    "shadowW": 80,
+    "sheet": {
+     "cellW": 200,
+     "cellH": 220,
+     "cols": 4,
+     "frames": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "fps": 3
+    }
+   },
+   "foot": [
+    [
+     820,
+     1980,
+     40
+    ]
+   ]
+  },
+  {
+   "id": "mon_trucyeu_3",
+   "anchor": [
+    420,
+    2260
+   ],
+   "actor": {
+    "type": "monster",
+    "img": "assets/monsters/monster_trucyeu_sheet_v1.png",
+    "h": 190,
+    "label": "Tr\u00fac Y\u00eau",
+    "shadowW": 80,
+    "sheet": {
+     "cellW": 200,
+     "cellH": 220,
+     "cols": 4,
+     "frames": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "fps": 3
+    }
+   },
+   "foot": [
+    [
+     420,
+     2260,
+     40
+    ]
+   ]
+  },
+  {
+   "id": "mon_trucyeu_4",
+   "anchor": [
+    1010,
+    2200
+   ],
+   "actor": {
+    "type": "monster",
+    "img": "assets/monsters/monster_trucyeu_sheet_v1.png",
+    "h": 190,
+    "label": "Tr\u00fac Y\u00eau",
+    "shadowW": 80,
+    "sheet": {
+     "cellW": 200,
+     "cellH": 220,
+     "cols": 4,
+     "frames": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "fps": 3
+    }
+   },
+   "foot": [
+    [
+     1010,
+     2200,
+     40
+    ]
+   ]
+  },
+  {
+   "id": "mon_trucyeu_5",
+   "anchor": [
+    280,
+    1700
+   ],
+   "actor": {
+    "type": "monster",
+    "img": "assets/monsters/monster_trucyeu_sheet_v1.png",
+    "h": 190,
+    "label": "Tr\u00fac Y\u00eau",
+    "shadowW": 80,
+    "sheet": {
+     "cellW": 200,
+     "cellH": 220,
+     "cols": 4,
+     "frames": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "fps": 3
+    }
+   },
+   "foot": [
+    [
+     280,
+     1700,
+     40
+    ]
+   ]
+  },
+  {
+   "id": "mon_linhlang_1",
+   "anchor": [
+    950,
+    1660
+   ],
+   "actor": {
+    "type": "monster",
+    "img": "assets/monsters/monster_linhlang_sheet_v1.png",
+    "h": 92,
+    "label": "Linh Lang",
+    "shadowW": 60,
+    "sheet": {
+     "cellW": 96,
+     "cellH": 96,
+     "cols": 6,
+     "frames": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "fps": 3,
+     "pingpong": true
+    }
+   },
+   "foot": [
+    [
+     950,
+     1660,
+     30
+    ]
+   ]
+  },
+  {
+   "id": "mon_linhlang_2",
+   "anchor": [
+    640,
+    2140
+   ],
+   "actor": {
+    "type": "monster",
+    "img": "assets/monsters/monster_linhlang_sheet_v1.png",
+    "h": 92,
+    "label": "Linh Lang",
+    "shadowW": 60,
+    "sheet": {
+     "cellW": 96,
+     "cellH": 96,
+     "cols": 6,
+     "frames": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "fps": 3,
+     "pingpong": true
+    }
+   },
+   "foot": [
+    [
+     640,
+     2140,
+     30
+    ]
+   ]
+  },
+  {
+   "id": "bamboo_tl_0",
+   "sprite": "bamboo",
+   "anchor": [
+    300,
+    1420
+   ],
+   "w": 120,
+   "foot": [
+    [
+     300,
+     1420,
+     26
+    ]
+   ]
+  },
+  {
+   "id": "bamboo_tl_1",
+   "sprite": "bamboo",
+   "anchor": [
+    1080,
+    1500
+   ],
+   "w": 120,
+   "foot": [
+    [
+     1080,
+     1500,
+     26
+    ]
+   ]
+  },
+  {
+   "id": "bamboo_tl_2",
+   "sprite": "bamboo",
+   "anchor": [
+    240,
+    1780
+   ],
+   "w": 120,
+   "foot": [
+    [
+     240,
+     1780,
+     26
+    ]
+   ]
+  },
+  {
+   "id": "bamboo_tl_3",
+   "sprite": "bamboo",
+   "anchor": [
+    1150,
+    2050
+   ],
+   "w": 120,
+   "foot": [
+    [
+     1150,
+     2050,
+     26
+    ]
+   ]
+  },
+  {
+   "id": "bamboo_tl_4",
+   "sprite": "bamboo",
+   "anchor": [
+    900,
+    2380
+   ],
+   "w": 120,
+   "foot": [
+    [
+     900,
+     2380,
+     26
+    ]
+   ]
+  },
+  {
+   "id": "bamboo_tl_5",
+   "sprite": "bamboo",
+   "anchor": [
+    350,
+    2480
+   ],
+   "w": 120,
+   "foot": [
+    [
+     350,
+     2480,
+     26
+    ]
+   ]
+  },
+  {
+   "id": "tree_tl_pine",
+   "sprite": "tree_pine",
+   "anchor": [
+    700,
+    1400
+   ],
+   "w": 200,
+   "foot": [
+    [
+     700,
+     1400,
+     30
+    ]
+   ]
+  },
+  {
+   "id": "tree_tl_willow",
+   "sprite": "tree_willow",
+   "anchor": [
+    1080,
+    2280
+   ],
+   "w": 220,
+   "foot": [
+    [
+     1080,
+     2280,
+     33
+    ]
+   ]
+  },
+  {
+   "id": "tree_tl_ancient",
+   "sprite": "tree_ancient",
+   "anchor": [
+    180,
+    2050
+   ],
+   "w": 240,
+   "foot": [
+    [
+     180,
+     2050,
+     36
+    ]
+   ]
+  },
+  {
+   "id": "rocks_tl",
+   "sprite": "rocks",
+   "anchor": [
+    980,
+    1820
+   ],
+   "w": 110,
+   "foot": [
+    [
+     980,
+     1820,
+     34
+    ]
+   ]
+  },
+  {
+   "id": "bush_tl_1",
+   "sprite": "bush_green",
+   "anchor": [
+    600,
+    1750
+   ],
+   "w": 100,
+   "decor": true
+  },
+  {
+   "id": "bush_tl_2",
+   "sprite": "bush_flower",
+   "anchor": [
+    760,
+    2320
+   ],
+   "w": 95,
+   "decor": true
+  },
+  {
+   "id": "flowers_tl",
+   "sprite": "flower_patch",
+   "anchor": [
+    480,
+    1900
+   ],
+   "w": 110,
+   "decor": true
+  },
+  {
+   "id": "herb_node_1",
+   "sprite": "flower_patch",
+   "anchor": [
+    560,
+    1620
+   ],
+   "w": 120,
+   "decor": true
+  },
+  {
+   "id": "herb_node_2",
+   "sprite": "flower_patch",
+   "anchor": [
+    700,
+    1900
+   ],
+   "w": 120,
+   "decor": true
+  },
+  {
+   "id": "herb_node_3",
+   "sprite": "flower_patch",
+   "anchor": [
+    450,
+    2180
+   ],
+   "w": 120,
+   "decor": true
+  },
+  {
+   "id": "herb_node_4",
+   "sprite": "flower_patch",
+   "anchor": [
+    900,
+    2050
+   ],
+   "w": 120,
+   "decor": true
+  },
+  {
+   "id": "herb_node_5",
+   "sprite": "flower_patch",
+   "anchor": [
+    620,
+    1480
+   ],
+   "w": 120,
+   "decor": true
+  },
+  {
+   "id": "cave_va",
+   "sprite": "cave_full",
+   "anchor": [
+    470,
+    545
+   ],
+   "w": 600,
+   "foot": [
+    [
+     "rect",
+     150,
+     170,
+     830,
+     560
+    ]
+   ]
+  },
+  {
+   "id": "npc_thuve",
+   "anchor": [
+    720,
+    645
+   ],
+   "actor": {
+    "type": "npc",
+    "img": "assets/npc/npc_thuve_v1.png",
+    "h": 118,
+    "label": "Th\u1ee7 V\u1ec7",
+    "shadowW": 60
+   },
+   "foot": [
+    [
+     720,
+     645,
+     30
+    ]
+   ]
+  },
+  {
+   "id": "mon_thachve_1",
+   "anchor": [
+    880,
+    750
+   ],
+   "actor": {
+    "type": "monster",
+    "img": "assets/monsters/monster_thachve_sheet_v1.png",
+    "h": 130,
+    "label": "Th\u1ea1ch V\u1ec7",
+    "shadowW": 72,
+    "sheet": {
+     "cellW": 96,
+     "cellH": 96,
+     "cols": 6,
+     "frames": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "fps": 3,
+     "pingpong": true
+    }
+   },
+   "foot": [
+    [
+     880,
+     750,
+     36
+    ]
+   ]
+  },
+  {
+   "id": "mon_thachve_2",
+   "anchor": [
+    1200,
+    1080
+   ],
+   "actor": {
+    "type": "monster",
+    "img": "assets/monsters/monster_thachve_sheet_v1.png",
+    "h": 130,
+    "label": "Th\u1ea1ch V\u1ec7",
+    "shadowW": 72,
+    "sheet": {
+     "cellW": 96,
+     "cellH": 96,
+     "cols": 6,
+     "frames": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "fps": 3,
+     "pingpong": true
+    }
+   },
+   "foot": [
+    [
+     1200,
+     1080,
+     36
+    ]
+   ]
+  },
+  {
+   "id": "mon_thachve_elite",
+   "anchor": [
+    1005,
+    900
+   ],
+   "actor": {
+    "type": "monster",
+    "img": "assets/monsters/monster_thachve_sheet_v1.png",
+    "h": 178,
+    "label": "Th\u1ea1ch V\u1ec7 Tinh Anh",
+    "shadowW": 92,
+    "sheet": {
+     "cellW": 96,
+     "cellH": 96,
+     "cols": 6,
+     "frames": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "fps": 3,
+     "pingpong": true
+    }
+   },
+   "foot": [
+    [
+     1005,
+     900,
+     46
+    ]
+   ]
+  },
+  {
+   "id": "lantern_va_l",
+   "sprite": "lantern",
+   "anchor": [
+    600,
+    705
+   ],
+   "w": 54,
+   "foot": [
+    [
+     600,
+     705,
+     30
+    ]
+   ]
+  },
+  {
+   "id": "lantern_va_r",
+   "sprite": "lantern",
+   "anchor": [
+    845,
+    695
+   ],
+   "w": 54,
+   "foot": [
+    [
+     845,
+     695,
+     30
+    ]
+   ]
+  },
+  {
+   "id": "rocks_va",
+   "sprite": "rocks",
+   "anchor": [
+    1150,
+    420
+   ],
+   "w": 130,
+   "foot": [
+    [
+     1150,
+     420,
+     40
+    ]
+   ]
+  },
+  {
+   "id": "rockstand_va",
+   "sprite": "rock_stand",
+   "anchor": [
+    1250,
+    1080
+   ],
+   "w": 100,
+   "foot": [
+    [
+     1250,
+     1080,
+     30
+    ]
+   ]
+  },
+  {
+   "id": "bush_va",
+   "sprite": "bush_green",
+   "anchor": [
+    1000,
+    600
+   ],
+   "w": 95,
+   "decor": true
+  }
+ ]
+}

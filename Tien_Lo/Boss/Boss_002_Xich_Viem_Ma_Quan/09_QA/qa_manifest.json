@@ -1,0 +1,92 @@
+{
+  "boss": "Xích Viêm Ma Quân (Boss 002)",
+  "quy_trinh": "Quy trình sản xuất Boss 1.0 (§28-29)",
+  "luat_ghi_nhan": "Áp dụng nghiêm ngặt",
+  "assets_summary": {
+    "01_Concept": {
+      "status": "CHƯA NGHIỆM THU",
+      "notes": "Bản concept gốc 2D HD"
+    },
+    "02_Turnaround_8_Directions": {
+      "status": "CHƯA NGHIỆM THU",
+      "directions": 8,
+      "canvas": "384x384",
+      "notes": "Đủ 8 hướng thật"
+    },
+    "03_Animation": {
+      "Idle": {
+        "status": "CHƯA NGHIỆM THU",
+        "directions": 8,
+        "frames_per_dir": 4,
+        "total": 32
+      },
+      "Walk": {
+        "status": "CHƯA NGHIỆM THU",
+        "directions": 8,
+        "frames_per_dir": 4,
+        "total": 32
+      },
+      "Run": {
+        "status": "CHƯA NGHIỆM THU",
+        "directions": 8,
+        "frames_per_dir": 4,
+        "total": 32
+      },
+      "Attack_Claw": {
+        "status": "CHƯA NGHIỆM THU",
+        "directions": 8,
+        "frames_per_dir": 3,
+        "total": 24
+      },
+      "Skill_Roar": {
+        "status": "CHƯA NGHIỆM THU",
+        "directions": 8,
+        "frames_per_dir": 3,
+        "total": 24
+      },
+      "Attack_Pounce": {
+        "status": "CHƯA NGHIỆM THU",
+        "directions": 8,
+        "frames_per_dir": 3,
+        "total": 24
+      },
+      "Hit": {
+        "status": "CHƯA NGHIỆM THU",
+        "directions": 8,
+        "frames_per_dir": 2,
+        "total": 16
+      },
+      "Death": {
+        "status": "CHƯA NGHIỆM THU",
+        "directions": 8,
+        "frames_per_dir": 4,
+        "total": 32
+      }
+    },
+    "04_VFX": {
+      "status": "CHƯA NGHIỆM THU",
+      "notes": "Warning circle & dash line tách thân"
+    },
+    "05_Hitbox": {
+      "status": "CHƯA NGHIỆM THU",
+      "notes": "Cấu hình độc lập JSON"
+    },
+    "06_Atlas": {
+      "status": "CHƯA NGHIỆM THU",
+      "grid": "6x6 (608x426)",
+      "total_frames": 33
+    },
+    "08_Game_Integration": {
+      "status": "CHƯA NGHIỆM THU",
+      "notes": "Đã khớp engine Tiên Lộ"
+    },
+    "09_QA": {
+      "status": "CHƯA NGHIỆM THU",
+      "notes": "Đang chờ kiểm chứng Mục 5"
+    }
+  },
+  "pivot_measured": {
+    "x": 304,
+    "y": 388
+  }
+}

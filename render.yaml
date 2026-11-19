@@ -1,0 +1,13 @@
+# Tiên Lộ GD3 — Render deploy (Blueprint)
+# Server Node thuần, không dependency ngoài nên buildCommand để trống.
+services:
+  - type: web
+    name: tien-lo
+    env: node
+    plan: free
+    region: singapore
+    buildCommand: ""
+    startCommand: npm start
+    healthCheckPath: /
+    # Render cấp cổng qua biến PORT; server đã fallback
+    # process.env.PORT || process.env.TL_PORT || 8917 nên không cần envVars.

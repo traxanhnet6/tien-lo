@@ -1,0 +1,134 @@
+{
+ "objects": [
+  {
+   "id": "dais_portal_back",
+   "sprite": "dais",
+   "anchor": [
+    1120,
+    1015
+   ],
+   "w": 300,
+   "decor": true
+  },
+  {
+   "id": "boss_bachho",
+   "anchor": [
+    1120,
+    440
+   ],
+   "actor": {
+    "type": "boss",
+    "img": "assets/boss/boss_bachho_sonquan_v1.png",
+    "h": 330,
+    "label": "B\u1ea1ch H\u1ed5 S\u01a1n Qu\u00e2n",
+    "shadowW": 190,
+    "bob": 2.2,
+    "bobSpeed": 0.7,
+    "labelLift": 26
+   },
+   "foot": [
+    [
+     1120,
+     440,
+     95
+    ]
+   ]
+  },
+  {
+   "id": "burner_hs",
+   "sprite": "burner",
+   "anchor": [
+    1120,
+    800
+   ],
+   "w": 110,
+   "foot": [
+    [
+     1120,
+     800,
+     33
+    ]
+   ]
+  },
+  {
+   "id": "lantern_hs_l",
+   "sprite": "lantern",
+   "anchor": [
+    905,
+    760
+   ],
+   "w": 58,
+   "foot": [
+    [
+     905,
+     760,
+     30
+    ]
+   ]
+  },
+  {
+   "id": "lantern_hs_r",
+   "sprite": "lantern",
+   "anchor": [
+    1335,
+    760
+   ],
+   "w": 58,
+   "foot": [
+    [
+     1335,
+     760,
+     30
+    ]
+   ]
+  },
+  {
+   "id": "stele_hs",
+   "sprite": "stele",
+   "anchor": [
+    790,
+    640
+   ],
+   "w": 95,
+   "foot": [
+    [
+     790,
+     640,
+     22
+    ]
+   ]
+  },
+  {
+   "id": "rocks_hs",
+   "sprite": "rocks",
+   "anchor": [
+    1560,
+    320
+   ],
+   "w": 130,
+   "foot": [
+    [
+     1560,
+     320,
+     40
+    ]
+   ]
+  },
+  {
+   "id": "tree_hs_pine",
+   "sprite": "tree_pine",
+   "anchor": [
+    660,
+    330
+   ],
+   "w": 190,
+   "foot": [
+    [
+     660,
+     330,
+     29
+    ]
+   ]
+  }
+ ]
+}

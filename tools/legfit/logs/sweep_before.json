@@ -1,0 +1,993 @@
+{
+ "E walk APPR": [
+  {
+   "f": 1,
+   "head_cx": 158.6,
+   "shoes": [
+    {
+     "cx": 143.7,
+     "off": -14.9,
+     "w": 213
+    }
+   ],
+   "skirt_bot": 325,
+   "sole": 352,
+   "bare_leg": 27,
+   "wmax": 214
+  },
+  {
+   "f": 2,
+   "head_cx": 147.3,
+   "shoes": [
+    {
+     "cx": 128.6,
+     "off": -18.7,
+     "w": 215
+    }
+   ],
+   "skirt_bot": 323,
+   "sole": 346,
+   "bare_leg": 23,
+   "wmax": 192
+  },
+  {
+   "f": 3,
+   "head_cx": 151.9,
+   "shoes": [
+    {
+     "cx": 133.7,
+     "off": -18.2,
+     "w": 220
+    }
+   ],
+   "skirt_bot": 327,
+   "sole": 351,
+   "bare_leg": 24,
+   "wmax": 212
+  },
+  {
+   "f": 4,
+   "head_cx": 146.8,
+   "shoes": [
+    {
+     "cx": 128.0,
+     "off": -18.7,
+     "w": 153
+    }
+   ],
+   "skirt_bot": 315,
+   "sole": 359,
+   "bare_leg": 44,
+   "wmax": 211
+  },
+  {
+   "f": 5,
+   "head_cx": 147.9,
+   "shoes": [
+    {
+     "cx": 135.0,
+     "off": -13.0,
+     "w": 221
+    }
+   ],
+   "skirt_bot": 328,
+   "sole": 357,
+   "bare_leg": 29,
+   "wmax": 200
+  },
+  {
+   "f": 6,
+   "head_cx": 139.9,
+   "shoes": [
+    {
+     "cx": 122.6,
+     "off": -17.3,
+     "w": 212
+    }
+   ],
+   "skirt_bot": 322,
+   "sole": 349,
+   "bare_leg": 27,
+   "wmax": 205
+  },
+  {
+   "f": 7,
+   "head_cx": 145.6,
+   "shoes": [
+    {
+     "cx": 129.0,
+     "off": -16.6,
+     "w": 218
+    }
+   ],
+   "skirt_bot": 327,
+   "sole": 353,
+   "bare_leg": 26,
+   "wmax": 194
+  },
+  {
+   "f": 8,
+   "head_cx": 152.2,
+   "shoes": [
+    {
+     "cx": 137.5,
+     "off": -14.7,
+     "w": 216
+    }
+   ],
+   "skirt_bot": 326,
+   "sole": 353,
+   "bare_leg": 27,
+   "wmax": 215
+  }
+ ],
+ "E walk S4": [
+  {
+   "f": 1,
+   "head_cx": 210.6,
+   "shoes": [
+    {
+     "cx": 204.9,
+     "off": -5.7,
+     "w": 241
+    }
+   ],
+   "skirt_bot": 324,
+   "sole": 341,
+   "bare_leg": 17,
+   "wmax": 286
+  },
+  {
+   "f": 2,
+   "head_cx": 211.5,
+   "shoes": [
+    {
+     "cx": 197.9,
+     "off": -13.5,
+     "w": 188
+    }
+   ],
+   "skirt_bot": 316,
+   "sole": 359,
+   "bare_leg": 43,
+   "wmax": 241
+  },
+  {
+   "f": 3,
+   "head_cx": 210.8,
+   "shoes": [
+    {
+     "cx": 211.4,
+     "off": 0.6,
+     "w": 124
+    }
+   ],
+   "skirt_bot": 290,
+   "sole": 358,
+   "bare_leg": 68,
+   "wmax": 273
+  },
+  {
+   "f": 4,
+   "head_cx": 212.1,
+   "shoes": [
+    {
+     "cx": 221.4,
+     "off": 9.2,
+     "w": 197
+    }
+   ],
+   "skirt_bot": 328,
+   "sole": 359,
+   "bare_leg": 31,
+   "wmax": 269
+  },
+  {
+   "f": 5,
+   "head_cx": 211.4,
+   "shoes": [
+    {
+     "cx": 205.7,
+     "off": -5.7,
+     "w": 241
+    }
+   ],
+   "skirt_bot": 322,
+   "sole": 339,
+   "bare_leg": 17,
+   "wmax": 286
+  },
+  {
+   "f": 6,
+   "head_cx": 211.1,
+   "shoes": [
+    {
+     "cx": 205.9,
+     "off": -5.1,
+     "w": 107
+    }
+   ],
+   "skirt_bot": 288,
+   "sole": 359,
+   "bare_leg": 71,
+   "wmax": 273
+  },
+  {
+   "f": 7,
+   "head_cx": 211.5,
+   "shoes": [
+    {
+     "cx": 200.5,
+     "off": -11.0,
+     "w": 144
+    }
+   ],
+   "skirt_bot": 296,
+   "sole": 358,
+   "bare_leg": 62,
+   "wmax": 275
+  },
+  {
+   "f": 8,
+   "head_cx": 210.5,
+   "shoes": [
+    {
+     "cx": 216.4,
+     "off": 5.9,
+     "w": 211
+    }
+   ],
+   "skirt_bot": 320,
+   "sole": 354,
+   "bare_leg": 34,
+   "wmax": 249
+  }
+ ],
+ "E run APPR": [
+  {
+   "f": 1,
+   "head_cx": 205.9,
+   "shoes": [
+    {
+     "cx": 163.2,
+     "off": -42.7,
+     "w": 206
+    }
+   ],
+   "skirt_bot": 315,
+   "sole": 351,
+   "bare_leg": 36,
+   "wmax": 272
+  },
+  {
+   "f": 2,
+   "head_cx": 146.2,
+   "shoes": [
+    {
+     "cx": 89.9,
+     "off": -56.4,
+     "w": 179
+    }
+   ],
+   "skirt_bot": 317,
+   "sole": 352,
+   "bare_leg": 35,
+   "wmax": 209
+  },
+  {
+   "f": 3,
+   "head_cx": 144.7,
+   "shoes": [
+    {
+     "cx": 86.9,
+     "off": -57.9,
+     "w": 150
+    }
+   ],
+   "skirt_bot": 320,
+   "sole": 344,
+   "bare_leg": 24,
+   "wmax": 193
+  },
+  {
+   "f": 4,
+   "head_cx": 150.0,
+   "shoes": [
+    {
+     "cx": 89.3,
+     "off": -60.7,
+     "w": 149
+    }
+   ],
+   "skirt_bot": 321,
+   "sole": 349,
+   "bare_leg": 28,
+   "wmax": 209
+  },
+  {
+   "f": 5,
+   "head_cx": 171.3,
+   "shoes": [
+    {
+     "cx": 114.7,
+     "off": -56.7,
+     "w": 199
+    }
+   ],
+   "skirt_bot": 325,
+   "sole": 358,
+   "bare_leg": 33,
+   "wmax": 210
+  },
+  {
+   "f": 6,
+   "head_cx": 192.5,
+   "shoes": [
+    {
+     "cx": 149.2,
+     "off": -43.3,
+     "w": 209
+    }
+   ],
+   "skirt_bot": 319,
+   "sole": 353,
+   "bare_leg": 34,
+   "wmax": 231
+  },
+  {
+   "f": 7,
+   "head_cx": 190.9,
+   "shoes": [
+    {
+     "cx": 128.9,
+     "off": -62.0,
+     "w": 187
+    }
+   ],
+   "skirt_bot": 319,
+   "sole": 359,
+   "bare_leg": 40,
+   "wmax": 248
+  },
+  {
+   "f": 8,
+   "head_cx": 216.8,
+   "shoes": [
+    {
+     "cx": 156.1,
+     "off": -60.8,
+     "w": 226
+    }
+   ],
+   "skirt_bot": 311,
+   "sole": 336,
+   "bare_leg": 25,
+   "wmax": 284
+  }
+ ],
+ "E run S4": [
+  {
+   "f": 1,
+   "head_cx": 219.4,
+   "shoes": [
+    {
+     "cx": 197.4,
+     "off": -22.0,
+     "w": 208
+    }
+   ],
+   "skirt_bot": 297,
+   "sole": 356,
+   "bare_leg": 59,
+   "wmax": 279
+  },
+  {
+   "f": 2,
+   "head_cx": 214.8,
+   "shoes": [
+    {
+     "cx": 160.9,
+     "off": -53.9,
+     "w": 123
+    }
+   ],
+   "skirt_bot": 308,
+   "sole": 356,
+   "bare_leg": 48,
+   "wmax": 263
+  },
+  {
+   "f": 3,
+   "head_cx": 217.5,
+   "shoes": [
+    {
+     "cx": 164.4,
+     "off": -53.1,
+     "w": 255
+    }
+   ],
+   "skirt_bot": 320,
+   "sole": 359,
+   "bare_leg": 39,
+   "wmax": 284
+  },
+  {
+   "f": 4,
+   "head_cx": 219.4,
+   "shoes": [
+    {
+     "cx": 172.1,
+     "off": -47.3,
+     "w": 257
+    }
+   ],
+   "skirt_bot": 309,
+   "sole": 326,
+   "bare_leg": 17,
+   "wmax": 316
+  },
+  {
+   "f": 5,
+   "head_cx": 223.3,
+   "shoes": [
+    {
+     "cx": 204.4,
+     "off": -18.9,
+     "w": 204
+    }
+   ],
+   "skirt_bot": 298,
+   "sole": 359,
+   "bare_leg": 61,
+   "wmax": 279
+  },
+  {
+   "f": 6,
+   "head_cx": 223.9,
+   "shoes": [
+    {
+     "cx": 169.8,
+     "off": -54.1,
+     "w": 131
+    }
+   ],
+   "skirt_bot": 304,
+   "sole": 352,
+   "bare_leg": 48,
+   "wmax": 276
+  },
+  {
+   "f": 7,
+   "head_cx": 226.0,
+   "shoes": [
+    {
+     "cx": 177.7,
+     "off": -48.3,
+     "w": 255
+    }
+   ],
+   "skirt_bot": 319,
+   "sole": 355,
+   "bare_leg": 36,
+   "wmax": 306
+  },
+  {
+   "f": 8,
+   "head_cx": 220.5,
+   "shoes": [
+    {
+     "cx": 169.4,
+     "off": -51.1,
+     "w": 257
+    }
+   ],
+   "skirt_bot": 306,
+   "sole": 326,
+   "bare_leg": 20,
+   "wmax": 316
+  }
+ ],
+ "W walk APPR": [
+  {
+   "f": 1,
+   "head_cx": 72.0,
+   "shoes": [
+    {
+     "cx": 109.8,
+     "off": 37.9,
+     "w": 233
+    }
+   ],
+   "skirt_bot": 329,
+   "sole": 352,
+   "bare_leg": 23,
+   "wmax": 204
+  },
+  {
+   "f": 2,
+   "head_cx": 74.2,
+   "shoes": [
+    {
+     "cx": 112.7,
+     "off": 38.5,
+     "w": 239
+    }
+   ],
+   "skirt_bot": 328,
+   "sole": 350,
+   "bare_leg": 22,
+   "wmax": 209
+  },
+  {
+   "f": 3,
+   "head_cx": 65.4,
+   "shoes": [
+    {
+     "cx": 104.2,
+     "off": 38.8,
+     "w": 229
+    }
+   ],
+   "skirt_bot": 329,
+   "sole": 354,
+   "bare_leg": 25,
+   "wmax": 203
+  },
+  {
+   "f": 4,
+   "head_cx": 67.6,
+   "shoes": [
+    {
+     "cx": 105.1,
+     "off": 37.5,
+     "w": 229
+    }
+   ],
+   "skirt_bot": 329,
+   "sole": 354,
+   "bare_leg": 25,
+   "wmax": 203
+  },
+  {
+   "f": 5,
+   "head_cx": 68.6,
+   "shoes": [
+    {
+     "cx": 106.5,
+     "off": 37.9,
+     "w": 182
+    }
+   ],
+   "skirt_bot": 328,
+   "sole": 348,
+   "bare_leg": 20,
+   "wmax": 194
+  },
+  {
+   "f": 6,
+   "head_cx": 70.6,
+   "shoes": [
+    {
+     "cx": 106.0,
+     "off": 35.4,
+     "w": 183
+    }
+   ],
+   "skirt_bot": 327,
+   "sole": 347,
+   "bare_leg": 20,
+   "wmax": 191
+  },
+  {
+   "f": 7,
+   "head_cx": 75.0,
+   "shoes": [
+    {
+     "cx": 113.7,
+     "off": 38.7,
+     "w": 239
+    }
+   ],
+   "skirt_bot": 329,
+   "sole": 351,
+   "bare_leg": 22,
+   "wmax": 209
+  },
+  {
+   "f": 8,
+   "head_cx": 71.1,
+   "shoes": [
+    {
+     "cx": 110.8,
+     "off": 39.7,
+     "w": 237
+    }
+   ],
+   "skirt_bot": 328,
+   "sole": 351,
+   "bare_leg": 23,
+   "wmax": 209
+  }
+ ],
+ "W walk S4": [
+  {
+   "f": 1,
+   "head_cx": 170.1,
+   "shoes": [
+    {
+     "cx": 205.0,
+     "off": 34.9,
+     "w": 193
+    }
+   ],
+   "skirt_bot": 316,
+   "sole": 353,
+   "bare_leg": 37,
+   "wmax": 192
+  },
+  {
+   "f": 2,
+   "head_cx": 169.8,
+   "shoes": [
+    {
+     "cx": 208.0,
+     "off": 38.2,
+     "w": 165
+    }
+   ],
+   "skirt_bot": 319,
+   "sole": 358,
+   "bare_leg": 39,
+   "wmax": 218
+  },
+  {
+   "f": 3,
+   "head_cx": 170.7,
+   "shoes": [
+    {
+     "cx": 178.7,
+     "off": 8.0,
+     "w": 132
+    }
+   ],
+   "skirt_bot": 311,
+   "sole": 358,
+   "bare_leg": 47,
+   "wmax": 229
+  },
+  {
+   "f": 4,
+   "head_cx": 170.9,
+   "shoes": [
+    {
+     "cx": 201.4,
+     "off": 30.4,
+     "w": 179
+    }
+   ],
+   "skirt_bot": 332,
+   "sole": 359,
+   "bare_leg": 27,
+   "wmax": 230
+  },
+  {
+   "f": 5,
+   "head_cx": 170.5,
+   "shoes": [
+    {
+     "cx": 204.1,
+     "off": 33.7,
+     "w": 262
+    }
+   ],
+   "skirt_bot": 332,
+   "sole": 350,
+   "bare_leg": 18,
+   "wmax": 227
+  },
+  {
+   "f": 6,
+   "head_cx": 171.9,
+   "shoes": [
+    {
+     "cx": 196.8,
+     "off": 24.9,
+     "w": 145
+    }
+   ],
+   "skirt_bot": 299,
+   "sole": 359,
+   "bare_leg": 60,
+   "wmax": 250
+  },
+  {
+   "f": 7,
+   "head_cx": 169.7,
+   "shoes": [
+    {
+     "cx": 197.9,
+     "off": 28.3,
+     "w": 166
+    }
+   ],
+   "skirt_bot": 308,
+   "sole": 359,
+   "bare_leg": 51,
+   "wmax": 253
+  },
+  {
+   "f": 8,
+   "head_cx": 170.0,
+   "shoes": [
+    {
+     "cx": 194.9,
+     "off": 24.8,
+     "w": 202
+    }
+   ],
+   "skirt_bot": 335,
+   "sole": 354,
+   "bare_leg": 19,
+   "wmax": 232
+  }
+ ],
+ "W run APPR": [
+  {
+   "f": 1,
+   "head_cx": 80.3,
+   "shoes": [
+    {
+     "cx": 146.1,
+     "off": 65.8,
+     "w": 218
+    }
+   ],
+   "skirt_bot": 322,
+   "sole": 344,
+   "bare_leg": 22,
+   "wmax": 249
+  },
+  {
+   "f": 2,
+   "head_cx": 74.4,
+   "shoes": [
+    {
+     "cx": 150.2,
+     "off": 75.8,
+     "w": 128
+    }
+   ],
+   "skirt_bot": 291,
+   "sole": 347,
+   "bare_leg": 56,
+   "wmax": 229
+  },
+  {
+   "f": 3,
+   "head_cx": 66.4,
+   "shoes": [
+    {
+     "cx": 124.9,
+     "off": 58.5,
+     "w": 218
+    }
+   ],
+   "skirt_bot": 331,
+   "sole": 358,
+   "bare_leg": 27,
+   "wmax": 214
+  },
+  {
+   "f": 4,
+   "head_cx": 65.4,
+   "shoes": [
+    {
+     "cx": 139.6,
+     "off": 74.3,
+     "w": 203
+    }
+   ],
+   "skirt_bot": 310,
+   "sole": 339,
+   "bare_leg": 29,
+   "wmax": 267
+  },
+  {
+   "f": 5,
+   "head_cx": 73.1,
+   "shoes": [
+    {
+     "cx": 116.5,
+     "off": 43.3,
+     "w": 229
+    }
+   ],
+   "skirt_bot": 323,
+   "sole": 359,
+   "bare_leg": 36,
+   "wmax": 234
+  },
+  {
+   "f": 6,
+   "head_cx": 66.0,
+   "shoes": [
+    {
+     "cx": 125.8,
+     "off": 59.7,
+     "w": 107
+    }
+   ],
+   "skirt_bot": 303,
+   "sole": 359,
+   "bare_leg": 56,
+   "wmax": 193
+  },
+  {
+   "f": 7,
+   "head_cx": 94.8,
+   "shoes": [
+    {
+     "cx": 153.8,
+     "off": 59.1,
+     "w": 227
+    }
+   ],
+   "skirt_bot": 331,
+   "sole": 359,
+   "bare_leg": 28,
+   "wmax": 268
+  },
+  {
+   "f": 8,
+   "head_cx": 65.1,
+   "shoes": [
+    {
+     "cx": 137.7,
+     "off": 72.7,
+     "w": 252
+    }
+   ],
+   "skirt_bot": 319,
+   "sole": 342,
+   "bare_leg": 23,
+   "wmax": 264
+  }
+ ],
+ "W run S4": [
+  {
+   "f": 1,
+   "head_cx": 167.9,
+   "shoes": [
+    {
+     "cx": 225.1,
+     "off": 57.3,
+     "w": 271
+    },
+    {
+     "cx": 258.2,
+     "off": 90.3,
+     "w": 76
+    }
+   ],
+   "skirt_bot": 316,
+   "sole": 335,
+   "bare_leg": 19,
+   "wmax": 266
+  },
+  {
+   "f": 2,
+   "head_cx": 166.5,
+   "shoes": [
+    {
+     "cx": 250.4,
+     "off": 83.9,
+     "w": 152
+    }
+   ],
+   "skirt_bot": 298,
+   "sole": 359,
+   "bare_leg": 61,
+   "wmax": 257
+  },
+  {
+   "f": 3,
+   "head_cx": 164.9,
+   "shoes": [
+    {
+     "cx": 245.0,
+     "off": 80.1,
+     "w": 270
+    }
+   ],
+   "skirt_bot": 321,
+   "sole": 352,
+   "bare_leg": 31,
+   "wmax": 271
+  },
+  {
+   "f": 4,
+   "head_cx": 161.1,
+   "shoes": [
+    {
+     "cx": 250.2,
+     "off": 89.0,
+     "w": 242
+    },
+    {
+     "cx": 280.0,
+     "off": 118.9,
+     "w": 88
+    }
+   ],
+   "skirt_bot": 306,
+   "sole": 327,
+   "bare_leg": 21,
+   "wmax": 301
+  },
+  {
+   "f": 5,
+   "head_cx": 167.4,
+   "shoes": [
+    {
+     "cx": 201.9,
+     "off": 34.4,
+     "w": 275
+    }
+   ],
+   "skirt_bot": 326,
+   "sole": 352,
+   "bare_leg": 26,
+   "wmax": 272
+  },
+  {
+   "f": 6,
+   "head_cx": 166.8,
+   "shoes": [
+    {
+     "cx": 245.0,
+     "off": 78.3,
+     "w": 162
+    }
+   ],
+   "skirt_bot": 314,
+   "sole": 359,
+   "bare_leg": 45,
+   "wmax": 262
+  },
+  {
+   "f": 7,
+   "head_cx": 168.9,
+   "shoes": [
+    {
+     "cx": 237.3,
+     "off": 68.3,
+     "w": 258
+    }
+   ],
+   "skirt_bot": 328,
+   "sole": 356,
+   "bare_leg": 28,
+   "wmax": 260
+  },
+  {
+   "f": 8,
+   "head_cx": 164.7,
+   "shoes": [
+    {
+     "cx": 276.4,
+     "off": 111.7,
+     "w": 47
+    },
+    {
+     "cx": 298.3,
+     "off": 133.6,
+     "w": 186
+    }
+   ],
+   "skirt_bot": 293,
+   "sole": 327,
+   "bare_leg": 34,
+   "wmax": 309
+  }
+ ]
+}

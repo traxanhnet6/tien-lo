@@ -1,0 +1,117 @@
+{
+ "ground": "assets/ground.jpg",
+ "paint": {
+  "w": 4400,
+  "h": 2640
+ },
+ "origin": [
+  2200,
+  150
+ ],
+ "ex": [
+  46,
+  23
+ ],
+ "ey": [
+  -46,
+  23
+ ],
+ "spawn_px": [
+  2200,
+  2470
+ ],
+ "spawn_cell": [
+  50,
+  50
+ ],
+ "zones": {
+  "son_mon": {
+   "label": "S\u01a1n M\u00f4n",
+   "anchor_px": [
+    2200,
+    2470
+   ]
+  },
+  "quang_truong": {
+   "label": "Qu\u1ea3ng Tr\u01b0\u1eddng",
+   "anchor_px": [
+    2820,
+    1660
+   ]
+  },
+  "dai_dien": {
+   "label": "\u0110\u1ea1i \u0110i\u1ec7n",
+   "anchor_px": [
+    2200,
+    1300
+   ]
+  },
+  "luyen_vo": {
+   "label": "Luy\u1ec7n V\u00f5 Tr\u01b0\u1eddng",
+   "anchor_px": [
+    3650,
+    1180
+   ]
+  },
+  "linh_tuyen": {
+   "label": "Linh Tuy\u1ec1n",
+   "anchor_px": [
+    3600,
+    470
+   ]
+  },
+  "truc_lam": {
+   "label": "Tr\u00fac Linh L\u00e2m",
+   "anchor_px": [
+    650,
+    1850
+   ]
+  },
+  "van_an": {
+   "label": "V\u00e2n \u1ea8n \u0110\u1ed9ng",
+   "anchor_px": [
+    760,
+    760
+   ]
+  }
+ },
+ "portals": [
+  {
+   "id": "portal_to_hauson",
+   "px": [
+    1560,
+    746
+   ],
+   "r": 85,
+   "to_map": "hauson",
+   "to_px": [
+    1120,
+    880
+   ],
+   "label": "C\u1ed5ng H\u1eadu S\u01a1n"
+  }
+ ],
+ "fx": [
+  {
+   "x": 3600,
+   "y": 400,
+   "r": 170,
+   "n": 22,
+   "color": "rgba(170,240,255,0.85)"
+  },
+  {
+   "x": 2200,
+   "y": 1000,
+   "r": 200,
+   "n": 12,
+   "color": "rgba(255,230,160,0.85)"
+  },
+  {
+   "x": 600,
+   "y": 1560,
+   "r": 130,
+   "n": 14,
+   "color": "rgba(170,255,215,0.85)"
+  }
+ ]
+}

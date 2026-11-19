@@ -1,0 +1,1 @@
+{"description":"Tiên Lộ (thực chất Ngũ Hành Vô Địch) — client web isometric 2:1 + server Node authoritative combat","engines":{"node":">=18"},"main":"server/server.mjs","name":"tien-lo","scripts":{"start":"node server/server.mjs"},"type":"module","version":"0.3.0"}

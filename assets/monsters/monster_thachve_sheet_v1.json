@@ -1,0 +1,51 @@
+{
+  "name": "monster_thachve_sheet_v1",
+  "cellW": 96,
+  "cellH": 96,
+  "cols": 6,
+  "rows": 1,
+  "animations": {
+    "idle": {
+      "frames": [
+        0,
+        1
+      ],
+      "fps": 2,
+      "pingpong": true
+    },
+    "move": {
+      "frames": [
+        2,
+        0,
+        1
+      ],
+      "fps": 3,
+      "loop": true
+    },
+    "telegraph": {
+      "frames": [
+        2
+      ],
+      "fps": 2
+    },
+    "attack": {
+      "frames": [
+        3
+      ],
+      "fps": 4
+    },
+    "hit": {
+      "frames": [
+        4
+      ],
+      "fps": 4
+    },
+    "death": {
+      "frames": [
+        5
+      ],
+      "fps": 2,
+      "hold_last": true
+    }
+  }
+}

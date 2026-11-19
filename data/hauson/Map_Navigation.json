@@ -1,0 +1,61 @@
+{
+ "ground": "assets/ground_hauson.jpg",
+ "paint": {
+  "w": 2240,
+  "h": 1120
+ },
+ "origin": [
+  1120,
+  140
+ ],
+ "ex": [
+  46,
+  23
+ ],
+ "ey": [
+  -46,
+  23
+ ],
+ "spawn_px": [
+  1120,
+  880
+ ],
+ "spawn_cell": [
+  16,
+  16
+ ],
+ "zones": {
+  "hauson": {
+   "label": "H\u1eadu S\u01a1n",
+   "anchor_px": [
+    1120,
+    560
+   ]
+  }
+ },
+ "portals": [
+  {
+   "id": "portal_to_island",
+   "px": [
+    1120,
+    1015
+   ],
+   "r": 90,
+   "to_map": "island",
+   "to_px": [
+    1560,
+    872
+   ],
+   "label": "V\u1ec1 Thanh V\u00e2n"
+  }
+ ],
+ "fx": [
+  {
+   "x": 1120,
+   "y": 430,
+   "r": 260,
+   "n": 14,
+   "color": "rgba(255,215,150,0.8)"
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Tiên Lộ — Thanh Vân Tiên Môn đủ 8 khu (đẳng cự 2:1)</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<canvas id="game"></canvas>
+
+<div class="hud hud-top-left">
+  <div class="game-name">TIÊN LỘ</div>
+  <div class="zone-name" id="zoneName">Sơn Môn</div>
+</div>
+
+<button class="hud hud-top-right chip" id="followBtn" title="Camera bám theo nhân vật">◎ Theo</button>
+
+<div class="hud hud-bottom-left" id="zoneChips"><!-- built from map data --></div>
+
+<div class="hud hud-bottom-right zoom-box">
+  <button class="chip zoom-btn" id="zoomOut">−</button>
+  <input type="range" id="zoomRange" min="0" max="7" step="1" value="2">
+  <button class="chip zoom-btn" id="zoomIn">+</button>
+  <span id="zoomPct">100%</span>
+</div>
+
+<div class="hud hud-hint">Cần điều khiển góc trái dưới hoặc WASD để di chuyển · Chạm đất cũng đi được · J đánh thường · Q/E/R/F kỹ năng · G tuyệt kỹ · Space né · Shift thủ · Tab chọn mục tiêu</div>
+
+<script src="js/game_data.js"></script>
+<script src="js/gameplay.js"></script>
+<script src="js/net.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

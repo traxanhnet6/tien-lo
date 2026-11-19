@@ -1,0 +1,1254 @@
+{
+ "image": "hoavan_atlas_4096.png",
+ "size": [
+  4096,
+  4096
+ ],
+ "cell": [
+  512,
+  512
+ ],
+ "grid": {
+  "rows": "directions in sheet order N, NE, E, SE, S, SW, W, NW",
+  "cols": "phases 1..8"
+ },
+ "fps": 16,
+ "loop": false,
+ "master_frames": "frames/ holds the 768x768 masters; atlas cells are the same frames at 512",
+ "directions": {
+  "N": [
+   "n_f1",
+   "n_f2",
+   "n_f3",
+   "n_f4",
+   "n_f5",
+   "n_f6",
+   "n_f7",
+   "n_f8"
+  ],
+  "NE": [
+   "ne_f1",
+   "ne_f2",
+   "ne_f3",
+   "ne_f4",
+   "ne_f5",
+   "ne_f6",
+   "ne_f7",
+   "ne_f8"
+  ],
+  "E": [
+   "e_f1",
+   "e_f2",
+   "e_f3",
+   "e_f4",
+   "e_f5",
+   "e_f6",
+   "e_f7",
+   "e_f8"
+  ],
+  "SE": [
+   "se_f1",
+   "se_f2",
+   "se_f3",
+   "se_f4",
+   "se_f5",
+   "se_f6",
+   "se_f7",
+   "se_f8"
+  ],
+  "S": [
+   "s_f1",
+   "s_f2",
+   "s_f3",
+   "s_f4",
+   "s_f5",
+   "s_f6",
+   "s_f7",
+   "s_f8"
+  ],
+  "SW": [
+   "sw_f1",
+   "sw_f2",
+   "sw_f3",
+   "sw_f4",
+   "sw_f5",
+   "sw_f6",
+   "sw_f7",
+   "sw_f8"
+  ],
+  "W": [
+   "w_f1",
+   "w_f2",
+   "w_f3",
+   "w_f4",
+   "w_f5",
+   "w_f6",
+   "w_f7",
+   "w_f8"
+  ],
+  "NW": [
+   "nw_f1",
+   "nw_f2",
+   "nw_f3",
+   "nw_f4",
+   "nw_f5",
+   "nw_f6",
+   "nw_f7",
+   "nw_f8"
+  ]
+ },
+ "frames": {
+  "n_f1": {
+   "file": "hanhan_hoavan_n_f1.png",
+   "direction": "N",
+   "phase": 1,
+   "phase_name": "F1 Tụ hỏa",
+   "rect": [
+    0,
+    0,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "n_f2": {
+   "file": "hanhan_hoavan_n_f2.png",
+   "direction": "N",
+   "phase": 2,
+   "phase_name": "F2 Khởi toàn",
+   "rect": [
+    512,
+    0,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "n_f3": {
+   "file": "hanhan_hoavan_n_f3.png",
+   "direction": "N",
+   "phase": 3,
+   "phase_name": "F3 Toàn thân",
+   "rect": [
+    1024,
+    0,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "n_f4": {
+   "file": "hanhan_hoavan_n_f4.png",
+   "direction": "N",
+   "phase": 4,
+   "phase_name": "F4 Tốc toàn",
+   "rect": [
+    1536,
+    0,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "n_f5": {
+   "file": "hanhan_hoavan_n_f5.png",
+   "direction": "N",
+   "phase": 5,
+   "phase_name": "F5 Vân thăng",
+   "rect": [
+    2048,
+    0,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "n_f6": {
+   "file": "hanhan_hoavan_n_f6.png",
+   "direction": "N",
+   "phase": 6,
+   "phase_name": "F6 Đỉnh toàn",
+   "rect": [
+    2560,
+    0,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "n_f7": {
+   "file": "hanhan_hoavan_n_f7.png",
+   "direction": "N",
+   "phase": 7,
+   "phase_name": "F7 Tán hỏa",
+   "rect": [
+    3072,
+    0,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "n_f8": {
+   "file": "hanhan_hoavan_n_f8.png",
+   "direction": "N",
+   "phase": 8,
+   "phase_name": "F8 Thu thế",
+   "rect": [
+    3584,
+    0,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "ne_f1": {
+   "file": "hanhan_hoavan_ne_f1.png",
+   "direction": "NE",
+   "phase": 1,
+   "phase_name": "F1 Tụ hỏa",
+   "rect": [
+    0,
+    512,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "ne_f2": {
+   "file": "hanhan_hoavan_ne_f2.png",
+   "direction": "NE",
+   "phase": 2,
+   "phase_name": "F2 Khởi toàn",
+   "rect": [
+    512,
+    512,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "ne_f3": {
+   "file": "hanhan_hoavan_ne_f3.png",
+   "direction": "NE",
+   "phase": 3,
+   "phase_name": "F3 Toàn thân",
+   "rect": [
+    1024,
+    512,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "ne_f4": {
+   "file": "hanhan_hoavan_ne_f4.png",
+   "direction": "NE",
+   "phase": 4,
+   "phase_name": "F4 Tốc toàn",
+   "rect": [
+    1536,
+    512,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "ne_f5": {
+   "file": "hanhan_hoavan_ne_f5.png",
+   "direction": "NE",
+   "phase": 5,
+   "phase_name": "F5 Vân thăng",
+   "rect": [
+    2048,
+    512,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "ne_f6": {
+   "file": "hanhan_hoavan_ne_f6.png",
+   "direction": "NE",
+   "phase": 6,
+   "phase_name": "F6 Đỉnh toàn",
+   "rect": [
+    2560,
+    512,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "ne_f7": {
+   "file": "hanhan_hoavan_ne_f7.png",
+   "direction": "NE",
+   "phase": 7,
+   "phase_name": "F7 Tán hỏa",
+   "rect": [
+    3072,
+    512,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "ne_f8": {
+   "file": "hanhan_hoavan_ne_f8.png",
+   "direction": "NE",
+   "phase": 8,
+   "phase_name": "F8 Thu thế",
+   "rect": [
+    3584,
+    512,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "e_f1": {
+   "file": "hanhan_hoavan_e_f1.png",
+   "direction": "E",
+   "phase": 1,
+   "phase_name": "F1 Tụ hỏa",
+   "rect": [
+    0,
+    1024,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "e_f2": {
+   "file": "hanhan_hoavan_e_f2.png",
+   "direction": "E",
+   "phase": 2,
+   "phase_name": "F2 Khởi toàn",
+   "rect": [
+    512,
+    1024,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "e_f3": {
+   "file": "hanhan_hoavan_e_f3.png",
+   "direction": "E",
+   "phase": 3,
+   "phase_name": "F3 Toàn thân",
+   "rect": [
+    1024,
+    1024,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "e_f4": {
+   "file": "hanhan_hoavan_e_f4.png",
+   "direction": "E",
+   "phase": 4,
+   "phase_name": "F4 Tốc toàn",
+   "rect": [
+    1536,
+    1024,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "e_f5": {
+   "file": "hanhan_hoavan_e_f5.png",
+   "direction": "E",
+   "phase": 5,
+   "phase_name": "F5 Vân thăng",
+   "rect": [
+    2048,
+    1024,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "e_f6": {
+   "file": "hanhan_hoavan_e_f6.png",
+   "direction": "E",
+   "phase": 6,
+   "phase_name": "F6 Đỉnh toàn",
+   "rect": [
+    2560,
+    1024,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "e_f7": {
+   "file": "hanhan_hoavan_e_f7.png",
+   "direction": "E",
+   "phase": 7,
+   "phase_name": "F7 Tán hỏa",
+   "rect": [
+    3072,
+    1024,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "e_f8": {
+   "file": "hanhan_hoavan_e_f8.png",
+   "direction": "E",
+   "phase": 8,
+   "phase_name": "F8 Thu thế",
+   "rect": [
+    3584,
+    1024,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "se_f1": {
+   "file": "hanhan_hoavan_se_f1.png",
+   "direction": "SE",
+   "phase": 1,
+   "phase_name": "F1 Tụ hỏa",
+   "rect": [
+    0,
+    1536,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "se_f2": {
+   "file": "hanhan_hoavan_se_f2.png",
+   "direction": "SE",
+   "phase": 2,
+   "phase_name": "F2 Khởi toàn",
+   "rect": [
+    512,
+    1536,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "se_f3": {
+   "file": "hanhan_hoavan_se_f3.png",
+   "direction": "SE",
+   "phase": 3,
+   "phase_name": "F3 Toàn thân",
+   "rect": [
+    1024,
+    1536,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "se_f4": {
+   "file": "hanhan_hoavan_se_f4.png",
+   "direction": "SE",
+   "phase": 4,
+   "phase_name": "F4 Tốc toàn",
+   "rect": [
+    1536,
+    1536,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "se_f5": {
+   "file": "hanhan_hoavan_se_f5.png",
+   "direction": "SE",
+   "phase": 5,
+   "phase_name": "F5 Vân thăng",
+   "rect": [
+    2048,
+    1536,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "se_f6": {
+   "file": "hanhan_hoavan_se_f6.png",
+   "direction": "SE",
+   "phase": 6,
+   "phase_name": "F6 Đỉnh toàn",
+   "rect": [
+    2560,
+    1536,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "se_f7": {
+   "file": "hanhan_hoavan_se_f7.png",
+   "direction": "SE",
+   "phase": 7,
+   "phase_name": "F7 Tán hỏa",
+   "rect": [
+    3072,
+    1536,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "se_f8": {
+   "file": "hanhan_hoavan_se_f8.png",
+   "direction": "SE",
+   "phase": 8,
+   "phase_name": "F8 Thu thế",
+   "rect": [
+    3584,
+    1536,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "s_f1": {
+   "file": "hanhan_hoavan_s_f1.png",
+   "direction": "S",
+   "phase": 1,
+   "phase_name": "F1 Tụ hỏa",
+   "rect": [
+    0,
+    2048,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "s_f2": {
+   "file": "hanhan_hoavan_s_f2.png",
+   "direction": "S",
+   "phase": 2,
+   "phase_name": "F2 Khởi toàn",
+   "rect": [
+    512,
+    2048,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "s_f3": {
+   "file": "hanhan_hoavan_s_f3.png",
+   "direction": "S",
+   "phase": 3,
+   "phase_name": "F3 Toàn thân",
+   "rect": [
+    1024,
+    2048,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "s_f4": {
+   "file": "hanhan_hoavan_s_f4.png",
+   "direction": "S",
+   "phase": 4,
+   "phase_name": "F4 Tốc toàn",
+   "rect": [
+    1536,
+    2048,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "s_f5": {
+   "file": "hanhan_hoavan_s_f5.png",
+   "direction": "S",
+   "phase": 5,
+   "phase_name": "F5 Vân thăng",
+   "rect": [
+    2048,
+    2048,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "s_f6": {
+   "file": "hanhan_hoavan_s_f6.png",
+   "direction": "S",
+   "phase": 6,
+   "phase_name": "F6 Đỉnh toàn",
+   "rect": [
+    2560,
+    2048,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "s_f7": {
+   "file": "hanhan_hoavan_s_f7.png",
+   "direction": "S",
+   "phase": 7,
+   "phase_name": "F7 Tán hỏa",
+   "rect": [
+    3072,
+    2048,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "s_f8": {
+   "file": "hanhan_hoavan_s_f8.png",
+   "direction": "S",
+   "phase": 8,
+   "phase_name": "F8 Thu thế",
+   "rect": [
+    3584,
+    2048,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "sw_f1": {
+   "file": "hanhan_hoavan_sw_f1.png",
+   "direction": "SW",
+   "phase": 1,
+   "phase_name": "F1 Tụ hỏa",
+   "rect": [
+    0,
+    2560,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "sw_f2": {
+   "file": "hanhan_hoavan_sw_f2.png",
+   "direction": "SW",
+   "phase": 2,
+   "phase_name": "F2 Khởi toàn",
+   "rect": [
+    512,
+    2560,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "sw_f3": {
+   "file": "hanhan_hoavan_sw_f3.png",
+   "direction": "SW",
+   "phase": 3,
+   "phase_name": "F3 Toàn thân",
+   "rect": [
+    1024,
+    2560,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "sw_f4": {
+   "file": "hanhan_hoavan_sw_f4.png",
+   "direction": "SW",
+   "phase": 4,
+   "phase_name": "F4 Tốc toàn",
+   "rect": [
+    1536,
+    2560,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "sw_f5": {
+   "file": "hanhan_hoavan_sw_f5.png",
+   "direction": "SW",
+   "phase": 5,
+   "phase_name": "F5 Vân thăng",
+   "rect": [
+    2048,
+    2560,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "sw_f6": {
+   "file": "hanhan_hoavan_sw_f6.png",
+   "direction": "SW",
+   "phase": 6,
+   "phase_name": "F6 Đỉnh toàn",
+   "rect": [
+    2560,
+    2560,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "sw_f7": {
+   "file": "hanhan_hoavan_sw_f7.png",
+   "direction": "SW",
+   "phase": 7,
+   "phase_name": "F7 Tán hỏa",
+   "rect": [
+    3072,
+    2560,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "sw_f8": {
+   "file": "hanhan_hoavan_sw_f8.png",
+   "direction": "SW",
+   "phase": 8,
+   "phase_name": "F8 Thu thế",
+   "rect": [
+    3584,
+    2560,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "w_f1": {
+   "file": "hanhan_hoavan_w_f1.png",
+   "direction": "W",
+   "phase": 1,
+   "phase_name": "F1 Tụ hỏa",
+   "rect": [
+    0,
+    3072,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "w_f2": {
+   "file": "hanhan_hoavan_w_f2.png",
+   "direction": "W",
+   "phase": 2,
+   "phase_name": "F2 Khởi toàn",
+   "rect": [
+    512,
+    3072,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "w_f3": {
+   "file": "hanhan_hoavan_w_f3.png",
+   "direction": "W",
+   "phase": 3,
+   "phase_name": "F3 Toàn thân",
+   "rect": [
+    1024,
+    3072,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "w_f4": {
+   "file": "hanhan_hoavan_w_f4.png",
+   "direction": "W",
+   "phase": 4,
+   "phase_name": "F4 Tốc toàn",
+   "rect": [
+    1536,
+    3072,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "w_f5": {
+   "file": "hanhan_hoavan_w_f5.png",
+   "direction": "W",
+   "phase": 5,
+   "phase_name": "F5 Vân thăng",
+   "rect": [
+    2048,
+    3072,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "w_f6": {
+   "file": "hanhan_hoavan_w_f6.png",
+   "direction": "W",
+   "phase": 6,
+   "phase_name": "F6 Đỉnh toàn",
+   "rect": [
+    2560,
+    3072,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "w_f7": {
+   "file": "hanhan_hoavan_w_f7.png",
+   "direction": "W",
+   "phase": 7,
+   "phase_name": "F7 Tán hỏa",
+   "rect": [
+    3072,
+    3072,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "w_f8": {
+   "file": "hanhan_hoavan_w_f8.png",
+   "direction": "W",
+   "phase": 8,
+   "phase_name": "F8 Thu thế",
+   "rect": [
+    3584,
+    3072,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "nw_f1": {
+   "file": "hanhan_hoavan_nw_f1.png",
+   "direction": "NW",
+   "phase": 1,
+   "phase_name": "F1 Tụ hỏa",
+   "rect": [
+    0,
+    3584,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "nw_f2": {
+   "file": "hanhan_hoavan_nw_f2.png",
+   "direction": "NW",
+   "phase": 2,
+   "phase_name": "F2 Khởi toàn",
+   "rect": [
+    512,
+    3584,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "nw_f3": {
+   "file": "hanhan_hoavan_nw_f3.png",
+   "direction": "NW",
+   "phase": 3,
+   "phase_name": "F3 Toàn thân",
+   "rect": [
+    1024,
+    3584,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "nw_f4": {
+   "file": "hanhan_hoavan_nw_f4.png",
+   "direction": "NW",
+   "phase": 4,
+   "phase_name": "F4 Tốc toàn",
+   "rect": [
+    1536,
+    3584,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "nw_f5": {
+   "file": "hanhan_hoavan_nw_f5.png",
+   "direction": "NW",
+   "phase": 5,
+   "phase_name": "F5 Vân thăng",
+   "rect": [
+    2048,
+    3584,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "nw_f6": {
+   "file": "hanhan_hoavan_nw_f6.png",
+   "direction": "NW",
+   "phase": 6,
+   "phase_name": "F6 Đỉnh toàn",
+   "rect": [
+    2560,
+    3584,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "nw_f7": {
+   "file": "hanhan_hoavan_nw_f7.png",
+   "direction": "NW",
+   "phase": 7,
+   "phase_name": "F7 Tán hỏa",
+   "rect": [
+    3072,
+    3584,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  },
+  "nw_f8": {
+   "file": "hanhan_hoavan_nw_f8.png",
+   "direction": "NW",
+   "phase": 8,
+   "phase_name": "F8 Thu thế",
+   "rect": [
+    3584,
+    3584,
+    512,
+    512
+   ],
+   "pivot_in_cell": [
+    256,
+    461
+   ],
+   "baseline_in_cell": 461,
+   "body_h_in_cell": 267
+  }
+ }
+}

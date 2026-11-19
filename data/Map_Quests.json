@@ -1,0 +1,1071 @@
+{
+ "chain": "thanh_van_newbie",
+ "source": "Tien-Lo-Tong-Hop-Toan-Du-An-1.0.pdf §G.4 + Q9-Q13 Xích Viêm Cốc",
+ "quests": [
+  {
+   "n": 1,
+   "id": "q1_tan_nhan_nhap_mon",
+   "name": "Tân nhân nhập môn",
+   "objective": "Gặp chấp sự.",
+   "type": "talk",
+   "reward": {
+    "xp": 60
+   },
+   "giver": {
+    "object": "npc_tiendong",
+    "map": "island",
+    "zone": "son_mon",
+    "anchor_px": [
+     2405,
+     2425
+    ],
+    "anchor_tile": [
+     52,
+     47
+    ],
+    "stand_tile": [
+     52,
+     48
+    ],
+    "stand_px": [
+     2384,
+     2450
+    ]
+   },
+   "targets": [
+    {
+     "object": "npc_chapsu",
+     "map": "island",
+     "zone": "quang_truong",
+     "anchor_px": [
+      2665,
+      1615
+     ],
+     "anchor_tile": [
+      37,
+      27
+     ],
+     "stand_tile": [
+      38,
+      28
+     ],
+     "stand_px": [
+      2660,
+      1668
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "q2_buoc_chan_tu_tien",
+   "name": "Bước chân tu tiên",
+   "objective": "Di chuyển và tương tác.",
+   "type": "interact",
+   "reward": {
+    "xp": 90
+   },
+   "giver": {
+    "object": "npc_chapsu",
+    "map": "island",
+    "zone": "quang_truong",
+    "anchor_px": [
+     2665,
+     1615
+    ],
+    "anchor_tile": [
+     37,
+     27
+    ],
+    "stand_tile": [
+     38,
+     28
+    ],
+    "stand_px": [
+     2660,
+     1668
+    ]
+   },
+   "targets": [
+    {
+     "object": "dais_qt",
+     "map": "island",
+     "zone": "quang_truong",
+     "anchor_px": [
+      2820,
+      1572
+     ],
+     "anchor_tile": [
+      38,
+      24
+     ],
+     "stand_tile": [
+      38,
+      25
+     ],
+     "stand_px": [
+      2798,
+      1599
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "q3_luyen_kiem_nhap_mon",
+   "name": "Luyện kiếm nhập môn",
+   "objective": "Đánh 5 Trúc Yêu.",
+   "type": "kill",
+   "reward": {
+    "xp": 200
+   },
+   "count": 5,
+   "giver": {
+    "object": "npc_truonglao",
+    "map": "island",
+    "zone": "luyen_vo",
+    "anchor_px": [
+     3380,
+     985
+    ],
+    "anchor_tile": [
+     31,
+     5
+    ],
+    "stand_tile": [
+     31,
+     6
+    ],
+    "stand_px": [
+     3350,
+     1001
+    ]
+   },
+   "targets": [
+    {
+     "object": "mon_trucyeu_1",
+     "map": "island",
+     "zone": "truc_lam",
+     "anchor_px": [
+      520,
+      1560
+     ],
+     "anchor_tile": [
+      12,
+      49
+     ],
+     "stand_tile": [
+      13,
+      50
+     ],
+     "stand_px": [
+      498,
+      1599
+     ]
+    },
+    {
+     "object": "mon_trucyeu_2",
+     "map": "island",
+     "zone": "truc_lam",
+     "anchor_px": [
+      820,
+      1980
+     ],
+     "anchor_tile": [
+      25,
+      55
+     ],
+     "stand_tile": [
+      26,
+      56
+     ],
+     "stand_px": [
+      820,
+      2036
+     ]
+    },
+    {
+     "object": "mon_trucyeu_3",
+     "map": "island",
+     "zone": "truc_lam",
+     "anchor_px": [
+      420,
+      2260
+     ],
+     "anchor_tile": [
+      26,
+      65
+     ],
+     "stand_tile": [
+      28,
+      66
+     ],
+     "stand_px": [
+      452,
+      2312
+     ]
+    },
+    {
+     "object": "mon_trucyeu_4",
+     "map": "island",
+     "zone": "truc_lam",
+     "anchor_px": [
+      1010,
+      2200
+     ],
+     "anchor_tile": [
+      32,
+      58
+     ],
+     "stand_tile": [
+      32,
+      57
+     ],
+     "stand_px": [
+      1050,
+      2197
+     ]
+    },
+    {
+     "object": "mon_trucyeu_5",
+     "map": "island",
+     "zone": "truc_lam",
+     "anchor_px": [
+      280,
+      1700
+     ],
+     "anchor_tile": [
+      13,
+      55
+     ],
+     "stand_tile": [
+      14,
+      55
+     ],
+     "stand_px": [
+      314,
+      1737
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "q4_thu_thap_linh_thao",
+   "name": "Thu thập linh thảo",
+   "objective": "Thu thập 5 linh thảo.",
+   "type": "gather",
+   "reward": {
+    "xp": 200
+   },
+   "count": 5,
+   "giver": {
+    "object": "npc_dansu",
+    "map": "island",
+    "zone": "quang_truong",
+    "anchor_px": [
+     1560,
+     1795
+    ],
+    "anchor_tile": [
+     29,
+     43
+    ],
+    "stand_tile": [
+     28,
+     42
+    ],
+    "stand_px": [
+     1556,
+     1760
+    ]
+   },
+   "targets": [
+    {
+     "object": "herb_node_1",
+     "map": "island",
+     "zone": "truc_lam",
+     "anchor_px": [
+      560,
+      1620
+     ],
+     "anchor_tile": [
+      14,
+      50
+     ],
+     "stand_tile": [
+      14,
+      50
+     ],
+     "stand_px": [
+      544,
+      1622
+     ]
+    },
+    {
+     "object": "herb_node_2",
+     "map": "island",
+     "zone": "truc_lam",
+     "anchor_px": [
+      700,
+      1900
+     ],
+     "anchor_tile": [
+      22,
+      55
+     ],
+     "stand_tile": [
+      22,
+      55
+     ],
+     "stand_px": [
+      682,
+      1921
+     ]
+    },
+    {
+     "object": "herb_node_3",
+     "map": "island",
+     "zone": "truc_lam",
+     "anchor_px": [
+      450,
+      2180
+     ],
+     "anchor_tile": [
+      25,
+      63
+     ],
+     "stand_tile": [
+      25,
+      63
+     ],
+     "stand_px": [
+      452,
+      2174
+     ]
+    },
+    {
+     "object": "herb_node_4",
+     "map": "island",
+     "zone": "truc_lam",
+     "anchor_px": [
+      900,
+      2050
+     ],
+     "anchor_tile": [
+      27,
+      55
+     ],
+     "stand_tile": [
+      27,
+      55
+     ],
+     "stand_px": [
+      912,
+      2036
+     ]
+    },
+    {
+     "object": "herb_node_5",
+     "map": "island",
+     "zone": "truc_lam",
+     "anchor_px": [
+      620,
+      1480
+     ],
+     "anchor_tile": [
+      12,
+      46
+     ],
+     "stand_tile": [
+      12,
+      46
+     ],
+     "stand_px": [
+      636,
+      1484
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "q5_truy_tim_dau_vet",
+   "name": "Truy tìm dấu vết",
+   "objective": "Khám phá Vân Ẩn Động.",
+   "type": "explore",
+   "reward": {
+    "xp": 250
+   },
+   "giver": {
+    "object": "npc_chapsu",
+    "map": "island",
+    "zone": "quang_truong",
+    "anchor_px": [
+     2665,
+     1615
+    ],
+    "anchor_tile": [
+     37,
+     27
+    ],
+    "stand_tile": [
+     38,
+     28
+    ],
+    "stand_px": [
+     2660,
+     1668
+    ]
+   },
+   "targets": [
+    {
+     "object": "npc_thuve",
+     "map": "island",
+     "zone": "van_an",
+     "anchor_px": [
+      720,
+      645
+     ],
+     "anchor_tile": [
+      -5,
+      27
+     ],
+     "stand_tile": [
+      -6,
+      26
+     ],
+     "stand_px": [
+      728,
+      610
+     ]
+    },
+    {
+     "point": [
+      655,
+      600
+     ],
+     "label": "Miệng Vân Ẩn Động",
+     "map": "island",
+     "zone": "van_an",
+     "anchor_tile": [
+      -7,
+      27
+     ],
+     "stand_tile": [
+      -7,
+      27
+     ],
+     "stand_px": [
+      636,
+      610
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "q6_thach_ve_thuc_tinh",
+   "name": "Thạch Vệ thức tỉnh",
+   "objective": "Đánh bại tinh anh.",
+   "type": "kill_elite",
+   "reward": {
+    "xp": 350
+   },
+   "giver": {
+    "object": "npc_thuve",
+    "map": "island",
+    "zone": "van_an",
+    "anchor_px": [
+     720,
+     645
+    ],
+    "anchor_tile": [
+     -5,
+     27
+    ],
+    "stand_tile": [
+     -6,
+     26
+    ],
+    "stand_px": [
+     728,
+     610
+    ]
+   },
+   "targets": [
+    {
+     "object": "mon_thachve_elite",
+     "map": "island",
+     "zone": "van_an",
+     "anchor_px": [
+      1005,
+      900
+     ],
+     "anchor_tile": [
+      3,
+      29
+     ],
+     "stand_tile": [
+      3,
+      30
+     ],
+     "stand_px": [
+      958,
+      909
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "q7_bach_ho_xuat_the",
+   "name": "Bạch Hổ xuất thế",
+   "objective": "Đánh boss.",
+   "type": "boss",
+   "reward": {
+    "xp": 500
+   },
+   "via_portal": "portal_to_hauson",
+   "giver": {
+    "object": "npc_chuongmon",
+    "map": "island",
+    "zone": "dai_dien",
+    "anchor_px": [
+     2200,
+     1215
+    ],
+    "anchor_tile": [
+     23,
+     23
+    ],
+    "stand_tile": [
+     24,
+     24
+    ],
+    "stand_px": [
+     2200,
+     1254
+    ]
+   },
+   "targets": [
+    {
+     "object": "boss_bachho",
+     "map": "hauson",
+     "zone": "hauson",
+     "anchor_px": [
+      1120,
+      440
+     ],
+     "anchor_tile": [
+      7,
+      7
+     ],
+     "stand_tile": [
+      8,
+      9
+     ],
+     "stand_px": [
+      1074,
+      531
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "q8_xuat_mon_lich_luyen",
+   "name": "Xuất môn lịch luyện",
+   "objective": "Mở khu vực kế tiếp.",
+   "type": "depart",
+   "reward": {
+    "xp": 600
+   },
+   "giver": {
+    "object": "npc_chuongmon",
+    "map": "island",
+    "zone": "dai_dien",
+    "anchor_px": [
+     2200,
+     1215
+    ],
+    "anchor_tile": [
+     23,
+     23
+    ],
+    "stand_tile": [
+     24,
+     24
+    ],
+    "stand_px": [
+     2200,
+     1254
+    ]
+   },
+   "targets": [
+    {
+     "object": "dais_qt",
+     "map": "island",
+     "zone": "quang_truong",
+     "anchor_px": [
+      2820,
+      1572
+     ],
+     "anchor_tile": [
+      38,
+      24
+     ],
+     "stand_tile": [
+      38,
+      25
+     ],
+     "stand_px": [
+      2798,
+      1599
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "q9_pha_an_nhap_coc",
+   "name": "Phá ấn nhập cốc",
+   "objective": "Tiến vào Xích Viêm Cốc.",
+   "type": "talk",
+   "reward": {
+    "xp": 650
+   },
+   "via_portal": "portal_to_xichviem",
+   "giver": {
+    "object": "dais_qt",
+    "map": "island",
+    "zone": "quang_truong",
+    "anchor_px": [
+     2820,
+     1572
+    ],
+    "anchor_tile": [
+     38,
+     24
+    ],
+    "stand_tile": [
+     38,
+     25
+    ],
+    "stand_px": [
+     2798,
+     1599
+    ]
+   },
+   "targets": [
+    {
+     "object": "npc_xichviem_tientri",
+     "map": "xichviem",
+     "zone": "xich_viem_ngoai",
+     "anchor_px": [
+      1020,
+      840
+     ],
+     "anchor_tile": [
+      14,
+      16
+     ],
+     "stand_tile": [
+      15,
+      17
+     ],
+     "stand_px": [
+      1028,
+      876
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "q10_tru_diet_hoa_tinh",
+   "name": "Trừ diệt Hỏa Tinh Thử",
+   "objective": "Đánh 5 Hỏa Tinh Thử.",
+   "type": "kill",
+   "reward": {
+    "xp": 750
+   },
+   "count": 5,
+   "giver": {
+    "object": "npc_xichviem_tientri",
+    "map": "xichviem",
+    "zone": "xich_viem_ngoai",
+    "anchor_px": [
+     1020,
+     840
+    ],
+    "anchor_tile": [
+     14,
+     16
+    ],
+    "stand_tile": [
+     15,
+     17
+    ],
+    "stand_px": [
+     1028,
+     876
+    ]
+   },
+   "targets": [
+    {
+     "object": "mon_hoatinh_1",
+     "map": "xichviem",
+     "zone": "hoa_nham_vuc",
+     "anchor_px": [
+      800,
+      640
+     ],
+     "anchor_tile": [
+      7,
+      14
+     ],
+     "stand_tile": [
+      8,
+      15
+     ],
+     "stand_px": [
+      798,
+      669
+     ]
+    },
+    {
+     "object": "mon_hoatinh_2",
+     "map": "xichviem",
+     "zone": "hoa_nham_vuc",
+     "anchor_px": [
+      980,
+      660
+     ],
+     "anchor_tile": [
+      10,
+      13
+     ],
+     "stand_tile": [
+      11,
+      14
+     ],
+     "stand_px": [
+      982,
+      715
+     ]
+    },
+    {
+     "object": "mon_hoatinh_3",
+     "map": "xichviem",
+     "zone": "hoa_nham_vuc",
+     "anchor_px": [
+      1260,
+      660
+     ],
+     "anchor_tile": [
+      13,
+      10
+     ],
+     "stand_tile": [
+      14,
+      11
+     ],
+     "stand_px": [
+      1258,
+      715
+     ]
+    },
+    {
+     "object": "mon_hoatinh_4",
+     "map": "xichviem",
+     "zone": "hoa_nham_vuc",
+     "anchor_px": [
+      1440,
+      640
+     ],
+     "anchor_tile": [
+      14,
+      7
+     ],
+     "stand_tile": [
+      15,
+      8
+     ],
+     "stand_px": [
+      1442,
+      669
+     ]
+    },
+    {
+     "object": "mon_hoatinh_5",
+     "map": "xichviem",
+     "zone": "hoa_nham_vuc",
+     "anchor_px": [
+      1120,
+      600
+     ],
+     "anchor_tile": [
+      10,
+      10
+     ],
+     "stand_tile": [
+      11,
+      11
+     ],
+     "stand_px": [
+      1120,
+      646
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "q11_thu_thap_viem_tinh",
+   "name": "Thu thập Viêm Tinh",
+   "objective": "Thu thập 5 Viêm Tinh Thạch.",
+   "type": "gather",
+   "reward": {
+    "xp": 800
+   },
+   "count": 5,
+   "giver": {
+    "object": "npc_xichviem_tientri",
+    "map": "xichviem",
+    "zone": "xich_viem_ngoai",
+    "anchor_px": [
+     1020,
+     840
+    ],
+    "anchor_tile": [
+     14,
+     16
+    ],
+    "stand_tile": [
+     15,
+     17
+    ],
+    "stand_px": [
+     1028,
+     876
+    ]
+   },
+   "targets": [
+    {
+     "object": "node_viemtinh_1",
+     "map": "xichviem",
+     "zone": "hoa_nham_vuc",
+     "anchor_px": [
+      720,
+      680
+     ],
+     "anchor_tile": [
+      7,
+      16
+     ],
+     "stand_tile": [
+      7,
+      16
+     ],
+     "stand_px": [
+      706,
+      669
+     ]
+    },
+    {
+     "object": "node_viemtinh_2",
+     "map": "xichviem",
+     "zone": "hoa_nham_vuc",
+     "anchor_px": [
+      920,
+      600
+     ],
+     "anchor_tile": [
+      8,
+      12
+     ],
+     "stand_tile": [
+      8,
+      12
+     ],
+     "stand_px": [
+      936,
+      600
+     ]
+    },
+    {
+     "object": "node_viemtinh_3",
+     "map": "xichviem",
+     "zone": "hoa_nham_vuc",
+     "anchor_px": [
+      1320,
+      600
+     ],
+     "anchor_tile": [
+      12,
+      8
+     ],
+     "stand_tile": [
+      12,
+      8
+     ],
+     "stand_px": [
+      1304,
+      600
+     ]
+    },
+    {
+     "object": "node_viemtinh_4",
+     "map": "xichviem",
+     "zone": "hoa_nham_vuc",
+     "anchor_px": [
+      1520,
+      680
+     ],
+     "anchor_tile": [
+      16,
+      7
+     ],
+     "stand_tile": [
+      16,
+      7
+     ],
+     "stand_px": [
+      1534,
+      669
+     ]
+    },
+    {
+     "object": "node_viemtinh_5",
+     "map": "xichviem",
+     "zone": "hoa_nham_vuc",
+     "anchor_px": [
+      1120,
+      700
+     ],
+     "anchor_tile": [
+      12,
+      12
+     ],
+     "stand_tile": [
+      12,
+      12
+     ],
+     "stand_px": [
+      1120,
+      692
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "q12_viem_tinh_thuc_tinh",
+   "name": "Xích Viêm Tinh Anh",
+   "objective": "Đánh bại tinh anh.",
+   "type": "kill_elite",
+   "reward": {
+    "xp": 850
+   },
+   "giver": {
+    "object": "npc_xichviem_tientri",
+    "map": "xichviem",
+    "zone": "xich_viem_ngoai",
+    "anchor_px": [
+     1020,
+     840
+    ],
+    "anchor_tile": [
+     14,
+     16
+    ],
+    "stand_tile": [
+     15,
+     17
+    ],
+    "stand_px": [
+     1028,
+     876
+    ]
+   },
+   "targets": [
+    {
+     "object": "mon_xichviem_elite",
+     "map": "xichviem",
+     "zone": "xich_viem_dan",
+     "anchor_px": [
+      1380,
+      440
+     ],
+     "anchor_tile": [
+      10,
+      4
+     ],
+     "stand_tile": [
+      10,
+      5
+     ],
+     "stand_px": [
+      1350,
+      485
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "q13_ma_quan_giang_the",
+   "name": "Ma Quân giáng thế",
+   "objective": "Tiêu diệt Boss 002.",
+   "type": "boss",
+   "reward": {
+    "xp": 950
+   },
+   "giver": {
+    "object": "npc_xichviem_tientri",
+    "map": "xichviem",
+    "zone": "xich_viem_ngoai",
+    "anchor_px": [
+     1020,
+     840
+    ],
+    "anchor_tile": [
+     14,
+     16
+    ],
+    "stand_tile": [
+     15,
+     17
+    ],
+    "stand_px": [
+     1028,
+     876
+    ]
+   },
+   "targets": [
+    {
+     "object": "boss_xichviem",
+     "map": "xichviem",
+     "zone": "xich_viem_dan",
+     "anchor_px": [
+      1120,
+      420
+     ],
+     "anchor_tile": [
+      6,
+      6
+     ],
+     "stand_tile": [
+      8,
+      9
+     ],
+     "stand_px": [
+      1074,
+      531
+     ]
+    }
+   ]
+  }
+ ]
+}

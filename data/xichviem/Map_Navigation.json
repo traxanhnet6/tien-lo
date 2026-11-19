@@ -1,0 +1,82 @@
+{
+ "ground": "assets/ground_xichviem.jpg",
+ "paint": {
+  "w": 2240,
+  "h": 1120
+ },
+ "origin": [
+  1120,
+  140
+ ],
+ "ex": [
+  46,
+  23
+ ],
+ "ey": [
+  -46,
+  23
+ ],
+ "spawn_px": [
+  1120,
+  880
+ ],
+ "spawn_cell": [
+  16,
+  16
+ ],
+ "zones": {
+  "xich_viem_dan": {
+   "label": "X\u00edch Vi\u00eam \u0110\u00e0n",
+   "anchor_px": [
+    1120,
+    380
+   ]
+  },
+  "hoa_nham_vuc": {
+   "label": "H\u1ecfa Nham V\u1ef1c",
+   "anchor_px": [
+    1120,
+    640
+   ]
+  },
+  "xich_viem_ngoai": {
+   "label": "Th\u1ec1m Nh\u1eadp C\u1ed1c",
+   "anchor_px": [
+    1120,
+    880
+   ]
+  }
+ },
+ "portals": [
+  {
+   "id": "portal_to_island",
+   "px": [
+    1120,
+    1015
+   ],
+   "r": 85,
+   "to_map": "island",
+   "to_px": [
+    2820,
+    1700
+   ],
+   "label": "V\u1ec1 Thanh V\u00e2n"
+  }
+ ],
+ "fx": [
+  {
+   "x": 1120,
+   "y": 420,
+   "r": 280,
+   "n": 18,
+   "color": "rgba(255,100,40,0.85)"
+  },
+  {
+   "x": 1120,
+   "y": 650,
+   "r": 220,
+   "n": 12,
+   "color": "rgba(255,160,50,0.75)"
+  }
+ ]
+}

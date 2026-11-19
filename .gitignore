@@ -1,0 +1,21 @@
+# Tiên Lộ GD3 — .gitignore
+# Bằng chứng kiểm thử + cache trình duyệt (không commit)
+proof/
+wtest2.txt
+
+# Log
+*.log
+
+# File tạm
+*.tmp
+*~
+*.bak
+*.swp
+.DS_Store
+
+# Chrome profile / cache (nếu có trong cây)
+**/chrome-profile/
+**/.cache/
+
+# Node (hiện không có dependency, giữ sẵn)
+node_modules/
