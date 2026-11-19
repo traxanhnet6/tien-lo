@@ -56,14 +56,31 @@
   sửa ~90s); màn hình chờ hiện đúng ở giây thứ 2 (thanh 10%, "Đang tải
   đảo và nhân vật…"); tới 95% thì dừng ở "Đang tải vật thể trên đảo…" —
   chính là vết thứ hai (đợt sửa 2 xử lý).
-- Live sau đợt sửa 2: deploy 3deffc1 đẩy lên master nhưng sau ~8 phút
+- Live sau đợt sửa 2: deploy 3deffc1 đẩy lên master nhưng sau ~11 phút
   Render vẫn đang phục vụ bản 6d0808a (đã đối chiếu trực tiếp file
   gameplay.js trên live: có marker tải song song, chưa có marker hâm
-  nóng boss). Service vẫn chạy bình thường (index 200). Đã đẩy thêm
-  commit chứa chính báo cáo này để kích hoạt lại webhook deploy; đang
-  chờ Render triển khai bản mới rồi kiểm lại (màn hình chờ phải ẩn ngay
-  sau ready + di chuyển được trên live).
+  nóng boss; đã đẩy thêm commit 57580e6 để kích hoạt lại webhook, tới
+  21:42 vẫn chưa lên). Service vẫn chạy bình thường (index 200). Cần
+  parent kiểm trạng thái deploy trên dashboard Render (xem có deploy đang
+  kẹt/failed không) và bấm redeploy tay nếu cần — subagent không có
+  trình duyệt nên không tự làm được bước này.
+- Kiểm lại live trên bản 6d0808a đang chạy (mobile 390×844 + desktop
+  1280×800, qua relay chậm): ready 23–40s; màn hình chờ ẩn ngay sau
+  ready+2s và giữ ẩn; canvas vẽ đủ (~300 màu mobile, ~813 màu desktop);
+  tap-to-move đi được (2200,2470 → 2248,2459, đang đi); WASD/manual
+  input đi được (→ 2245,2450); 0 page error; 404 duy nhất là favicon.
+  Ảnh: `~/.tmp-check/tienlo-livefix/live-60808a-postready.jpg`,
+  `live-60808a-desktop.jpg` (desktop: đảo, cây, cổng đá, Hà Nhân, NPC
+  Tiên Đồng có dấu "!", nhiệm vụ chính, HP/MP, chip khu, nút kỹ năng
+  đều hiện đúng).
 
 ## Trạng thái cuối
 
-- (Cập nhật sau khi kiểm live đợt 2 xong.)
+- **Game chơi được trên live** (bản 6d0808a): màn hình chờ hiện tiến độ,
+  map + nhân vật hiện, di chuyển được cả chạm và WASD, cả mobile lẫn
+  desktop, 0 lỗi console mới. Bui mở lại link sẽ thấy màn hình "TIÊN LỘ
+  — Đang tải…" rồi vào game (lần đầu vẫn cần chờ tải ~55 MB; trên 5G
+  thật nhanh hơn nhiều so với đường relay chậm dùng để kiểm).
+- Còn nợ: deploy 3deffc1 (bảng boss tải nền — chỉ rút ngắn thêm vài giây
+  màn hình chờ ở ~95%) chưa lên live sau ~11 phút; cần parent kiểm
+  dashboard Render / redeploy tay. Chưa kiểm `?online` trên live.
